@@ -1,0 +1,101 @@
+{
+  "schema": "noether-ukrainian-decision-record-v1",
+  "decision_id": "UK001-EDIT-0010",
+  "recorded_at": "2026-08-14T15:34:36+02:00",
+  "status": "applied_and_independently_verified",
+  "epistemic_type": "primary_source_and_project_authority_citation_placement_repair",
+  "scope": "Paper24 formula (4) only: relocate the unchanged H.-N. theorem-VIII citation from the following prose onto formula row 2 and synchronize a separately named local producer successor.",
+  "summary": "The theorem-VIII citation now modifies formula (4), where ED0014 and the accepted P24 adjudication place it. The following argument begins with the existing Ukrainian words `а також:`. No wording was retranslated and the separate formula-label geometry disposition remains open.",
+  "human_auditable_considerations": {
+    "question": "Whether the theorem-VIII citation belongs to formula (4) or to the following prose argument.",
+    "evidence_weighed": [
+      "ED0014 line 13729 places `(H.-N. Satz VIII),` on formula-(4) row 2, while line 13731 begins `und weiter:` without that citation.",
+      "The accepted P24 geometry adjudication explicitly records P24-0004 as a citation-placement defect and keeps P24-0003 label geometry separate.",
+      "The current Ukrainian wording `(H.-N., теорема VIII),` is semantically correct and is moved byte-for-byte rather than rewritten."
+    ],
+    "alternatives_rejected": [
+      "Leave the citation at the start of the next paragraph: it falsely appears to qualify the following theorem-IX argument.",
+      "Bundle ED0014's raised left/center label geometry: P24-0003 is presentation-only and requires rendered-page adjudication.",
+      "Retranslate surrounding Ukrainian prose or use corpus frequency as native-language certification."
+    ],
+    "uncertainty": "Citation ownership is directly controlled. Label-side and vertical-centering geometry remain unresolved as NOETH-DEF-P24-0003. No native/community review or critical-edition certification is claimed."
+  },
+  "predecessor": {
+    "decision_id": "UK001-EDIT-0009",
+    "ledger_rows": 9,
+    "ledger_bytes": 12391,
+    "ledger_sha256": "E5482289F65BE85867EEE37FF93285801DA1D38CF5A2D7D53A96DD55C12636D4",
+    "sidecar_bytes": 6315,
+    "sidecar_sha256": "8234FAFAE4FCEB16D9BDFA572FEFD83505F1F5FB6AB8749A5F4385DCC6A33C7D"
+  },
+  "defect_ids": ["NOETH-DEF-P24-0004"],
+  "exact_changes": [
+    {
+      "producer_lines": [122, 124],
+      "assembled_lines": [15299, 15301],
+      "before_summary": "formula row ends with tag (4); the following prose begins `(H.-N., теорема VIII), а також:`",
+      "after_summary": "formula row contains `\\quad\\text{(H.-N., теорема VIII),}` before tag (4); following prose begins `а також:`"
+    },
+    {
+      "assembled_lines": [15188, 15189],
+      "before_summary": "source/identity receipt points to the sealed P24 producer predecessor",
+      "after_summary": "source/identity receipt points to the separately named P24-0004 successor"
+    }
+  ],
+  "producer_successors": [
+    {
+      "unit": "P24-through-section07",
+      "origin": "interlanguage-workspace://03_projects/language_management/slavic_ukrainian/noether_uk_v001_working/producer_units/Noether_Paper24_Through_Section07_Ukrainian_v001.tex",
+      "local": "producer_units/Noether_Paper24_Through_Section07_Ukrainian_v001_p24-0004.tex",
+      "predecessor_local": "producer_units/Noether_Paper24_Through_Section07_Ukrainian_v001.tex",
+      "input": {"bytes": 146218, "sha256": "C09B737ED366D2486749D9B9F6B62F8C702231F4FA17B5577C7D5BFBF42FDB65"},
+      "output": {"bytes": 146229, "sha256": "260A8C8BF2D0AB012468E775996B1D53AC835EF43ADF2E850411B345D79B8D17"},
+      "predecessor_mutated": false
+    }
+  ],
+  "source_inputs": {
+    "source/base-papers1-43-uk.tex": {"bytes": 2689565, "sha256": "894D0A0BC2466ACF3E5529D801F7CE80CB115A898FF73CC199D15C9CCB12D7B3"},
+    "source/44-book-uk.tex": {"bytes": 234758, "sha256": "7C52BCFAD8B097DE6D2C94C37290BEA63D0320E1B282763299C16394D69F451F"},
+    "source/45-uk.tex": {"bytes": 35056, "sha256": "1650DEF7A7A8CE27A5CA2AB52186A7BE5A3E898DFAE2AE8068D65FF360C949A8"},
+    "source/bib-uk.tex": {"bytes": 12777, "sha256": "8A15AB2116E25CCEA760AD96E26ACDF217333CE6B3679D3D5FA235A1992D0F09"}
+  },
+  "source_outputs": {
+    "source/base-papers1-43-uk.tex": {"bytes": 2689585, "sha256": "F7447A593BD3B697AA0E0F01B73F58FA70FB616BA962BB1023FA5109BE5CFA47"},
+    "source/44-book-uk.tex": {"bytes": 234758, "sha256": "7C52BCFAD8B097DE6D2C94C37290BEA63D0320E1B282763299C16394D69F451F"},
+    "source/45-uk.tex": {"bytes": 35056, "sha256": "1650DEF7A7A8CE27A5CA2AB52186A7BE5A3E898DFAE2AE8068D65FF360C949A8"},
+    "source/bib-uk.tex": {"bytes": 12777, "sha256": "8A15AB2116E25CCEA760AD96E26ACDF217333CE6B3679D3D5FA235A1992D0F09"}
+  },
+  "authority": {
+    "project_active_german": {"authority_id": "NOETH-DE-ED-0014", "source_bytes": 2154011, "source_sha256": "EE226847656BC4D65EDDA9E9BF9BB1D25797C0C6D672D267D94A97FD88C7AD58", "pointer_bytes": 152755, "pointer_sha256": "2B36556DCF123F19281AB6BF36CE6E46BEE8ADDBF37DA682032372306564D0DE", "activation_receipt_bytes": 28837, "activation_receipt_sha256": "1F34D25C36C2ADCEDB47A58ACD4EC92A34EA2F1E88D2F85283313627EA53E436", "version_doi": "10.5281/zenodo.21908301", "anonymous_all_file_readback": "PASS_53_OF_53", "canonical_claim": false},
+    "P24_geometry_adjudication": {"bytes": 12873, "sha256": "7A4B69C63FC12B28D9532E2841CD2547659D0E57C8D0CC293FF2E0AA57374B81"},
+    "P24_geometry_manifest": {"bytes": 9135, "sha256": "31210AC164362ED0F26AF3C6787C9A59B7E524AB94AF287CC19A09D862EDE2AD"}
+  },
+  "applicator": {
+    "path": "apply_uk_p24_citation_placement_v001.py",
+    "bytes": 28494,
+    "sha256": "361DF0E7A6B32D66647C703EC53A81AC5DACCB7ED90485B50BC217F185FE2EDA",
+    "default_mode": "dry_run",
+    "apply_mode": "explicit_one_shot"
+  },
+  "qa": {
+    "independent_preapply_verdict": "ACCEPT; exact defects 0",
+    "exact_reconstruction": "PASS",
+    "producer_body_projection": "PASS",
+    "reverse_replay": "PASS",
+    "protected_structure_transport": "PASS",
+    "frozen_and_public_immutability": "PASS",
+    "no_write_dry_run_tree_digest": "PASS",
+    "semantic_holds": 0
+  },
+  "open_dispositions": [
+    {"defect_id": "NOETH-DEF-P24-0003", "status": "OPEN_RENDERED_PAGE_ADJUDICATION", "bundled_here": false}
+  ],
+  "explicit_holds": [],
+  "publication": {
+    "published_v047_unchanged": true,
+    "public_r35_unchanged": true,
+    "working_successor_published": false,
+    "publication_effect": "none",
+    "doi_effect": "none"
+  }
+}

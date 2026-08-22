@@ -1,0 +1,155 @@
+{
+  "schema": "noether-ukrainian-decision-record-v1",
+  "decision_id": "UK001-EDIT-0007",
+  "recorded_at": "2026-08-14T12:45:53+02:00",
+  "status": "applied_and_independently_verified",
+  "epistemic_type": "source_bound_mathematical_terminology_correction",
+  "scope": "Paper 8: close the sole Ukrainian register hold by correcting one coefficient-domain phrase and synchronizing the existing local producer receipt.",
+  "summary": "Replace 'раціонально-цілих c_1,c_2' with 'раціональних c_1,c_2'. The paragraph defines R as the field of rational numbers; project-active German ED0014, predecessor ED0011, and corrected English ED0014 all require rational coefficients and impose no integrality condition.",
+  "hold_closed": "UK001-HOLD-P08-REGISTER-0001",
+  "predecessor": {
+    "decision_id": "UK001-EDIT-0006",
+    "ledger_rows": 6,
+    "ledger_bytes": 7766,
+    "ledger_sha256": "F944E628D711153591043692CC92306567509C63426AED930718406F026DA85A",
+    "sidecar_bytes": 5110,
+    "sidecar_sha256": "656A5113FD50DB6D28A5035C9281B6EDA194AD66AE0E327A910F92D38BCBD629"
+  },
+  "exact_changes": [
+    {
+      "producer_locator": "producer_units/Noether_Paper08_Ukrainian_v001.tex:95:389",
+      "assembled_locator": "source/base-papers1-43-uk.tex:6797:389",
+      "german_ed0014_locator": "20-de.tex:6043",
+      "english_ed0014_locator": "Noether_English_ED0014.tex:5980",
+      "before": "раціонально-цілих $c_1,c_2$",
+      "after": "раціональних $c_1,c_2$",
+      "reason": "The coefficients range over the field of rational numbers; 'раціонально-цілих' adds a false integrality condition."
+    }
+  ],
+  "producer_successors": [
+    {
+      "unit": "Paper08",
+      "origin": "interlanguage-workspace://03_projects/noether/02_slavic_working_corpus/translations/paper08/ukrainian/v001/Noether_Paper08_Ukrainian_v001.tex",
+      "local": "producer_units/Noether_Paper08_Ukrainian_v001.tex",
+      "input": {
+        "bytes": 32911,
+        "sha256": "40598841BD6FBD450176384D712708029083C0140413E27A7B96B8ACB2E9D190"
+      },
+      "predecessor_local": {
+        "bytes": 32901,
+        "sha256": "27021131AAF34902C5A9ACEF723B843147F02B21B2F481A0269724C2C9742E97"
+      },
+      "output": {
+        "bytes": 32892,
+        "sha256": "F1CA7819DC8BC853999C9F24867871D989A18E69D830756801DC677258D8F25C"
+      }
+    }
+  ],
+  "producer_lineage": {
+    "assembled_source_marker": "../producer_units/Noether_Paper08_Ukrainian_v001.tex",
+    "assembled_identity_updated": true,
+    "producer_body_matches_assembled_body": true,
+    "historical_origin_unchanged": true,
+    "reverse_to_edit0006": "PASS",
+    "two_decision_reverse_to_historical_origin": "PASS"
+  },
+  "source_inputs": {
+    "source/base-papers1-43-uk.tex": {
+      "bytes": 2689756,
+      "sha256": "8FC87427E242CD6A37E2AC78C2542DF828839EA4C39B858EA65DE730935A9AAC"
+    },
+    "source/44-book-uk.tex": {
+      "bytes": 234758,
+      "sha256": "7C52BCFAD8B097DE6D2C94C37290BEA63D0320E1B282763299C16394D69F451F"
+    },
+    "source/45-uk.tex": {
+      "bytes": 35056,
+      "sha256": "1650DEF7A7A8CE27A5CA2AB52186A7BE5A3E898DFAE2AE8068D65FF360C949A8"
+    },
+    "source/bib-uk.tex": {
+      "bytes": 12777,
+      "sha256": "8A15AB2116E25CCEA760AD96E26ACDF217333CE6B3679D3D5FA235A1992D0F09"
+    }
+  },
+  "source_outputs": {
+    "source/base-papers1-43-uk.tex": {
+      "bytes": 2689747,
+      "sha256": "F5108EEAD407EFAF89163A2BD71A191B0BCB5E7994084C759E2AF48F575BE1D3"
+    },
+    "unchanged_components": [
+      "source/44-book-uk.tex",
+      "source/45-uk.tex",
+      "source/bib-uk.tex"
+    ]
+  },
+  "authority": {
+    "project_active_german": {
+      "authority_id": "NOETH-DE-ED-0014",
+      "source_bytes": 2154011,
+      "source_sha256": "EE226847656BC4D65EDDA9E9BF9BB1D25797C0C6D672D267D94A97FD88C7AD58",
+      "line": 6043,
+      "pointer_bytes": 152755,
+      "pointer_sha256": "2B36556DCF123F19281AB6BF36CE6E46BEE8ADDBF37DA682032372306564D0DE",
+      "version_doi": "10.5281/zenodo.21908301",
+      "activation_receipt_bytes": 28837,
+      "activation_receipt_sha256": "1F34D25C36C2ADCEDB47A58ACD4EC92A34EA2F1E88D2F85283313627EA53E436",
+      "anonymous_all_file_readback": "PASS",
+      "canonical_claim": false
+    },
+    "german_predecessor_control": {
+      "authority_id": "NOETH-DE-ED-0011",
+      "bytes": 2153594,
+      "sha256": "9E6BF2BC3155ECE3DF98CD8A408C23662BEFB047A1DDF200CA1DC8476A488BF3",
+      "line": 6043,
+      "target_wording_identical_to_ed0014": true
+    },
+    "english_ed0014_control": {
+      "bytes": 2855590,
+      "sha256": "9C0A496687F3E92611D922FAE1528AA1F9A0550F0E2AB93DF6F973813C9A7B3C",
+      "line": 5980,
+      "cue": "only when c_1,c_2 are rational numbers"
+    }
+  },
+  "applicator": {
+    "path": "apply_uk_p08_rational_coefficients_v001.py",
+    "bytes": 24411,
+    "sha256": "6BA410273B12C7033A8064DF606DD6FD454D9471E3D547EE3057102F12B037DE",
+    "default_mode": "dry_run",
+    "apply_mode": "explicit_one_shot"
+  },
+  "qa": {
+    "independent_preapply_verdict": "ACCEPT after adding the live CURRENT pointer gate",
+    "changed_producer_lines": [
+      95
+    ],
+    "changed_base_lines": [
+      6713,
+      6797
+    ],
+    "reverse_replay": "PASS",
+    "producer_body_matches_assembled": true,
+    "structure_and_transport": "PASS",
+    "rational_integer_coefficient_phrase": "1 to 0",
+    "rational_coefficient_phrase": "0 to 1",
+    "semantic_holds": 0
+  },
+  "protected_and_rejected": [
+    "Preserve base line 7148 'раціонально-цілих трансцендентних чисел', which represents distinct rational-ganz terminology.",
+    "Do not globally replace the раціонально-ціл family.",
+    "Do not treat generated Ukrainian support files as native-language validation."
+  ],
+  "evidence_boundary": {
+    "catalog_class": "generated translation/publication or audit lineage",
+    "admission": "generated_support_excluded_from_native_evidence",
+    "native_validation_claim": false,
+    "human_or_community_review": "none"
+  },
+  "explicit_holds": [],
+  "publication": {
+    "published_v047_unchanged": true,
+    "public_r35_unchanged": true,
+    "working_successor_published": false,
+    "publication_effect": "none",
+    "doi_effect": "none"
+  }
+}

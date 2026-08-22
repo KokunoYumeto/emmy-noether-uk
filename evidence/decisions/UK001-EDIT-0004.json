@@ -1,0 +1,135 @@
+{
+  "schema": "noether-ukrainian-decision-record-v1",
+  "decision_id": "UK001-EDIT-0004",
+  "recorded_at": "2026-08-14T04:21:46+02:00",
+  "status": "applied_and_independently_verified",
+  "epistemic_type": "source_fidelity_mathematical_index_repair",
+  "scope": "Paper 22 unit 106: one stale B_i subscript in the Ukrainian producer and assembled working base, plus the local producer source and identity receipts.",
+  "summary": "Restore B_lambda at the source-authoritative Theorem II footnote locus while preserving the legitimate preceding A_i construction, the edition's rho notation, and every other mathematical index.",
+  "defect_id": "NOETH-DEF-P22-0001",
+  "predecessor": {
+    "decision_id": "UK001-EDIT-0003",
+    "ledger_rows": 3,
+    "ledger_bytes": 3946,
+    "ledger_sha256": "AF1C90FF7DB9901567A8F72C59377E0FADF53440B47217E4F45D3C6934B1AE6D",
+    "sidecar_bytes": 7440,
+    "sidecar_sha256": "305D067C68C2678B60B0888E9D38C3E183AFBC6E0C341E001993F332AF77A295"
+  },
+  "exact_changes": [
+    {
+      "producer_locator": "producer_units/Noether_Paper22_Ukrainian_v001.tex:181:9",
+      "assembled_locator": "source/base-papers1-43-uk.tex:14307:9",
+      "german_ed0011_locator": "noether.tex:12841:18",
+      "before": "\\Bmod_i",
+      "after": "\\Bmod_\\lambda",
+      "reason": "The preceding definition binds B_lambda and the following quotient is B_lambda/B_{lambda+1}; ED0011 and the printed primary witness both use B_lambda."
+    }
+  ],
+  "preserved_controls": [
+    "producer line 173 / assembled line 14299 retains the distinct generic A_i construction with e_{rho-i}",
+    "producer lines 179 and 183 / assembled lines 14305 and 14309 retain the two already-correct B_lambda controls",
+    "the Ukrainian rho house symbol is not Germanized to varrho",
+    "all quotient indices, formula skeletons, terminology, and protected payloads remain byte-identical",
+    "historical producer origin, frozen v047, and public r35 remain immutable"
+  ],
+  "producer_successors": [
+    {
+      "unit": "106",
+      "origin": "interlanguage-workspace://03_projects/noether/02_slavic_working_corpus/translations/paper22/ukrainian/v001/Noether_Paper22_Ukrainian_v001.tex",
+      "local": "producer_units/Noether_Paper22_Ukrainian_v001.tex",
+      "input": {
+        "bytes": 109151,
+        "sha256": "5169A9FD608DCE60AC1B879FBFE7FC815877CEA8683EF501EDB17A167C31CBD7"
+      },
+      "output": {
+        "bytes": 109157,
+        "sha256": "678823DCAE1B0675C08C0D7F366C2B99E222B4372DB9A1D153056EA5C7565129"
+      }
+    }
+  ],
+  "producer_lineage": {
+    "assembled_source_marker": "../producer_units/Noether_Paper22_Ukrainian_v001.tex",
+    "assembled_identity_updated": true,
+    "producer_body_matches_assembled_body": true,
+    "historical_origin_unchanged": true
+  },
+  "source_inputs": {
+    "source/base-papers1-43-uk.tex": {
+      "bytes": 2690070,
+      "sha256": "5C1C0F73DB975B0D14DF7400F1E39F21A36BC2B7429E7C59E878DCD730E0176D"
+    },
+    "source/44-book-uk.tex": {
+      "bytes": 234758,
+      "sha256": "7C52BCFAD8B097DE6D2C94C37290BEA63D0320E1B282763299C16394D69F451F"
+    },
+    "source/45-uk.tex": {
+      "bytes": 35056,
+      "sha256": "1650DEF7A7A8CE27A5CA2AB52186A7BE5A3E898DFAE2AE8068D65FF360C949A8"
+    },
+    "source/bib-uk.tex": {
+      "bytes": 12777,
+      "sha256": "8A15AB2116E25CCEA760AD96E26ACDF217333CE6B3679D3D5FA235A1992D0F09"
+    }
+  },
+  "source_outputs": {
+    "source/base-papers1-43-uk.tex": {
+      "bytes": 2689973,
+      "sha256": "5DA75C73E617B0288C44FC1B9F3A2761437A8661838A6AF6119014FC93EC6CC7"
+    },
+    "unchanged_components": [
+      "source/44-book-uk.tex",
+      "source/45-uk.tex",
+      "source/bib-uk.tex"
+    ]
+  },
+  "authority": {
+    "german_ed0011": {
+      "bytes": 2153594,
+      "sha256": "9E6BF2BC3155ECE3DF98CD8A408C23662BEFB047A1DDF200CA1DC8476A488BF3",
+      "relevant_lines": [12839, 12841, 12843]
+    },
+    "primary_printed_page_witness": {
+      "bytes": 1277724,
+      "sha256": "32C0D0626784C504CD3AC0602720E2F4502A42A7A7ABF4DCB860FEF0AA024150"
+    },
+    "v047_defect_pointer": {
+      "bytes": 132270,
+      "sha256": "0053EA0B7E44DDE7EA7DC285ABC115DFC43F4A74B34C54DE8F39DE4E445D5BEA",
+      "finding": "Records diplomatic B_lambda, stale transcription B_i, and exact repair Bmod_i to Bmod_lambda."
+    },
+    "paper22_glossary": {
+      "bytes": 93560,
+      "sha256": "850538B34B5E6805D0E86EE2760F2813CF0A4E18E6248E13A4E769FBDBFB0FC8"
+    },
+    "terminology_logbook": {
+      "bytes": 428819,
+      "sha256": "D2A5C985C7D6636807009D7595691DEB6DEBFB1A535E4C854BC825448B610421"
+    },
+    "categorized_corpus_boundary": {
+      "catalog_bytes": 10642398,
+      "catalog_sha256": "354BE2A6EDFB9FE90CA9A42870666AF9DEB295F28D3F7ADA3DA898EC728756EC",
+      "finding": "The catalogued producer is generated translation support with unknown native authorship; it is provenance evidence, not native validation."
+    }
+  },
+  "applicator": {
+    "path": "apply_uk_p22_bmod_lambda_fidelity_v001.py",
+    "bytes": 27688,
+    "sha256": "1C9F6ED405D2268054AA3F4B20AA5D5BCA81984460F53B88C7ECCC66315EA774"
+  },
+  "qa": {
+    "independent_preapply_replay": "PASS",
+    "producer_changed_lines": [181],
+    "base_changed_lines": [14136, 14137, 14307],
+    "family_census": "Bmod_i 1 to 0; Bmod_lambda 2 to 3",
+    "producer_body_matches_assembled_body": true,
+    "reverse_replay": "PASS",
+    "structural_and_transport_gates": "PASS",
+    "double_transform_byte_identity": "PASS",
+    "frozen_v047_pdf_and_sources_unchanged": true,
+    "public_r35_source_and_pdf_unchanged": true
+  },
+  "publication_effect": "none",
+  "doi_effect": "none",
+  "working_successor_published": false,
+  "native_validation_claim": false
+}

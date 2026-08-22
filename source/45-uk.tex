@@ -161,7 +161,7 @@ $(K_{1}), (K_{2}), \ldots, (K_{t})$, так що має місце така
 \]
 При цьому
 \[
-t \leq \mu,
+(g_{1}) + (g_{2}) + \cdots + (g_{t}) = \mu,
 \]
 де $\mu$ означає відповідну до $\mathfrak{q}$ кратність перетину,
 визначену результантом.
@@ -178,23 +178,22 @@ $\infty$. Числа $(g_{1}), (g_{2}), \ldots, (g_{t})$, поставлені �
 яка становить методичну основу процедури:
 \begin{equation}\label{eq:kap-1}
 \begin{aligned}
-\varphi &= g_{1} \cdot f_{1}(x,y) + h_{1}, & h_{1} &\equiv 0(y^{(g_{1})}),\\
-f_{1} &= g_{2} \cdot f_{2}(x,y) + h_{2}, & h_{2} &\equiv 0(y^{(g_{2})}),\\
-&\;\;\vdots &&\\
-f_{t-1} &= g_{t} \cdot f_{t}(x,y) + h_{t}, & h_{t} &\equiv 0(y^{(g_{t})}),\\
-f_{t} &= g_{t+1} \cdot f_{t+1}(x,y) + h_{t+1}, & h_{t+1} &\not\equiv 0(y).
+f_{1} \cdot g_{1}(0,y):y^{(g_{1})} - g_{1} \cdot f_{1}(0,y):y^{(g_{1})} &= x \cdot h_{1},\\
+f_{2} \cdot g_{2}(0,y):y^{(g_{2})} - g_{2} \cdot f_{2}(0,y):y^{(g_{2})} &= x \cdot h_{2},\\
+&\vdots \qquad\qquad\vdots\qquad\qquad\vdots\\
+f_{r} \cdot g_{r}(0,y):y^{(g_{r})} - g_{r} \cdot f_{r}(0,y):y^{(g_{r})} &= x \cdot h_{r}.
 \end{aligned}
 \end{equation}
 Вона будується лише з заданої пари поліномів $\varphi$, $\psi$:
-поліноми $f_{i}, g_{i}$ спершу визначаються як тотожні з
-$\varphi, \psi$, можливо після перестановки; порядок має бути таким,
-щоб $(f_{1}) \geq (g_{1})$. За цієї фіксації, і лише тоді, $K_{i}$
-буде ціло-раціональним.
+поліноми $f_{1}, g_{1}$ визначаються як тотожні з $\varphi$, $\psi$,
+можливо після перестановки; порядок має бути таким, щоб
+$(f_{1}) \geq (g_{1})$. За цієї фіксації, і лише тоді, $h_{1}$ буде
+ціло-раціональним.
 
-Поліноми $f_{i}, g_{i}$ визначаються як тотожні з $h_{i-1}, g_{i-1}$
-за додаткової умови $(f_{i}) \geq (g_{i})$. Загалом пара поліномів
-$f_{i}, g_{i}$ визначається як тотожна з $h_{i-1}, g_{i-1}$ за
-додаткової умови $(f_{i}) \geq (g_{i})$.
+Поліноми $f_{2}, g_{2}$ визначаються як тотожні з $h_{1}, g_{1}$ за
+додаткової умови $(f_{2}) \geq (g_{2})$. Загалом пара поліномів
+$f_{r}, g_{r}$ визначається як тотожна з $h_{r-1}, g_{r-1}$ за
+додаткової умови $(f_{r}) \geq (g_{r})$.
 
 Систему рівнянь \eqref{eq:kap-1} справді можна продовжувати без кінця
 у пояснений спосіб; але головна теорема вимагає побудувати лише
@@ -209,10 +208,10 @@ $(g_{1}), (g_{2}), \ldots, (g_{t})$, усі більші за нуль, тоді
 водночас $(g_{t+1})$ і всі наступні дорівнюють нулю.
 
 Справді, з урахуванням теореми про добуток результантів кратність
-перетину в точці $x = 0$, $y = 0$ для $f_{i} = 0$, $g_{i} = 0$
+перетину в точці $x = 0$, $y = 0$ для $f_{r} = 0$, $g_{r} = 0$
 дорівнює
 \[
-(g_{1}) + (g_{2}) + \cdots + (g_{i}) + (g_{i+1}) \cdot \mu_{i+1},
+\mu - (g_{1}) - (g_{2}) - \cdots - (g_{r}),
 \]
 звідки випливає обрив після щонайбільше $\mu$ кроків. З цього
 одночасно випливає факт
@@ -227,35 +226,36 @@ $(g_{1}), (g_{2}), \ldots, (g_{t})$, усі більші за нуль, тоді
 системою рівнянь, відповідною до \eqref{eq:kap-1}:
 \begin{equation}\label{eq:kap-3}
 \begin{aligned}
-K &= g_{1} \cdot K_{1}(x,y) + L_{1}, & L_{1} &\equiv 0(y^{(K_{1})}),\\
-K_{1} &= g_{2} \cdot K_{2}(x,y) + L_{2}, & L_{2} &\equiv 0(y^{(K_{2})}),\\
-&\;\;\vdots &&\\
-K_{t-1} &= g_{t} \cdot K_{t}(x,y) + L_{t}, & L_{t} &\equiv 0(y^{(K_{t})}).
+K_{1} \cdot g_{1}(0,y):y^{(g_{1})} - g_{1} \cdot K_{1}(0,y):y^{(g_{1})} &= x \cdot K_{2},\\
+K_{2} \cdot g_{2}(0,y):y^{(g_{2})} - g_{2} \cdot K_{2}(0,y):y^{(g_{2})} &= x \cdot K_{3},\\
+&\vdots \qquad\qquad\vdots\qquad\qquad\vdots\\
+K_{r} \cdot g_{r}(0,y):y^{(g_{r})} - g_{r} \cdot K_{r}(0,y):y^{(g_{r})} &= x \cdot K_{r+1}.
 \end{aligned}
 \end{equation}
-$K_{0}$ визначається як тотожний з $K$. Очевидно, $K_{i}$ буде
-ціло-раціональним тоді й лише тоді, коли $(K_{i}) \geq (g_{i})$.
-Якщо останнє виконано, далі випливає: $K_{i+1}$ буде
-ціло-раціональним тоді й лише тоді, коли $(K_{i}) \geq (g_{i})$.
-Загалом, якщо $K_{i}$ уже ціло-раціональний, $K_{i+1}$ буде
-ціло-раціональним тоді й лише тоді, коли $(K_{i}) \geq (g_{i})$.
+$K_{1}$ визначається як тотожний з $K$. Очевидно, $K_{2}$ буде
+ціло-раціональним тоді й лише тоді, коли $(K_{1}) \geq (g_{1})$.
+Якщо останнє виконано, далі випливає: $K_{3}$ буде
+ціло-раціональним тоді й лише тоді, коли $(K_{2}) \geq (g_{2})$.
+Загалом, якщо $K_{r}$ уже ціло-раціональний, $K_{r+1}$ буде
+ціло-раціональним тоді й лише тоді, коли $(K_{r}) \geq (g_{r})$.
 
 Доведення головної теореми (теореми~\ref{satz:kap-II}) тепер
 спирається на ще одну
 
 \smallskip
 \textbf{Допоміжну теорему II.} Якщо покласти
-$(f_{i}, g_{i}, \mathfrak{p}^{2^{i}})$ рівним
-$\mathfrak{q}^{(i)}$, то для кожного $\nu$ з ряду цілих чисел
-$1, 2, \ldots$ \textit{in inf.} має місце твердження:
+$(f_{i}, g_{i}, \mathfrak{p}^{e})$ рівним $\mathfrak{q}^{(i)}$, то для
+кожного $i$ з ряду цілих чисел $1, 2, \ldots$ \textit{in inf.} має
+місце твердження:
 
 Для конгруенції
 \[
-K \cdot f_{\nu} \equiv 0(\mathfrak{q}^{(\nu)})
+K_{i} \equiv 0(\mathfrak{q}^{(i)})
 \]
 необхідним і достатнім є одночасне виконання двох умов:
 \[
-(K) \geq (g_{\nu}) \qquad \text{і} \qquad K_{\nu+1} \equiv 0(\mathfrak{q}^{(\nu+1)}).
+(K_{i}) \geq (g_{i}) \qquad \text{і} \qquad
+K_{i+1} \equiv 0(\mathfrak{q}^{(i+1)}).
 \]
 
 Доведення\textsuperscript{8)} допоміжної теореми дістається
@@ -264,7 +264,7 @@ K \cdot f_{\nu} \equiv 0(\mathfrak{q}^{(\nu)})
 нулі, тобто що модуль $\mathfrak{q}^{(t+1)}$ складається з усіх
 поліномів (є одиничним ідеалом), і отже
 $K_{t+1} \equiv 0(\mathfrak{q}^{(t+1)})$ стає тривіальним, то
-$\mu$-кратне застосування допоміжної теореми II дає доведення
+$t$-кратне застосування допоміжної теореми II дає доведення
 головної теореми.
 
 \smallskip
@@ -280,14 +280,14 @@ $\mu$-кратне застосування допоміжної теореми 
 Системи рівнянь \eqref{eq:kap-1} і \eqref{eq:kap-3}, а також ті, що
 виникають із них перестановкою $x$ і $y$, за придатної комбінації
 дають раціональний метод точного числового визначення ``належного''
-до $\mathfrak{q}$ показника $\varrho$\textsuperscript{10)}, тобто того
-мінімального показника $\varrho$ з теореми Ia.
+до $\mathfrak{q}$ показника $\varrho$, тобто того мінімального
+показника $\varrho$ з теореми Ia.
 \end{zusatz}
 
 Е.\ Бертіні\textsuperscript{10)} дав загальну формулу для $\varrho$.
 Що ця формула, однак, не завжди дає мінімальне значення $\varrho$,
 показано в цитованій праці на прикладі
-$\varphi = x^{3} + y^{4}$, $\psi = x^{2} - y^{5}$. Нарешті зазначимо,
+$\varphi = x^{3} + y^{4}$, $\psi = x^{2} + y^{3}$. Нарешті зазначимо,
 що й саму формулу Бертіні можна по-новому обгрунтувати нашою
 головною теоремою.
 
@@ -316,7 +316,7 @@ in der Theorie der Polynomideale'' (з використанням посмерт
 
 Цікава спеціалізація головної теореми випливає з обмежувального
 припущення, що нуль відповідного
-$\mathfrak{q} = (\varphi, \psi, \mathfrak{p}^{\varrho})$ є простою
+$\mathfrak{q} = (\varphi, \psi, \mathfrak{p}^{e})$ є простою
 точкою принаймні на одній із двох кривих $\varphi = 0$, $\psi = 0$.
 Якщо, скажімо, він є простою точкою на $\psi$, то можна показати,
 що число $t$ головної теореми точно дорівнює $\mu$, і що $t$
@@ -426,123 +426,141 @@ $\mathfrak{q}$. Завдяки цьому окремі кроки в довед�
 \begin{satz}[Теорема IV]\label{satz:kap-IV}
 Повна система лишків за $\mathfrak{q}$ задається поліномами
 \[
-h_{\nu} \cdot y^{\lambda}, \quad \nu = 1, \ldots, t; \quad \lambda = 0, 1, \ldots, (g_{\nu})-1.
+h_{t}, h_{t}y, \ldots, h_{t}y^{(g_{t})-1}; \quad \ldots; \quad
+h_{i}, h_{i}y, \ldots, h_{i}y^{(g_{i})-1}; \quad \ldots; \quad
+h_{1}, h_{1}y, \ldots, h_{1}y^{(g_{1})-1}.
 \]
 При цьому кожного разу
-$h_{\nu}, h_{\nu}y, \ldots, h_{\nu}y^{(g_{\nu})-1}$ дають повну
-систему лишків від $\mathfrak{q}^{(\nu)}$ до $\mathfrak{q}^{(\nu+1)}$.
+$h_{i}, h_{i}y, \ldots, h_{i}y^{(g_{i})-1}$ дають повну систему
+лишків від $\mathfrak{q}^{(i+1)}$ до $\mathfrak{q}^{(i)}$.
 \end{satz}
 
 З означення безпосередньо випливає:
-$\mathfrak{q}^{(\nu+1)} = (\mathfrak{q}^{(\nu)}, h_{\nu})$, отже
-$\mathfrak{q}^{(\nu)} \supseteq \mathfrak{q}^{(\nu+1)}$.
+$\mathfrak{q}^{(i+1)} = (\mathfrak{q}^{(i)}, h_{i})$, отже
+$\mathfrak{q}^{(i)} \equiv 0(\mathfrak{q}^{(i+1)})$.
 Теорему~\ref{satz:kap-IV} буде доведено, якщо показати:
-\begin{align}
-h_{\nu} &\equiv 0(\mathfrak{q}), \label{eq:kap-4a}\\
-h_{\nu}y^{(g_{\nu})} &\equiv 0(\mathfrak{q}^{(\nu+1)}) \label{eq:kap-4b}
-\intertext{і}
-a_{\nu}F(y) &\equiv 0(\mathfrak{q}^{(\nu)}) \quad \text{тягне} \quad F(y) \equiv 0(y). \label{eq:kap-5}
-\end{align}
-Співвідношення \eqref{eq:kap-4a} і \eqref{eq:kap-4b} саме й кажуть,
-що лінійні комбінації
-$h_{\nu}, h_{\nu}y, \ldots, h_{\nu}y^{(g_{\nu})-1}$ вичерпують класи
-лишків від $\mathfrak{q}^{(\nu+1)}$ до $\mathfrak{q}^{(\nu)}$, тоді
-як \eqref{eq:kap-5} виражає лінійну незалежність. Оскільки
+\begin{equation}\label{eq:kap-4}
+h_{i}x \equiv 0(\mathfrak{q}^{(i)}); \qquad
+h_{i}y^{(g_{i})} \equiv 0(\mathfrak{q}^{(i)})
+\end{equation}
+і
+\begin{equation}\label{eq:kap-5}
+\text{з } h_{i}F(y) \equiv 0(\mathfrak{q}^{(i)})
+\quad\text{випливає}\quad F(y) \equiv 0(y^{(g_{i})}).
+\end{equation}
+
+Співвідношення \eqref{eq:kap-4} саме й кажуть, що лінійні комбінації
+$h_{i}, h_{i}y, \ldots, h_{i}y^{(g_{i})-1}$ вичерпують класи лишків
+від $\mathfrak{q}^{(i+1)}$ до $\mathfrak{q}^{(i)}$, тоді як
+\eqref{eq:kap-5} виражає лінійну незалежність. Оскільки
 $\mathfrak{q}^{(t+1)}$ стає одиничним ідеалом, що тепер випливає зі
 скінченної довжини $\mathfrak{q}$, звідси одержується доведення
 теореми~\ref{satz:kap-IV} і водночас факт, що довжина
 $\mathfrak{q}$ дорівнює $(g_{1}) + \cdots + (g_{t})$, тобто за
 \eqref{eq:kap-2} збігається з результантною кратністю.
 
-Перше зі співвідношень \eqref{eq:kap-4a} читається з
+Перше зі співвідношень \eqref{eq:kap-4} читається з
 \eqref{eq:kap-1}; друге дістається так:
 
-Маємо $h_{\nu}g_{\nu} \equiv 0(\mathfrak{q})$; отже, через перше
-співвідношення \eqref{eq:kap-4a}, також
-$h_{\nu}g_{\nu}(0,y) \equiv 0(\mathfrak{q}^{(\nu+1)})$, або
-$h_{\nu}y^{(g_{\nu})}(g_{\nu}(0,y):y^{(g_{\nu})}) \equiv 0(\mathfrak{q}^{(\nu+1)})$,
-звідки $h_{\nu}y^{(g_{\nu})} \equiv 0(\mathfrak{q}^{(\nu+1)})$ через
-$g_{\nu}(0,y):y^{(g_{\nu})} \not\equiv 0(y)$.
+Маємо $h_{i}g_{i} \equiv 0(\mathfrak{q}^{(i)})$; отже, через перше
+співвідношення \eqref{eq:kap-4}, також
+$h_{i}g_{i}(0,y) \equiv 0(\mathfrak{q}^{(i)})$, або
+$h_{i}y^{(g_{i})}(g_{i}(0,y):y^{(g_{i})})
+\equiv 0(\mathfrak{q}^{(i)})$, звідки
+$h_{i}y^{(g_{i})} \equiv 0(\mathfrak{q}^{(i)})$ через
+$g_{i}(0,y):y^{(g_{i})} \not\equiv 0(y)$.
 
 Перед доведенням \eqref{eq:kap-5} зауважимо те, що безпосередньо
 зчитується з \eqref{eq:kap-1}: $f_{i}$ і $g_{i}$ можуть мати
 спільним дільником лише поліном $d_{i}(y)$ від $y$, не подільний на
-$y$: $f_{i} = d_{i}(y)\bar{f}_{i}$, $g_{i} = d_{i}(y)\bar{g}_{i}$,
-причому $\bar{f}_{i}$ і $\bar{g}_{i}$ взаємно прості. Оскільки
+$y$: $f_{i} = d_{i}(y)\bar{f}_{i}$,
+$g_{i} = d_{i}(y)\bar{g}_{i}$, причому $\bar{f}_{i}$ і
+$\bar{g}_{i}$ взаємно прості. Оскільки
 $d_{i}(y) \not\equiv 0(\mathfrak{p})$, маємо також
-$\mathfrak{q}^{(\nu)} = (\bar{f}_{i}, \bar{g}_{i}, \mathfrak{p}^{2^{i}})$;
+$\mathfrak{q}^{(i)} = (\bar{f}_{i}, \bar{g}_{i}, \mathfrak{p}^{e})$;
 при цьому це дорівнює
-$(\bar{f}_{i}, \bar{g}_{i}, \mathfrak{p}^{\varrho})$ для кожного
-$\varrho \geq \varrho_{i}$, як дільник $\mathfrak{q}$ для кожного
-такого $\varrho$; отже $\mathfrak{q}$ є первинною компонентою
+$(\bar{f}_{i}, \bar{g}_{i}, \mathfrak{p}^{\sigma})$ для кожного
+$\sigma \geq \varrho$, як дільник $\mathfrak{q}$ для кожного такого
+$\sigma$; отже $\mathfrak{q}^{(i)}$ є первинною компонентою
 $(\bar{f}_{i}, \bar{g}_{i})$, що відповідає нулю.
 
 Нехай $\gamma_{1}, \delta_{1}; \ldots; \gamma_{r}, \delta_{r}$ ---
 нулі $(\bar{f}_{i}, \bar{g}_{i})$, відмінні від $x = 0$, $y = 0$, і
 нехай $\tau_{1}, \ldots, \tau_{r}$ --- показники відповідних
 первинних компонент $(\bar{f}_{i}, \bar{g}_{i})$; далі в добутку
-$P = ((x-\gamma_{1}) + u(y-\delta_{1}))^{\tau_{1}} \cdots
-((x-\gamma_{r}) + u(y-\delta_{r}))^{\tau_{r}}$ невизначену $u$
-виберімо як елемент з $P$ так, щоб збереглося
+\[
+P = ((x-\gamma_{1}) + u(y-\delta_{1}))^{\tau_{1}} \cdots
+((x-\gamma_{r}) + u(y-\delta_{r}))^{\tau_{r}}
+\]
+невизначену $u$ виберімо як елемент з $P$ так, щоб збереглося
 $P \not\equiv 0(\mathfrak{p})$. Якщо покласти $G(x,y)$ рівним
 добутку спеціалізованого $P$ з $d_{i}(y)$, то
 $G(x,y) \not\equiv 0(\mathfrak{p})$ і
-$\mathfrak{q}^{(\nu)} \cdot G(x,y) \equiv 0(\bar{f}_{i}, \bar{g}_{i})$.
+$\mathfrak{q}^{(i)} \cdot G(x,y) \equiv 0(f_{i}, g_{i})$.
 
-З припущення $h_{\nu}F(y) \equiv 0(\mathfrak{q}^{(\nu)})$ випливає
-$h_{\nu}F(y)G(x,y) \equiv 0(\bar{f}_{i}, \bar{g}_{i})$, або, разом з
+З припущення $h_{i}F(y) \equiv 0(\mathfrak{q}^{(i)})$ випливає
+$h_{i}F(y)G(x,y) \equiv 0(f_{i}, g_{i})$, або, разом з
 \eqref{eq:kap-1}, у формі тотожностей:
 \[
-h_{\nu}F(y)G = A\bar{f}_{i} + B\bar{g}_{i}, \qquad
-\bar{g}_{i}(0,y) = y^{(g_{\nu})}, \qquad
-\bar{f}_{i}(0,y) = h_{\nu}.
+h_{i}F(y)G = A f_{i} + B g_{i}; \qquad
+h_{i}x = (g_{i}(0,y):y^{(g_{i})})f_{i}
+       - (f_{i}(0,y):y^{(g_{i})})g_{i}.
 \]
 А це дає
 \[
-\bar{f}_{i}(zA - F(y)H) \equiv 0(\bar{g}_{i}); \qquad
-H = G(x,y) \cdot g_{i}(0,y) : y^{\nu} \not\equiv 0(\mathfrak{p}).
+\bar{f}_{i}(xA - F(y)H) \equiv 0(\bar{g}_{i}); \qquad
+H = G(x,y) \cdot g_{i}(0,y):y^{(g_{i})}
+\not\equiv 0(\mathfrak{p}).
 \]
 З взаємної простоти $\bar{f}_{i}$ і $\bar{g}_{i}$ далі випливає
 \[
-zA - F(y)H \equiv 0(\bar{g}_{i}); \quad \text{отже } F(y)H \equiv 0(\bar{g}_{i}, z)
-\equiv 0(\bar{g}_{i}, z, \mathfrak{p}^{2}) \equiv (y, z),
+xA - F(y)H \equiv 0(\bar{g}_{i});
 \]
-а звідси $F(y) \equiv 0(y)$. Тим самим доведено \eqref{eq:kap-5}, а
-отже й теорему~\ref{satz:kap-IV}.
+отже $F(y)H \equiv 0(\bar{g}_{i}, x)
+\equiv 0(\bar{g}_{i}, x, \mathfrak{p}^{\sigma})
+= (y^{(g_{i})}, x)$, а звідси $F(y) \equiv 0(y^{(g_{i})})$.
+Тим самим доведено \eqref{eq:kap-5}, а отже й
+теорему~\ref{satz:kap-IV}.
 
 \smallskip
-\textbf{Зауваження I.} Співвідношення \eqref{eq:kap-4a} і
-\eqref{eq:kap-4b} разом із допоміжною теоремою II можна записати як
+\textbf{Зауваження I.} Співвідношення \eqref{eq:kap-4} і
+\eqref{eq:kap-5} разом із допоміжною теоремою II можна записати як
 взаємно обернені співвідношення між частками ідеалів\textsuperscript{15)};
 при цьому доведення другого співвідношення водночас дає доведення
 допоміжної теореми II:
 \begin{equation}\label{eq:kap-6}
-\mathfrak{q}^{(\nu)} : x = (\mathfrak{q}^{(\nu+1)}, y) = (y, h_{\nu}); \qquad
-\mathfrak{q}^{(\nu)} : (\mathfrak{q}^{(\nu+1)}, y) = (x, h_{\nu}).
+\mathfrak{q}^{(i)} : \mathfrak{q}^{(i+1)}
+= (\mathfrak{q}^{(i)}, x) = (y^{(g_{i})}, x); \qquad
+\mathfrak{q}^{(i)} : (\mathfrak{q}^{(i)}, x)
+= \mathfrak{q}^{(i+1)}.\text{\textsuperscript{16)}}
 \end{equation}
-Перше співвідношення є підсумуванням \eqref{eq:kap-4a} і
-\eqref{eq:kap-4b}; щодо другого треба зауважити: у
-\eqref{eq:kap-4a} було доведено
-$x \cdot \mathfrak{q}^{(\nu+1)} \equiv 0(\mathfrak{q}^{(\nu)})$;
+Перше співвідношення є підсумуванням \eqref{eq:kap-4} і
+\eqref{eq:kap-5}; щодо другого треба зауважити: у
+\eqref{eq:kap-4} було доведено
+$x \cdot \mathfrak{q}^{(i+1)} \equiv 0(\mathfrak{q}^{(i)})$;
 обернене дістається аналогічно до \eqref{eq:kap-5}. З
-$xM \equiv 0(\mathfrak{q}^{(\nu)})$ як вище випливає:
+$xM \equiv 0(\mathfrak{q}^{(i)})$ як вище випливає:
 \[
-xMG \equiv 0(\bar{f}_{i}, \bar{g}_{i}); \quad \text{отже }\quad
-xM \cdot G \cdot g_{i}(0,y) : y^{\nu} \equiv 0(xh_{\nu}, \bar{g}_{i}).
+xMG \equiv 0(f_{i}, g_{i}); \quad\text{отже}\quad
+xMG \cdot g_{i}(0,y):y^{(g_{i})} \equiv 0(xh_{i}, g_{i}).
 \]
-Оскільки $g_{i} \equiv 0(x)$ за означенням, а саме
+Оскільки $g_{i} \not\equiv 0(x)$ за означенням, а саме
 $(f_{i}) \geq (g_{i})$, звідси виходить
-$M \cdot (G \cdot g_{i}(0,y) : y^{\nu}) \equiv 0(h_{\nu}, \bar{g}_{i})
-\equiv 0(\mathfrak{q}^{(\nu+1)})$, тобто
-$M \equiv 0(\mathfrak{q}^{(\nu+1)})$.
+\[
+M \cdot (G \cdot g_{i}(0,y):y^{(g_{i})})
+\equiv 0(h_{i}, g_{i}) \equiv 0(\mathfrak{q}^{(i+1)}),
+\quad\text{тобто}\quad M \equiv 0(\mathfrak{q}^{(i+1)}).
+\]
 
 Необхідність умови допоміжної теореми II тепер випливає так:
-$K_{\nu} \equiv 0(\mathfrak{q}_{\nu})$ дає
-$K_{\nu}(0,y) \equiv 0(y^{(g_{\nu})}, x)$; отже
-$(K_{\nu}) \geq (g_{\nu})$, а тим самим, за \eqref{eq:kap-3},
-$x \cdot K_{\nu+1} \equiv 0(\mathfrak{q})$; отже, за другим
-співвідношенням \eqref{eq:kap-6},
-$K_{\nu+1} \equiv 0(\mathfrak{q}^{(\nu+1)})$.
+$K_{i} \equiv 0(\mathfrak{q}^{(i)})$ дає
+$K_{i}(0,y) \equiv 0(y^{(g_{i})}, x)$; отже
+$(K_{i}) \geq (g_{i})$, а тим самим, за \eqref{eq:kap-3},
+\[
+x \cdot K_{i+1} \equiv 0(\mathfrak{q}^{(i)});
+\quad\text{отже, за другим співвідношенням \eqref{eq:kap-6},}\quad
+K_{i+1} \equiv 0(\mathfrak{q}^{(i+1)}).
+\]
 
 Достатність умови зчитується безпосередньо; скінченне повторне
 застосування допоміжної теореми II дає головну теорему. Так само
@@ -553,18 +571,18 @@ $\mathfrak{q} : x^{t-1} = \mathfrak{q}^{(t)}$.
 
 \textbf{Зауваження II.} Для полінома $K$, не подільного на
 $\mathfrak{q}$, можна ще сказати: якщо
-$K \equiv 0(\mathfrak{q}^{(\nu+1)})$,
-$\not\equiv 0(\mathfrak{q}^{(\nu)})$, то
-$(K, \mathfrak{q}^{(\nu)}) = (h_{\nu}y^{\lambda}, \mathfrak{q}^{(\nu)})$.
+$K \equiv 0(\mathfrak{q}^{(i+1)})$,
+$\not\equiv 0(\mathfrak{q}^{(i)})$, то
+$(K, \mathfrak{q}^{(i)}) = (h_{i}y^{(K)}, \mathfrak{q}^{(i)})$.
 Бо за теоремою~\ref{satz:kap-IV}
-$K \equiv h_{\nu}y^{\lambda}c(y)$ modulo
-$(\mathfrak{q}^{(\nu)})$ з $c(y) \not\equiv 0(y)$; отже
+$K \equiv h_{i}y^{\lambda}c(y)$ modulo
+$(\mathfrak{q}^{(i)})$ з $c(y) \not\equiv 0(y)$; отже
 \[
-(K, \mathfrak{q}^{(\nu)}) = (h_{\nu}y^{\lambda}, \mathfrak{q}^{(\nu)}).
+(K, \mathfrak{q}^{(i)}) = (h_{i}y^{\lambda}, \mathfrak{q}^{(i)}).
 \]
-При цьому $y^{\lambda} \cdot K \equiv 0(\mathfrak{q})$, і саме це
+При цьому $y^{(g_{i})-\lambda}K \equiv 0(\mathfrak{q}^{(i)})$, і саме це
 за \eqref{eq:kap-5} є найнижчим таким степенем. За допоміжною
-теоремою II цей найнижчий степінь дорівнює $(g_{\nu}) - (K)$; отже
+теоремою II цей найнижчий степінь дорівнює $(g_{i}) - (K)$; отже
 $\lambda$ дорівнює $(K)$.
 
 \vfill

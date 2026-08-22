@@ -1,0 +1,167 @@
+{
+  "schema": "noether-language-edition-index/1.1-public",
+  "edition_id": "NOETHER-UK-v001-UK001-EDIT-0016",
+  "edition_status": "published_release",
+  "canonical_language_key": "uk-Cyrl",
+  "language": {
+    "name_uk": "українська",
+    "name_en": "Ukrainian",
+    "iso_639_1": "uk",
+    "iso_639_3": "ukr",
+    "bcp47": "uk-Cyrl",
+    "script": "Cyrl",
+    "direction": "ltr"
+  },
+  "canon_declaration": {
+    "role": "canonical editable and rendered head for this Ukrainian Emmy Noether edition lane",
+    "decision_head": "UK001-EDIT-0016",
+    "decision_count": 16,
+    "scope": "Papers 1-43, the 1929/30 lectures on hypercomplex quantities (Work 44), Paper 45, and the Ukrainian bibliography",
+    "not_a_claim": [
+      "not a prescriptive canon of the Ukrainian language",
+      "not a native-speaker certification",
+      "not a peer-reviewed critical edition",
+      "not evidence that the harvested multilingual corpus is a native Ukrainian canon"
+    ]
+  },
+  "authority_chain": {
+    "project_german_authority": {
+      "id": "NOETH-DE-ED-0015",
+      "bytes": 2154017,
+      "sha256": "51A25101C04877AE740989E72B2AD65A7A7E65B081077C4A518BF1737AD5B907",
+      "version_doi": "10.5281/zenodo.21940320",
+      "relationship": "source and mathematical/editorial authority; not modified by this lane"
+    },
+    "translation_and_typesetting": {
+      "method": "machine-assisted Ukrainian scholarly working edition with an append-only adjudication ledger",
+      "native_review": false,
+      "human_comprehension_study": false
+    }
+  },
+  "canonical_sources": [
+    {
+      "component_id": "papers-1-43",
+      "path": "source/base-papers1-43-uk.tex",
+      "bytes": 2683138,
+      "sha256": "508BE633BD8DF81854582BD5FE7229A4B09C3AA1EDEDC7D0909FA6C00204CC4D",
+      "work_range": "Papers 1-43",
+      "producer_units": 219,
+      "provenance_locator_policy": "198 noether-corpus logical locators plus 21 relative producer locators; zero private absolute locators"
+    },
+    {
+      "component_id": "work-44",
+      "path": "source/44-book-uk.tex",
+      "bytes": 234758,
+      "sha256": "7C52BCFAD8B097DE6D2C94C37290BEA63D0320E1B282763299C16394D69F451F",
+      "work_range": "1929/30 lectures on hypercomplex quantities"
+    },
+    {
+      "component_id": "paper-45",
+      "path": "source/45-uk.tex",
+      "bytes": 35081,
+      "sha256": "8437DB33C1A2D42AFFCEA56EECBA74300232D81AB79C808754671E5F6299BBD9",
+      "work_range": "Paper 45"
+    },
+    {
+      "component_id": "bibliography",
+      "path": "source/bib-uk.tex",
+      "bytes": 12777,
+      "sha256": "8A15AB2116E25CCEA760AD96E26ACDF217333CE6B3679D3D5FA235A1992D0F09",
+      "work_range": "Ukrainian bibliography"
+    }
+  ],
+  "canonical_reader": {
+    "path": "reader/00_NOETHER_UKRAINIAN_COMPLETE_LINKED_READER.pdf",
+    "bytes": 3292434,
+    "sha256": "846634F9E9F8940D918A1411330D1B801CD7EC27DBC8C1D3603DBBF9CCBFA02B",
+    "pages": 588,
+    "page_geometry": "A4",
+    "component_pages": [
+      530,
+      46,
+      7,
+      5
+    ]
+  },
+  "decision_evidence": {
+    "ledger": {
+      "path": "evidence/UKRAINIAN_DECISIONS_v001.jsonl",
+      "rows": 16,
+      "bytes": 27508,
+      "sha256": "D19E6FAA87237363B036F643A127E8A4D21EBCDD8B05341962603C81AD61B17C"
+    },
+    "head_sidecar": {
+      "path": "evidence/decisions/UK001-EDIT-0016.json",
+      "bytes": 4256,
+      "sha256": "C7CE2613EB137339F7F7282C8B18A48F0B813EC0D026C8EF7CA875CF7E47E702"
+    },
+    "open_dispositions": 0,
+    "explicit_holds": 0
+  },
+  "qa": {
+    "build_manifest": {
+      "path": "evidence/build-manifest.json",
+      "bytes": 12727,
+      "sha256": "2D05539EBCAFE85241C6D520098BA9BBB321F54A1BE27EF643A725BA2C1925F2"
+    },
+    "release_audit": {
+      "path": "evidence/RELEASE_AUDIT_VISUAL_QA_UK001_EDIT0016.json",
+      "bytes": 5712,
+      "sha256": "1B11CDF1EB8FC93E45E4D77A73DF2BBEE713E17D898561F525B7EF1777210D21"
+    },
+    "deterministic_builds": 2,
+    "manifest_and_pdf_byte_differences": 0,
+    "cross_head_pages_compared": 530,
+    "cross_head_content_stream_mismatches": 0,
+    "cross_head_text_mismatches": 0,
+    "visual_pages_inspected": 25,
+    "fonts_embedded_and_subset": true,
+    "result": "PASS"
+  },
+  "reproduction": {
+    "build_driver": "build_uk_release_v001_edit0016.py",
+    "finite_audit_driver": "audit_uk_release_v001_edit0016.py",
+    "cross_head_reference_driver": "build_uk_edit0015_crosshead_reference.py",
+    "engine": "XeLaTeX",
+    "passes_per_document": 2,
+    "serial": true,
+    "shell_escape": false,
+    "source_date_epoch": 1787356800,
+    "sequence": [
+      "authenticate the four source pins and the rosette asset",
+      "run the release builder twice from cleared job outputs",
+      "require byte identity for the manifest and all five PDFs",
+      "run the finite audit twice and require identical stdout with empty stderr",
+      "render and inspect the declared visual control pages"
+    ]
+  },
+  "publication": {
+    "version": "2026.08.22-r2",
+    "repository": "https://github.com/KokunoYumeto/emmy-noether-uk",
+    "global_concept_doi": "10.5281/zenodo.20412587",
+    "ukrainian_concept_doi": "10.5281/zenodo.21926373",
+    "reserved_version_doi": "10.5281/zenodo.22053778",
+    "german_authority_version_doi": "10.5281/zenodo.21940320",
+    "state_at_index_creation": "sealed public release contract",
+    "publication_date": "2026-08-22",
+    "current_version_doi": "10.5281/zenodo.22053778",
+    "public_record": "https://zenodo.org/records/22053778",
+    "artifact_contract": [
+      "00_NOETHER_UKRAINIAN_COMPLETE_LINKED_READER.pdf",
+      "01_NOETHER_UKRAINIAN_EDITABLE_SOURCES.zip",
+      "02_NOETHER_UKRAINIAN_EVIDENCE_AND_PROVENANCE.zip",
+      "03_NOETHER_UKRAINIAN_SHA256_MANIFEST.txt"
+    ]
+  },
+  "replication_contract": {
+    "machine_entrypoint": "machine/LANGUAGE_EDITION_INDEX.json",
+    "canonical_language_selector": "canonical_language_key",
+    "source_selector": "canonical_sources",
+    "reader_selector": "canonical_reader",
+    "authority_selector": "authority_chain",
+    "decision_selector": "decision_evidence",
+    "qa_selector": "qa",
+    "extension_rule": "Any successor must preserve predecessor bytes and hashes, append a new decision, disclose rejected alternatives and uncertainty, rebuild deterministically, regenerate the machine index, and publish only after finite and visual QA."
+  },
+  "updated_at": "2026-08-22T00:00:00Z"
+}

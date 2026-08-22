@@ -1,0 +1,139 @@
+{
+  "schema": "noether-ukrainian-release-audit-visual-qa/1.0",
+  "record_id": "UK001-RELEASE-QA-EDIT0016",
+  "recorded_at": "2026-08-22T07:38:32+02:00",
+  "status": "PASS",
+  "decision_head": "UK001-EDIT-0016",
+  "reader": {
+    "path": "release_v001_edit0016/pdf/emmy-noether-ukrainian-v001-edit0016.pdf",
+    "bytes": 3292434,
+    "sha256": "846634F9E9F8940D918A1411330D1B801CD7EC27DBC8C1D3603DBBF9CCBFA02B",
+    "pages": 588,
+    "page_geometry": "A4_ALL_588"
+  },
+  "components": [
+    {
+      "scope": "Papers 1-43",
+      "pages": 530,
+      "bytes": 2413070,
+      "sha256": "344F07A7808F75209FA3CF5D469448EE11E4A579C1085FCBA22D99995D877242"
+    },
+    {
+      "scope": "1929/30 lectures on hypercomplex quantities (Work 44)",
+      "pages": 46,
+      "bytes": 364113,
+      "sha256": "55DD60DB60D7F9D6919D96DAC024A32FB39AD07DCA5EEF92E6B4CE628AFEC53F"
+    },
+    {
+      "scope": "Paper 45",
+      "pages": 7,
+      "bytes": 161390,
+      "sha256": "74F66B0DAC492B52BE6C65110D11FEF0CCB9A473956F9F55C31DCC3BA3CF98B9"
+    },
+    {
+      "scope": "Ukrainian bibliography",
+      "pages": 5,
+      "bytes": 115314,
+      "sha256": "91499435893E911B6A7FDC5B073E3AD50470641D581A16B3401FEEAFF56FAFD1"
+    }
+  ],
+  "deterministic_build": {
+    "status": "PASS",
+    "runs": 2,
+    "compared_artifacts": 6,
+    "byte_identical": true,
+    "scope": "manifest plus four component PDFs plus cumulative reader PDF",
+    "manifest": {
+      "bytes": 12727,
+      "sha256": "2D05539EBCAFE85241C6D520098BA9BBB321F54A1BE27EF643A725BA2C1925F2"
+    }
+  },
+  "finite_audit": {
+    "driver": {
+      "path": "audit_uk_release_v001_edit0016.py",
+      "bytes": 18273,
+      "sha256": "01163EDBA6FFAC737D95290C4C3C627AAB675901604187F717C8E873B40909FF"
+    },
+    "runs": 2,
+    "exit_codes": [0, 0],
+    "stdout_bytes_each": 2470,
+    "stdout_sha256_each": "BE84670D069B4A8ABDF01B68694ADEE49D16AEE85AACCAF6B3161D51668C90F4",
+    "stdout_byte_identical": true,
+    "stderr_bytes_each": 0,
+    "source_transport_and_structure": "PASS_UTF8_NFC_LF_NO_BOM_BALANCED_TEX",
+    "labels_and_references": "PASS_ZERO_DUPLICATE_LABELS_ZERO_UNRESOLVED_REFERENCES",
+    "provenance_headers": {
+      "total": 219,
+      "logical_noether_corpus": 198,
+      "relative_producer": 21,
+      "private_absolute": 0
+    },
+    "decision_ledger": {
+      "rows": 16,
+      "head": "UK001-EDIT-0016",
+      "open_dispositions": 0,
+      "explicit_holds": 0
+    },
+    "reverse_lineage": "PASS_EXACT_UK001_EDIT0016_TO_UK001_EDIT0015_AND_FORWARD_REPLAY",
+    "provenance_only_render_parity": {
+      "predecessor_component_pages": 530,
+      "successor_component_pages": 530,
+      "content_stream_mismatches": 0,
+      "extracted_text_mismatches": 0,
+      "predecessor_reference_pdf": {
+        "bytes": 2413057,
+        "sha256": "378E3758174A0156D7F6AA341DEDF257ADD4E9DC161AFAB3F1EEA67B193FBDA3"
+      }
+    },
+    "fonts": {
+      "font_rows": 83,
+      "embedded": 83,
+      "subset": 83,
+      "unicode_mapped": 74,
+      "traditional_math_fonts_without_ToUnicode": 9,
+      "disposition": "accepted traditional math-symbol extraction limitation; visual glyph rendering passed"
+    }
+  },
+  "visual_qa": {
+    "render_tool": "pdftoppm",
+    "render_resolution_dpi": 144,
+    "reader_pages_inspected": [1, 6, 25, 125, 250, 283, 307, 308, 318, 341, 355, 386, 462, 530, 531, 576, 577, 578, 579, 580, 581, 582, 583, 584, 588],
+    "page_roles": {
+      "1": "opening page and Ukrainian typography",
+      "6": "Paper 2 five-column schema, both rosette attachments, and source-note association",
+      "25": "Paper 2 reduction-sign formula control",
+      "125": "Paper 8 rational-coefficient and c1/c2 control",
+      "250": "associated-prime terminology control",
+      "283": "Paper 22 B_lambda and formula-footnote control",
+      "307-308,318": "Paper 24 labels (2)-(5), vertical centering, formula-(4) citation, and adjacent controls",
+      "341": "Paper 30 coefficient-ideal source-fidelity control",
+      "355": "Paper 30 two positive n congruences and neighboring negative controls",
+      "386": "mid-reader sparse-page composition control",
+      "462": "Paper 34 simple-left-ideal and W_nu/l_nu control",
+      "530-531": "Papers 1-43 ending and Work 44 opening boundary",
+      "576-577": "Work 44 ending and Paper 45 opening boundary",
+      "577-583": "complete seven-page Paper 45 component including ED0015 notation repairs",
+      "584": "bibliography opening boundary",
+      "588": "final bibliography page and reader ending"
+    },
+    "render_files": 25,
+    "contact_sheets": 5,
+    "render_and_sheet_bytes": 13978960,
+    "inventory_sha256": "D2CC5B40FE250C2B64443FCF669DD232C3F616C9BCBB4A59C14AD5AF504A67E5",
+    "verdict": "PASS",
+    "findings": [
+      "No clipped or overlapping prose, formula, note, page number, heading, or rule.",
+      "No black boxes, missing glyphs, malformed formulas, broken tables, or displaced attachment marks.",
+      "The five-column schema and two rosette marks are complete and aligned; the localized source note remains legible and associated.",
+      "Paper 24 labels (2)-(5) are left-set; labels (3) and (4) are vertically centered; the theorem-VIII citation is retained.",
+      "The two repaired Paper 30 n congruences are positive and readable while the protected negative congruence controls remain negative.",
+      "All four component transitions and the final page are coherent and publication-ready."
+    ]
+  },
+  "limitations": {
+    "native_ukrainian_review": "not performed; not a release gate and no native certification is claimed",
+    "comprehension_study": "not performed",
+    "critical_edition_claim": false
+  },
+  "publication_effect": "none at receipt creation"
+}

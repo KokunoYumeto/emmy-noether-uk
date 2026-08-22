@@ -1,8 +1,9 @@
 {
+  "schema": "emmy-noether-language-repository-identity/1.1",
+  "language": "uk-Cyrl",
+  "release_tag": "v2026.08.22-r2",
   "concept_doi": "10.5281/zenodo.21926373",
-  "language": "uk",
-  "release_tag": "v2026.08.14-r1",
+  "version_doi": "10.5281/zenodo.22053778",
   "repository": "https://github.com/KokunoYumeto/emmy-noether-uk",
-  "schema": "emmy-noether-language-repository-identity/1.0",
-  "version_doi": "10.5281/zenodo.21926374"
+  "decision_head": "UK001-EDIT-0016"
 }

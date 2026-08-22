@@ -1,0 +1,203 @@
+{
+  "schema": "noether-ukrainian-decision-record-v1",
+  "decision_id": "UK001-EDIT-0002",
+  "recorded_at": "2026-08-14T03:13:07+02:00",
+  "status": "applied_and_independently_verified",
+  "epistemic_type": "formal_mathematical_terminology_disambiguation",
+  "scope": "Four corresponding-prime candidate loci audited individually: three Paper 31 formal associated-prime instances changed and one Paper 34 representation-theory correspondence retained",
+  "summary": "Complete the Ukrainian associated-prime terminology family without corrupting a distinct ordinary correspondence use.",
+  "predecessor": {
+    "decision_id": "UK001-EDIT-0001",
+    "ledger_rows": 1,
+    "ledger_bytes": 1449,
+    "ledger_sha256": "3DF34A411A6AA00A0CE979A95A68813F732145F1D64C7903BE39051F97D818E8"
+  },
+  "semantic_decisions": [
+    {
+      "decision": "change",
+      "assembled_locator": "source/base-papers1-43-uk.tex:18280:645",
+      "producer_locator": "producer unit 149:31:645",
+      "german_ed0011_locator": "15986:118",
+      "german": "das zugehörige Primideal",
+      "before": "відповідний простий ідеал",
+      "after": "асоційований простий ідеал",
+      "reason": "The same paragraph introduces p as the prime ideal associated with the zero ideal; this is the formal associated-prime object."
+    },
+    {
+      "decision": "change",
+      "assembled_locator": "source/base-papers1-43-uk.tex:18563:253",
+      "producer_locator": "producer unit 157:32:253",
+      "german_ed0011_locator": "16032:251",
+      "german": "deren zugehörige Primideale",
+      "before": "відповідні прості ідеали",
+      "after": "асоційовані прості ідеали",
+      "reason": "Formal associated primes of the primary ideals in the uniqueness theorem."
+    },
+    {
+      "decision": "change",
+      "assembled_locator": "source/base-papers1-43-uk.tex:18902:840",
+      "producer_locator": "producer unit 166:35:840",
+      "german_ed0011_locator": "16067:891",
+      "german": "deren zugehörige Primideale",
+      "before": "відповідні прості ідеали",
+      "after": "асоційовані прості ідеали",
+      "reason": "Formal associated primes, deliberately distinguished in the same sentence from ordinary prime ideals belonging to a."
+    },
+    {
+      "decision": "keep",
+      "assembled_locator": "source/base-papers1-43-uk.tex:22113:140",
+      "german_ed0011_locator": "18069:137",
+      "german": "das entsprechende ml_nu als Kompositionsfaktor",
+      "surface": "відповідний простий ідеал",
+      "reason": "Representation/composition-factor correspondence, not associated-prime ontology. This site is a protected semantic hold from the family transform."
+    }
+  ],
+  "producer_successors": [
+    {
+      "unit": "149",
+      "origin": "interlanguage-workspace://03_projects/noether/02_slavic_working_corpus/translations/paper31/section06_entry01/ukrainian/v001/Noether_Paper31_Section06_Entry01_Ukrainian_v001.tex",
+      "local": "producer_units/Noether_Paper31_Section06_Entry01_Ukrainian_v001.tex",
+      "input": {
+        "bytes": 4164,
+        "sha256": "CCADC589C1F18D6B155DD471FEEFB4D0F838F9F205795FA0CD6E09F927C81929"
+      },
+      "output": {
+        "bytes": 4166,
+        "sha256": "5D3CF3669E8CC92A8DA023E52BF560C1676DAEB1D74556BF29D517A63F54601B"
+      },
+      "base_source_marker_line": 18259,
+      "base_identity_line": 18260,
+      "base_body_lines": [18275, 18291]
+    },
+    {
+      "unit": "157",
+      "origin": "interlanguage-workspace://03_projects/noether/02_slavic_working_corpus/translations/paper31/section07_entry02/ukrainian/v001/Noether_Paper31_Section07_Entry02_Ukrainian_v001.tex",
+      "local": "producer_units/Noether_Paper31_Section07_Entry02_Ukrainian_v001.tex",
+      "input": {
+        "bytes": 1492,
+        "sha256": "168F18B97566E206818FFC45354334FA3A3CE913027B1D4EAB399068CEF8C4E4"
+      },
+      "output": {
+        "bytes": 1494,
+        "sha256": "9D437324807C3DF2C27C82BA30EB21A64696804C7F56557C36AAB4E83DAC563A"
+      },
+      "base_source_marker_line": 18541,
+      "base_identity_line": 18542,
+      "base_body_lines": [18560, 18563]
+    },
+    {
+      "unit": "166",
+      "origin": "interlanguage-workspace://03_projects/noether/02_slavic_working_corpus/translations/paper31/section08_entry05/ukrainian/v001/Noether_Paper31_Section08_Entry05_Ukrainian_v001.tex",
+      "local": "producer_units/Noether_Paper31_Section08_Entry05_Ukrainian_v001.tex",
+      "input": {
+        "bytes": 2743,
+        "sha256": "487C8F08A463A168EF9D4D702CD6FB27C393BBDA5C9D52BBA750283406EDB37F"
+      },
+      "output": {
+        "bytes": 2745,
+        "sha256": "AC8805A9EF74CD6ADE9434D04C858BC5C9734EE94326D3554AF441A86952D737"
+      },
+      "base_source_marker_line": 18877,
+      "base_identity_line": 18878,
+      "base_body_lines": [18899, 18902]
+    }
+  ],
+  "input_pins": {
+    "source/base-papers1-43-uk.tex": {
+      "bytes": 2690489,
+      "sha256": "FEA00034B855CD2D38586C0E27AB80A7D8B97E9A61856846D19B7CA46E678E37"
+    },
+    "source/44-book-uk.tex": {
+      "bytes": 234758,
+      "sha256": "7C52BCFAD8B097DE6D2C94C37290BEA63D0320E1B282763299C16394D69F451F"
+    },
+    "source/45-uk.tex": {
+      "bytes": 35056,
+      "sha256": "1650DEF7A7A8CE27A5CA2AB52186A7BE5A3E898DFAE2AE8068D65FF360C949A8"
+    },
+    "source/bib-uk.tex": {
+      "bytes": 12777,
+      "sha256": "8A15AB2116E25CCEA760AD96E26ACDF217333CE6B3679D3D5FA235A1992D0F09"
+    }
+  },
+  "output_pins": {
+    "source/base-papers1-43-uk.tex": {
+      "bytes": 2690132,
+      "sha256": "C6D75D81ACE9B0B500959D889899A8427E66150A5081262655A050E4CD27184C"
+    },
+    "source/44-book-uk.tex": {
+      "bytes": 234758,
+      "sha256": "7C52BCFAD8B097DE6D2C94C37290BEA63D0320E1B282763299C16394D69F451F"
+    },
+    "source/45-uk.tex": {
+      "bytes": 35056,
+      "sha256": "1650DEF7A7A8CE27A5CA2AB52186A7BE5A3E898DFAE2AE8068D65FF360C949A8"
+    },
+    "source/bib-uk.tex": {
+      "bytes": 12777,
+      "sha256": "8A15AB2116E25CCEA760AD96E26ACDF217333CE6B3679D3D5FA235A1992D0F09"
+    }
+  },
+  "authority_inputs": [
+    {
+      "path": "interlanguage-workspace://03_projects/noether/07_german_canon_control/candidates/ED0011/noether.tex",
+      "bytes": 2153594,
+      "sha256": "9E6BF2BC3155ECE3DF98CD8A408C23662BEFB047A1DDF200CA1DC8476A488BF3",
+      "relevant_lines": [15984, 15986, 16032, 16067, 18069]
+    },
+    {
+      "path": "interlanguage-workspace://03_projects/noether/02_slavic_working_corpus/logs/TERMINOLOGY_DECISION_LOGBOOK.md",
+      "bytes": 428819,
+      "sha256": "D2A5C985C7D6636807009D7595691DEB6DEBFB1A535E4C854BC825448B610421",
+      "use": "Cumulative Ukrainian associated-prime terminology and explicit distinction from ordinary belonging."
+    },
+    {
+      "path": "interlanguage-workspace://03_projects/language_management/slavic_interslavic/multilingual_latex_source_corpus_20260814/01_catalog/CATALOG.csv",
+      "bytes": 10642398,
+      "sha256": "354BE2A6EDFB9FE90CA9A42870666AF9DEB295F28D3F7ADA3DA898EC728756EC",
+      "use_boundary": "No native terminology vote; all Ukrainian-tagged material remains unadmitted and native authorship unknown."
+    }
+  ],
+  "adverse_evidence": [
+    "The older Paper 31 section 7 glossary chose corresponding primes; its rationale nevertheless identifies the concept as Associated and conflicts with Paper 31 section 6 plus the later Paper 24-30 cumulative canon.",
+    "Paper 34 contains a true corresponding relation and proves that global surface replacement would be semantically wrong."
+  ],
+  "rejected_alternatives": [
+    "Replace all four corresponding-prime surfaces: rejected because Paper 34 is not associated-prime ontology.",
+    "Restore належн- or use generic пов'язаний: rejected because that recreates the formal/ordinary ambiguity already resolved in the cumulative canon.",
+    "Change the two що належать до a phrases: rejected because they encode ordinary membership, not associated primes.",
+    "Edit historical producer origins: rejected by custody immutability.",
+    "Treat harvested Ukrainian material as native authority: rejected by its unadmitted/unknown-authorship status."
+  ],
+  "separate_hold": {
+    "id": "UK001-HOLD-P34-LEFT-IDEAL-FIDELITY-0001",
+    "description": "Paper 34 German names corresponding ideal ml_nu and earlier defines it as a simple left ideal; Ukrainian omits the symbol and later omits left. Audit as a separate source-fidelity packet rather than bundling it into associated-prime terminology."
+  },
+  "census": {
+    "associated_prime_family": "117 to 120",
+    "corresponding_prime_family": "4 to 1",
+    "ordinary_belonging_relations_at_base_18902_preserved": 2,
+    "formal_changes": 3,
+    "semantic_holds": 1
+  },
+  "applicator": {
+    "path": "apply_uk_corresponding_prime_family_v001.py",
+    "bytes": 15844,
+    "sha256": "45C0FF18A47BD4F2EB641C95E0B7AD6ECDCF4FCEA2325607054CE7C3DD720A5F",
+    "default_mode": "dry_run",
+    "write_mode": "--apply"
+  },
+  "qa": {
+    "independent_preapply_review": "ACCEPT; no defects found",
+    "exact_changed_base_lines": [18259, 18260, 18280, 18541, 18542, 18563, 18877, 18878, 18902],
+    "producer_base_body_identity_before_and_after": true,
+    "transport_tex_math_xref_and_comment_structure_invariant": true,
+    "historical_producers_unchanged": true,
+    "frozen_v047_and_public_r35_unchanged": true,
+    "reverse_replay_restores_edit_0001": true
+  },
+  "publication_effect": "none",
+  "doi_effect": "none",
+  "published_predecessor_mutation": false,
+  "native_validation_claim": false
+}

@@ -1,0 +1,105 @@
+{
+  "schema": "noether-ukrainian-decision-record-v1",
+  "decision_id": "UK001-EDIT-0016",
+  "recorded_at": "2026-08-22T08:05:00+02:00",
+  "status": "applied_and_exactly_verified_build_pending",
+  "epistemic_type": "provenance_only_portability_normalization",
+  "scope": "Exactly 198 private-machine Source-comment prefixes in the assembled Papers 1-43 source; no rendered Ukrainian, mathematics, or other source file changed.",
+  "summary": "Replace the private user-workspace prefix with a stable noether-corpus logical URI while preserving every work/unit/language/version/witness suffix and all 21 already-relative producer locators.",
+  "predecessor": {
+    "decision_id": "UK001-EDIT-0015",
+    "ledger_rows": 15,
+    "ledger_bytes": 25439,
+    "ledger_sha256": "C6159AF30171F3773A4F34F4645FF4269748D18E38A536D2E249A9E56F8C60A3",
+    "state_bytes": 8002,
+    "state_sha256": "254B86CAEB8A7627266D12500CC5C8182D661F42CE2068DDA04C25C0EB6CF0CC",
+    "sidecar_bytes": 17590,
+    "sidecar_sha256": "E7E98C18070E364F882D828CE08453BF42F3164AD7002EBE49B8DFF21EF779AC",
+    "human_bytes": 5023,
+    "human_sha256": "92BFA25FCB8E537FDD0A4C8970DE50BC780891D00B92C099D304C4CDC28C87AD",
+    "verifier_bytes": 43000,
+    "verifier_sha256": "A90D530175E6A42BD2C3415623FC5F10CFF2C45BD2857B2F8F6598A2673CDFF5"
+  },
+  "human_companion": {
+    "path": "decision_records/UK001-EDIT-0016.md",
+    "bytes": 3036,
+    "sha256": "884107A9D9753215B1B4FDDAA9BC781D5BDC301A86FF9EF4E90F5F587DA52009"
+  },
+  "applicator": {
+    "path": "apply_uk_portable_provenance_locators_v001.py",
+    "bytes": 7468,
+    "sha256": "8D4BC0C1D7F5A95D3EAD870B372A8A7E617DE84BB0D99E52C2517E199C3636C5",
+    "default_mode": "strict_no_write_projection",
+    "apply_mode": "same_directory_stage_verified_rollback_atomic_replace"
+  },
+  "source_transaction": {
+    "path": "source/base-papers1-43-uk.tex",
+    "input": {
+      "bytes": 2690266,
+      "sha256": "16CFA035A13015DBB38D6238B844D055A44D9F0978F5E55A95D241997CACF19E"
+    },
+    "output": {
+      "bytes": 2683138,
+      "sha256": "508BE633BD8DF81854582BD5FE7229A4B09C3AA1EDEDC7D0909FA6C00204CC4D"
+    },
+    "prefix_occurrences": 198,
+    "first_line": 33,
+    "last_line": 24701,
+    "byte_delta": -7128,
+    "old_prefix": "% Source: private-user-workspace/03_projects/noether/02_slavic_working_corpus/",
+    "new_prefix": "% Source: noether-corpus://corpus/02_slavic_working_corpus/",
+    "exact_reverse": "PASS_EXACT_TO_UK001_EDIT0015",
+    "outside_declared_prefixes": "BYTE_IDENTICAL",
+    "rendered_content_change": false
+  },
+  "source_outputs": {
+    "source/base-papers1-43-uk.tex": {
+      "bytes": 2683138,
+      "sha256": "508BE633BD8DF81854582BD5FE7229A4B09C3AA1EDEDC7D0909FA6C00204CC4D"
+    },
+    "source/44-book-uk.tex": {
+      "bytes": 234758,
+      "sha256": "7C52BCFAD8B097DE6D2C94C37290BEA63D0320E1B282763299C16394D69F451F"
+    },
+    "source/45-uk.tex": {
+      "bytes": 35081,
+      "sha256": "8437DB33C1A2D42AFFCEA56EECBA74300232D81AB79C808754671E5F6299BBD9"
+    },
+    "source/bib-uk.tex": {
+      "bytes": 12777,
+      "sha256": "8A15AB2116E25CCEA760AD96E26ACDF217333CE6B3679D3D5FA235A1992D0F09"
+    }
+  },
+  "provenance_census": {
+    "source_headers": 219,
+    "logical_noether_corpus": 198,
+    "relative_producer": 21,
+    "private_absolute": 0
+  },
+  "qa": {
+    "read_only_runs": 2,
+    "read_only_outputs_identical": true,
+    "read_only_stdout_chars": 3367,
+    "read_only_stdout_sha256": "D2C8BD6AE9A837A74521952184F7BDC5B738C9F13AC9260189E4AC9EC7914347",
+    "exact_reverse": "PASS",
+    "utf8_nfc_lf_no_bom": "PASS",
+    "apply_residue": [],
+    "other_sources_unchanged": true,
+    "build_and_render": "PENDING_FINITE_RELEASE_AUDIT"
+  },
+  "authority": {
+    "authority_id": "NOETH-DE-ED-0015",
+    "bytes": 2154017,
+    "sha256": "51A25101C04877AE740989E72B2AD65A7A7E65B081077C4A518BF1737AD5B907",
+    "version_doi": "10.5281/zenodo.21940320",
+    "effect": "none; provenance-only comment transformation"
+  },
+  "explicit_holds": [],
+  "open_dispositions": [],
+  "build_effect": "rebuild required to prove rendered parity",
+  "publication_effect": "none yet",
+  "doi_effect": "none yet",
+  "working_successor_published": false,
+  "native_validation_claim": false,
+  "critical_edition_claim": false
+}

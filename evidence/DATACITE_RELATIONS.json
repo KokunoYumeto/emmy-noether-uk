@@ -1,30 +1,42 @@
 {
-  "exact_release_doi": "10.5281/zenodo.21926374",
+  "schema": "noether-language-datacite-relations/1.1",
   "language": {
     "bcp47": "uk",
-    "name": "Ukrainian"
+    "script": "Cyrl",
+    "name": "Ukrainian / українська"
   },
   "language_concept_doi": "10.5281/zenodo.21926373",
+  "exact_release_doi": "10.5281/zenodo.22053778",
   "relations": [
     {
-      "object": "10.5281/zenodo.20412587",
+      "subject": "10.5281/zenodo.21926373",
       "relationType": "IsPartOf",
-      "subject": "10.5281/zenodo.21926373"
+      "object": "10.5281/zenodo.20412587"
     },
     {
-      "object": {
-        "authority_id": "NOETH-DE-ED-0011",
-        "sha256": "9E6BF2BC3155ECE3DF98CD8A408C23662BEFB047A1DDF200CA1DC8476A488BF3"
-      },
-      "relationType": "IsTranslationOf",
-      "subject": "10.5281/zenodo.21926373"
-    },
-    {
-      "object": "10.5281/zenodo.21926373",
+      "subject": "10.5281/zenodo.22053778",
       "relationType": "IsVersionOf",
-      "subject": "10.5281/zenodo.21926374"
+      "object": "10.5281/zenodo.21926373"
+    },
+    {
+      "subject": "10.5281/zenodo.22053778",
+      "relationType": "IsDerivedFrom",
+      "object": "10.5281/zenodo.21940320"
+    },
+    {
+      "subject": "10.5281/zenodo.22053778",
+      "relationType": "IsSupplementedBy",
+      "object": "https://github.com/KokunoYumeto/emmy-noether-uk"
     }
   ],
-  "schema": "noether-language-datacite-relations/1.0",
-  "zenodo_compatibility": "IsTranslationOf is preserved here and in prose because current Zenodo vocabulary does not expose it."
+  "translation_semantics": {
+    "intended_relation": "IsTranslationOf",
+    "object": {
+      "doi": "10.5281/zenodo.21940320",
+      "authority_id": "NOETH-DE-ED-0015",
+      "bytes": 2154017,
+      "sha256": "51A25101C04877AE740989E72B2AD65A7A7E65B081077C4A518BF1737AD5B907"
+    },
+    "note": "The precise translation relation is preserved here and in prose; the public Zenodo relation uses IsDerivedFrom where its form vocabulary requires a supported relation."
+  }
 }

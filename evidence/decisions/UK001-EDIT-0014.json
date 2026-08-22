@@ -1,0 +1,128 @@
+{
+  "schema": "noether-ukrainian-decision-record-v1",
+  "decision_id": "UK001-EDIT-0014",
+  "recorded_at": "2026-08-15T22:37:00+02:00",
+  "status": "applied_and_independently_verified",
+  "epistemic_type": "active_project_authority_mathematical_notation_source_fidelity_repair",
+  "scope": "Paper45 only: two d(y) to d_{i}(y) repairs and one f(0,y) to f_{i}(0,y) repair; preserve every outside byte and both adjudicated KEEP readings.",
+  "summary": "Mirror the activated German ED0015 three-token Paper45 notation correction into the current Ukrainian component without changing prose, producers, builds, or publication state.",
+  "human_companion_path": "decision_records/UK001-EDIT-0014.md",
+  "human_auditable_considerations": {
+    "accepted": [
+      "The common divisor belongs to the indexed f_i,g_i family and is already d_i(y) in both defining factorizations and the following noncongruence.",
+      "The G construction must multiply by that same indexed divisor.",
+      "The equation-(1) identity requires the coefficient f_i(0,y), paired with g_i(0,y) and the factors f_i,g_i."
+    ],
+    "rejected": [
+      "Keep one or both bare d(y) readings, because that leaves an undefined or inconsistent divisor index.",
+      "Introduce a new abbreviation or rewrite the proof, because either exceeds the admitted three-token repair.",
+      "Rename the overloaded P or replace h_i y^(K) with an earlier lambda, because both are settled diplomatic KEEP readings."
+    ],
+    "claim_boundary": "Project-authority notation fidelity only; no native-language validation, community certification, or critical-edition claim."
+  },
+  "predecessor": {
+    "decision_id": "UK001-EDIT-0013",
+    "ledger_rows": 13,
+    "ledger_bytes": 20143,
+    "ledger_sha256": "8F72469AF148A162F7259F98BBA94D2D84E741C5D3CE0A9CB6973D5767CD0F96",
+    "state_bytes": 6960,
+    "state_sha256": "225728F6E398F95EAC67A0AF3C666B1A957D6497A3E96856D2CB602FC23C222B",
+    "sidecar_bytes": 4243,
+    "sidecar_sha256": "0274134B9D33A17E0EFA552FC8940F6E3A7DAAD390FEE4EEB19892E7A68E6DAE",
+    "human_bytes": 2126,
+    "human_sha256": "460B063C4DD0DDB88CA6C09FED2FCDB6319AD684434C9B42ED45334647883A15"
+  },
+  "applicator": {
+    "path": "apply_uk_ed0015_p45_notation_fidelity_v001.py",
+    "bytes": 57305,
+    "sha256": "CB081601AF25EA13F4EEF3197B93B7E86E994A97F63C2BA1BE3B4564167ADB63",
+    "default_mode": "strict_no_write_dry_run",
+    "apply_mode": "explicit_owned_lock_staged_one_file_transaction"
+  },
+  "source_transaction": {
+    "path": "source/45-uk.tex",
+    "input": {
+      "bytes": 35069,
+      "sha256": "23510C87DE041F305353DFD053427020BF9108A97B37E6CB0F5EE3E42B3116A2"
+    },
+    "output": {
+      "bytes": 35081,
+      "sha256": "8437DB33C1A2D42AFFCEA56EECBA74300232D81AB79C808754671E5F6299BBD9"
+    },
+    "changed_lines": [475, 497, 507],
+    "raw_byte_delta": 12,
+    "targets": [
+      {"line":475,"unicode_column_start_1":34,"utf8_byte_column_start_1":62,"raw_offset_0":28580,"successor_raw_offset_0":28580,"old":"d(y)","new":"d_{i}(y)","pre_line":{"bytes":108,"sha256":"72001ABCC55FF67E95F2605DB5C5EB6F1BDEAAA8463E26E9F37D5CADA9A16768"},"post_line":{"bytes":112,"sha256":"A655DB1B2875C09830AC8D5706DE5E3CB6EA4BD3765C86D142FB6C414C53BD2A"}},
+      {"line":497,"unicode_column_start_1":33,"utf8_byte_column_start_1":57,"raw_offset_0":29964,"successor_raw_offset_0":29968,"old":"d(y)","new":"d_{i}(y)","pre_line":{"bytes":68,"sha256":"8F0C720D0AE8C4599E20C7FC09E1E95BC88492BCFC3F92B686F3DF76E881A408"},"post_line":{"bytes":72,"sha256":"3BD5A8F147D67EBBA0564CBBE603FD0E3BF29F72AF5C52B375ED218CB47E1105"}},
+      {"line":507,"unicode_column_start_1":11,"utf8_byte_column_start_1":11,"raw_offset_0":30367,"successor_raw_offset_0":30375,"old":"f(0,y)","new":"f_{i}(0,y)","pre_line":{"bytes":36,"sha256":"4B6D05E015A01C30C424A64572F2D0B30ED868CDEB228C7A530E33675D87DF25"},"post_line":{"bytes":40,"sha256":"AA94A64771C9C5235717EB4401458DD6C3062A9399A19587E94839CF1FE3EA7F"}}
+    ],
+    "outside_segments": [
+      {"bytes":28580,"sha256":"D941651C4007E11862FBF17B49010CEB15258F64DC376423785AA87F44428A2B"},
+      {"bytes":1380,"sha256":"62D16FCF5CC83423C5525A725FC16E71AF047F48369A9D5E74DC741B4DDB2DBE"},
+      {"bytes":399,"sha256":"F458F44384D3B507F8374C38054CFE1F4C108870A875CF22DA5D60369EA6C77E"},
+      {"bytes":4696,"sha256":"97A55C783AD7E7A591A31164198A395FC8FAC05C32482C70CC090A087A24AD62"}
+    ],
+    "reverse_replay": "PASS_EXACT_TO_UK001_EDIT0013_35069_23510C87"
+  },
+  "settled_readings": {
+    "change": ["UK475 d(y) to d_{i}(y)", "UK497 d(y) to d_{i}(y)", "UK507 f(0,y) to f_{i}(0,y)"],
+    "keep": [
+      "overloaded uppercase P at Ukrainian lines 391, 492, 495, 496, and 497",
+      "Bemerkung-II h_i y^(K) sequence at Ukrainian lines 576, 578, 581, 585, and 586"
+    ],
+    "keep_h_span": {"lines":[576,586],"bytes":604,"sha256":"B86F86014401AE30F9E82E7A705FE9A6C0C5A4B68CDD46C2D4E6BA96079125CA"}
+  },
+  "source_outputs": {
+    "source/base-papers1-43-uk.tex": {"bytes":2690387,"sha256":"FC3241DF6896DBC1731DDC4AE231036288DAB9538BCAA1577A556ACC954A4FE5"},
+    "source/44-book-uk.tex": {"bytes":234758,"sha256":"7C52BCFAD8B097DE6D2C94C37290BEA63D0320E1B282763299C16394D69F451F"},
+    "source/45-uk.tex": {"bytes":35081,"sha256":"8437DB33C1A2D42AFFCEA56EECBA74300232D81AB79C808754671E5F6299BBD9"},
+    "source/bib-uk.tex": {"bytes":12777,"sha256":"8A15AB2116E25CCEA760AD96E26ACDF217333CE6B3679D3D5FA235A1992D0F09"}
+  },
+  "producer_pins": {
+    "producer_units/Noether_Paper02_Section01_Ukrainian_v001.tex": {"bytes":10288,"sha256":"6C6CB147FEC867FB9A33B48C14026B6C6A3C513B11F048720396D5323455D846"},
+    "producer_units/Noether_Paper02_Section11_Ukrainian_v001.tex": {"bytes":17524,"sha256":"E63F4BDE5E1C7B81DF59FC5A9A51940F31CD36A2D546B01A2CFAA02D15129176"},
+    "producer_units/Noether_Paper08_Ukrainian_v001.tex": {"bytes":32892,"sha256":"F1CA7819DC8BC853999C9F24867871D989A18E69D830756801DC677258D8F25C"},
+    "producer_units/Noether_Paper19_Introduction_Ukrainian_v001.tex": {"bytes":19567,"sha256":"B577B9540CA7E2F8CC8716C1A514FA2E5DF3F0ACC1FE948401FC677BD7774F60"},
+    "producer_units/Noether_Paper19_Section04_Ukrainian_v001.tex": {"bytes":17341,"sha256":"F532B16FF6319B785B52CD220CD38A95E6D0DCA25CA1EA4C0DBF00A2C5C8CF62"},
+    "producer_units/Noether_Paper19_Section05_Ukrainian_v001.tex": {"bytes":13641,"sha256":"D9209C0FECE327D370ADE0FA923891C2E6BAD64EC83E75FD4EAAD225BF48F826"},
+    "producer_units/Noether_Paper19_Section06_Ukrainian_v001.tex": {"bytes":21988,"sha256":"4F3CD2D751C77B8C7006A202732D46620E525FF94DC3584BCDEC4A8A68C51F7B"},
+    "producer_units/Noether_Paper19_Section07_Ukrainian_v001.tex": {"bytes":9010,"sha256":"1F632389E67ECBBF0537EB651A96CEDB7F1ADC2FF1DD6F73704B66B1F7418DB1"},
+    "producer_units/Noether_Paper19_Section08_Ukrainian_v001.tex": {"bytes":12896,"sha256":"93D4271E02C4E3A8278B60CB285C59692E50B49F62AFF16881D48BB5921509C3"},
+    "producer_units/Noether_Paper19_Section09_Ukrainian_v001.tex": {"bytes":16145,"sha256":"323D9C01D057F29D1C5994B583FC72FC25BCCC0238F439493F54C3BB1C71EDEF"},
+    "producer_units/Noether_Paper19_Section10_Ukrainian_v001.tex": {"bytes":17379,"sha256":"3C909E24870E8215CE301C78CDF211CE2401ED1925BF0F656025C8243D06251F"},
+    "producer_units/Noether_Paper19_Section11_Ukrainian_v001.tex": {"bytes":9435,"sha256":"90293D112C83DB13B584746EAD96C3B0291528135E0E6B01097B026679230991"},
+    "producer_units/Noether_Paper22_Ukrainian_v001.tex": {"bytes":109157,"sha256":"678823DCAE1B0675C08C0D7F366C2B99E222B4372DB9A1D153056EA5C7565129"},
+    "producer_units/Noether_Paper24_Through_Section07_Ukrainian_v001.tex": {"bytes":146218,"sha256":"C09B737ED366D2486749D9B9F6B62F8C702231F4FA17B5577C7D5BFBF42FDB65"},
+    "producer_units/Noether_Paper24_Through_Section07_Ukrainian_v001_p24-0004.tex": {"bytes":146419,"sha256":"D47DA0B0D9D543E408863015351EB92E7DD753B0B69D86362045F8E89F8CEB93"},
+    "producer_units/Noether_Paper30_Intro_Ukrainian_v001.tex": {"bytes":14613,"sha256":"0ED7A80C0D59E1F424DE7B666B11F4D7F622860EF4BFA74674678E0FB7A99D6B"},
+    "producer_units/Noether_Paper30_Section02_Ukrainian_v001.tex": {"bytes":9621,"sha256":"4EA84148CB0B804A77F6AA09D7F2191F43F0E86C678BFA947FA8FE1B7DA9D94C"},
+    "producer_units/Noether_Paper31_Section06_Entry01_Ukrainian_v001.tex": {"bytes":4166,"sha256":"5D3CF3669E8CC92A8DA023E52BF560C1676DAEB1D74556BF29D517A63F54601B"},
+    "producer_units/Noether_Paper31_Section07_Entry02_Ukrainian_v001.tex": {"bytes":1494,"sha256":"9D437324807C3DF2C27C82BA30EB21A64696804C7F56557C36AAB4E83DAC563A"},
+    "producer_units/Noether_Paper31_Section08_Entry05_Ukrainian_v001.tex": {"bytes":2745,"sha256":"AC8805A9EF74CD6ADE9434D04C858BC5C9734EE94326D3554AF441A86952D737"},
+    "producer_units/Noether_Paper34_Section23_SourceFidelity_Ukrainian_v001.tex": {"bytes":6995,"sha256":"A1A75A466D30D51EE2F00E1B7C77677FD22C3E3F1051984ECF5D725C4AC4C241"}
+  },
+  "producer_successors": [],
+  "producer_sync_required": false,
+  "authority": {
+    "adjudication": {"bytes":25915,"sha256":"C9646D4027BE13D3F4DF77343A5D550D1C7605C25D32EEEA66010288E156D5C8"},
+    "current_pointer": {"pointer_id":"NOETH-DE-AUTH-v052-20260815","bytes":156949,"sha256":"8F264C42E3639911DFCE651C4911FF87129046A119413DCDA189C906345B54BC"},
+    "german_ed0015": {"authority_id":"NOETH-DE-ED-0015","bytes":2154017,"sha256":"51A25101C04877AE740989E72B2AD65A7A7E65B081077C4A518BF1737AD5B907"},
+    "activation": {"activation_id":"NOETH-DE-ACT-v052-r36-20260815","bytes":3561,"sha256":"55D982B5E8FED2865A5C43A6EAC19185E79DF12ABD50F294D8284A6787CF30AE","CURRENT_switched_last":true},
+    "anonymous_readback": {"files":56,"bytes":30863,"sha256":"26AF55EE940934217516CF73B7D09A960D4630D6FECE9EFCB99AB66B15BCE287","version_doi":"10.5281/zenodo.21940320"}
+  },
+  "qa": {
+    "preapply_dry_runs": {"runs":2,"exit_codes":[0,0],"stdout_bytes":13137,"stdout_sha256":"687FC9C6F32F40F6047CBB263B1A7D153948CC96C93233E615521ECC94E4E028","stderr_bytes":0},
+    "bounded_root_preapply_manifest": {"files":156,"file_bytes":43906481,"manifest_bytes":23878,"manifest_sha256":"322B3BB01671EB989E73A38900FC06DA078D7FD4F34595B5FE392E3D8CC804DB"},
+    "independent_postapply_audit": "ACCEPT; all 1167 script lines inspected; exact in-memory reverse and forward replay; no concrete defect",
+    "transport_structure_and_protected_readings": "PASS",
+    "apply_residue": []
+  },
+  "explicit_holds": [],
+  "open_dispositions": [],
+  "retained_authority_uncertainties": 0,
+  "build_effect": "none",
+  "publication_effect": "none",
+  "doi_effect": "none",
+  "working_successor_published": false,
+  "native_validation_claim": false
+}

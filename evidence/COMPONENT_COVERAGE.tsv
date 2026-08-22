@@ -1,5 +1,5 @@
-component	coverage	artifact	source_authority
-Papers 1-43	complete	base-papers1-43-uk.tex	NOETH-DE-ED-0011
-Work 44	complete	44-book-uk.tex	NOETH-DE-ED-0011
-Paper 45	complete	45-uk.tex	NOETH-DE-ED-0011
-Bibliography	complete	bib-uk.tex	NOETH-DE-ED-0011
+component	coverage	pages	artifact	project_authority
+Статті 1–43 / Papers 1–43	complete	530	base-papers1-43-uk.tex	NOETH-DE-ED-0015
+Лекції 1929/30 / Work 44	complete	46	44-book-uk.tex	NOETH-DE-ED-0015
+Стаття 45 / Paper 45	complete	7	45-uk.tex	NOETH-DE-ED-0015
+Бібліографія / Bibliography	complete	5	bib-uk.tex	NOETH-DE-ED-0015

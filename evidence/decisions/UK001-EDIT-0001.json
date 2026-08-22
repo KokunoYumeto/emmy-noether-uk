@@ -1,0 +1,113 @@
+{
+  "schema": "noether-ukrainian-decision-record-v1",
+  "decision_id": "UK001-EDIT-0001",
+  "recorded_at": "2026-08-14T02:18:27+02:00",
+  "status": "applied_and_verified",
+  "epistemic_type": "formal_mathematical_terminology_harmonization",
+  "scope": "Paper 19 (69 occurrences), Paper 30 introduction (1 occurrence), ten local producer successors, their assembled source/identity receipts, and two local glossary successors",
+  "summary": "Resolve the deferred Ukrainian associated-prime family to the canonical асоційован- terminology already established in later Noether papers, while keeping ordinary belonging, correspondence, and the prime-number analogy distinct.",
+  "choice": "Use асоційований простий ідеал and its six grammatical inflections for formal German zugehöriges Primideal; preserve all non-formal належн- uses.",
+  "exact_surface_map": [
+    {"before": "належних простих ідеалів", "after": "асоційованих простих ідеалів", "count": 14, "features": "genitive plural"},
+    {"before": "належним простим ідеалом", "after": "асоційованим простим ідеалом", "count": 5, "features": "instrumental singular"},
+    {"before": "належний простий ідеал", "after": "асоційований простий ідеал", "count": 22, "features": "nominative singular"},
+    {"before": "належні прості ідеали", "after": "асоційовані прості ідеали", "count": 19, "features": "nominative plural"},
+    {"before": "Належні прості ідеали", "after": "Асоційовані прості ідеали", "count": 2, "features": "sentence-initial nominative plural"},
+    {"before": "належними простими ідеалами", "after": "асоційованими простими ідеалами", "count": 6, "features": "instrumental plural"},
+    {"before": "належного простого ідеалу", "after": "асоційованого простого ідеалу", "count": 2, "features": "genitive singular"}
+  ],
+  "authority_and_decision_evidence": [
+    {
+      "path": "interlanguage-workspace://03_projects/noether/07_german_canon_control/candidates/ED0011/noether.tex",
+      "bytes": 2153594,
+      "sha256": "9E6BF2BC3155ECE3DF98CD8A408C23662BEFB047A1DDF200CA1DC8476A488BF3",
+      "role": "active frozen-v047 German authority; 69 Paper19 conceptual occurrences and Paper30 introduction line 14419"
+    },
+    {
+      "path": "interlanguage-workspace://03_projects/noether/02_slavic_working_corpus/logs/TERMINOLOGY_DECISION_LOGBOOK.md",
+      "bytes": 428819,
+      "sha256": "D2A5C985C7D6636807009D7595691DEB6DEBFB1A535E4C854BC825448B610421",
+      "role": "read-only decision lineage: deferred Paper19 harmonization and later canonical associated-prime choice"
+    },
+    {
+      "path": "interlanguage-workspace://03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/release_manifest.json",
+      "bytes": 117559,
+      "sha256": "95189F75E3EFB4548916A008C0E19F7228F3C5454CC27E6FA340CF7D31653F0E",
+      "role": "frozen-v047 authority and release binding"
+    },
+    {
+      "path": "interlanguage-workspace://03_projects/language_management/slavic_interslavic/noether_slavic_v018/release/evidence/qa_report.json",
+      "bytes": 116763,
+      "sha256": "5BB07F20D0066C6FCA7E4D909113CF0ED20E519AC323C27D1A59432324E7BC38",
+      "role": "frozen-v047 QA control"
+    },
+    {
+      "path": "interlanguage-workspace://03_projects/language_management/slavic_interslavic/multilingual_latex_source_corpus_20260814/01_catalog/CATALOG.csv",
+      "bytes": 10642398,
+      "sha256": "354BE2A6EDFB9FE90CA9A42870666AF9DEB295F28D3F7ADA3DA898EC728756EC",
+      "role": "evidence boundary only; 645 Ukrainian-tagged rows all have native authorship unadjudicated and are excluded from native-validation claims"
+    }
+  ],
+  "later_ukrainian_glossary_witnesses": [
+    {"name": "noether_paper24_section01_terms.json", "bytes": 8946, "sha256": "99016D35FC98295D0360086191F875D910113BB7874F79C54D53ECF77C80C85C"},
+    {"name": "noether_paper24_section02_terms.json", "bytes": 9838, "sha256": "AB4DAC429C458D28FF62338590ACAEEFAA06366160D8828D380720BD80C54C70"},
+    {"name": "noether_paper24_section03_terms.json", "bytes": 11112, "sha256": "6E390DB718B9DE789CD1C53B2E111430CA87085DDF19E216E42E5245D92BE5AD"},
+    {"name": "noether_paper30_section05_terms.json", "bytes": 7401, "sha256": "5354ED67B3AA321D65903CFB726FE3EA7353E3296F04C6ABF7F0E5D1FF6FBEE9"}
+  ],
+  "source_inputs": {
+    "source/base-papers1-43-uk.tex": {"bytes": 2690965, "sha256": "61414A4D8A56B2574A234D60D3DBC663B4646D47757B2806746C184D17D7E2D8"},
+    "source/44-book-uk.tex": {"bytes": 234758, "sha256": "7C52BCFAD8B097DE6D2C94C37290BEA63D0320E1B282763299C16394D69F451F"},
+    "source/45-uk.tex": {"bytes": 35056, "sha256": "1650DEF7A7A8CE27A5CA2AB52186A7BE5A3E898DFAE2AE8068D65FF360C949A8"},
+    "source/bib-uk.tex": {"bytes": 12777, "sha256": "8A15AB2116E25CCEA760AD96E26ACDF217333CE6B3679D3D5FA235A1992D0F09"}
+  },
+  "source_outputs": {
+    "source/base-papers1-43-uk.tex": {"bytes": 2690489, "sha256": "FEA00034B855CD2D38586C0E27AB80A7D8B97E9A61856846D19B7CA46E678E37"},
+    "source/44-book-uk.tex": {"bytes": 234758, "sha256": "7C52BCFAD8B097DE6D2C94C37290BEA63D0320E1B282763299C16394D69F451F"},
+    "source/45-uk.tex": {"bytes": 35056, "sha256": "1650DEF7A7A8CE27A5CA2AB52186A7BE5A3E898DFAE2AE8068D65FF360C949A8"},
+    "source/bib-uk.tex": {"bytes": 12777, "sha256": "8A15AB2116E25CCEA760AD96E26ACDF217333CE6B3679D3D5FA235A1992D0F09"}
+  },
+  "producer_successors": [
+    {"unit": "091", "origin": "interlanguage-workspace://03_projects/noether/02_slavic_working_corpus/translations/paper19/ukrainian/v001/Noether_Paper19_Introduction_Ukrainian_v001.tex", "local": "producer_units/Noether_Paper19_Introduction_Ukrainian_v001.tex", "count": 6, "input": {"bytes": 19519, "sha256": "BB2A96080D57AA6C4873425D7E55DFF5227266C8B07264D62131B6D64D7366C3"}, "output": {"bytes": 19567, "sha256": "B577B9540CA7E2F8CC8716C1A514FA2E5DF3F0ACC1FE948401FC677BD7774F60"}},
+    {"unit": "095", "origin": "interlanguage-workspace://03_projects/noether/02_slavic_working_corpus/translations/paper19/ukrainian/v001/Noether_Paper19_Section04_Ukrainian_v001.tex", "local": "producer_units/Noether_Paper19_Section04_Ukrainian_v001.tex", "count": 6, "input": {"bytes": 17293, "sha256": "5FD8A69C81B844C3FF099155C5BE4D3164D9C6877542E1F90A27088C7BA51CB5"}, "output": {"bytes": 17341, "sha256": "F532B16FF6319B785B52CD220CD38A95E6D0DCA25CA1EA4C0DBF00A2C5C8CF62"}},
+    {"unit": "096", "origin": "interlanguage-workspace://03_projects/noether/02_slavic_working_corpus/translations/paper19/ukrainian/v001/Noether_Paper19_Section05_Ukrainian_v001.tex", "local": "producer_units/Noether_Paper19_Section05_Ukrainian_v001.tex", "count": 24, "input": {"bytes": 13449, "sha256": "E0CB3BB51CE8EC87D6447998210B809E9EFED9AF380C5207190CB7914FF853FA"}, "output": {"bytes": 13641, "sha256": "D9209C0FECE327D370ADE0FA923891C2E6BAD64EC83E75FD4EAAD225BF48F826"}},
+    {"unit": "097", "origin": "interlanguage-workspace://03_projects/noether/02_slavic_working_corpus/translations/paper19/ukrainian/v001/Noether_Paper19_Section06_Ukrainian_v001.tex", "local": "producer_units/Noether_Paper19_Section06_Ukrainian_v001.tex", "count": 11, "input": {"bytes": 21900, "sha256": "F32BC4F0B737529124AF2BD9A3B5BB087C15561DD3ED0E2F48C8ABF6C65D3F36"}, "output": {"bytes": 21988, "sha256": "4F3CD2D751C77B8C7006A202732D46620E525FF94DC3584BCDEC4A8A68C51F7B"}},
+    {"unit": "098", "origin": "interlanguage-workspace://03_projects/noether/02_slavic_working_corpus/translations/paper19/ukrainian/v001/Noether_Paper19_Section07_Ukrainian_v001.tex", "local": "producer_units/Noether_Paper19_Section07_Ukrainian_v001.tex", "count": 14, "input": {"bytes": 8898, "sha256": "29D60486768872A78A57053135EEB0A7D8E552A526645CF4FD7C2EB9E9891D5A"}, "output": {"bytes": 9010, "sha256": "1F632389E67ECBBF0537EB651A96CEDB7F1ADC2FF1DD6F73704B66B1F7418DB1"}},
+    {"unit": "099", "origin": "interlanguage-workspace://03_projects/noether/02_slavic_working_corpus/translations/paper19/ukrainian/v001/Noether_Paper19_Section08_Ukrainian_v001.tex", "local": "producer_units/Noether_Paper19_Section08_Ukrainian_v001.tex", "count": 1, "input": {"bytes": 12888, "sha256": "A9EA547B24988067F0ECF0B6AC329AE97DCF5A9DEEAEEE234BD224415F1CF990"}, "output": {"bytes": 12896, "sha256": "93D4271E02C4E3A8278B60CB285C59692E50B49F62AFF16881D48BB5921509C3"}},
+    {"unit": "100", "origin": "interlanguage-workspace://03_projects/noether/02_slavic_working_corpus/translations/paper19/ukrainian/v001/Noether_Paper19_Section09_Ukrainian_v001.tex", "local": "producer_units/Noether_Paper19_Section09_Ukrainian_v001.tex", "count": 1, "input": {"bytes": 16137, "sha256": "5E598EB08A3FFCE04C3A0B94423432F53F1AE4E513E5D7FCB305CF800F15A4CB"}, "output": {"bytes": 16145, "sha256": "323D9C01D057F29D1C5994B583FC72FC25BCCC0238F439493F54C3BB1C71EDEF"}},
+    {"unit": "101", "origin": "interlanguage-workspace://03_projects/noether/02_slavic_working_corpus/translations/paper19/ukrainian/v001/Noether_Paper19_Section10_Ukrainian_v001.tex", "local": "producer_units/Noether_Paper19_Section10_Ukrainian_v001.tex", "count": 5, "input": {"bytes": 17339, "sha256": "6F34AF74F0469FB6F9B1156BBADE10246B285A0BE6E104F5492D6B28CC4F7824"}, "output": {"bytes": 17379, "sha256": "3C909E24870E8215CE301C78CDF211CE2401ED1925BF0F656025C8243D06251F"}},
+    {"unit": "102", "origin": "interlanguage-workspace://03_projects/noether/02_slavic_working_corpus/translations/paper19/ukrainian/v001/Noether_Paper19_Section11_Ukrainian_v001.tex", "local": "producer_units/Noether_Paper19_Section11_Ukrainian_v001.tex", "count": 1, "input": {"bytes": 9427, "sha256": "0FE82FC6BFF773A7BDE149C38242ED90C7F10250F1B1AB100EDAB7614ECF6F86"}, "output": {"bytes": 9435, "sha256": "90293D112C83DB13B584746EAD96C3B0291528135E0E6B01097B026679230991"}},
+    {"unit": "114", "origin": "interlanguage-workspace://03_projects/noether/02_slavic_working_corpus/translations/paper30/intro/ukrainian/v001/Noether_Paper30_Intro_Ukrainian_v001.tex", "local": "producer_units/Noether_Paper30_Intro_Ukrainian_v001.tex", "count": 1, "input": {"bytes": 14605, "sha256": "0B9F2CBACEB667D1A7E0DCF4CEB0F55CF60B44080785CCF8EE374DA863867B8A"}, "output": {"bytes": 14613, "sha256": "0ED7A80C0D59E1F424DE7B666B11F4D7F622860EF4BFA74674678E0FB7A99D6B"}}
+  ],
+  "glossary_successors": [
+    {"path": "glossary/noether_paper19_terms.json", "input": {"bytes": 77082, "sha256": "6E80A8B4686A9193F6B88BC2192E629E8A462CD44E7E9152082F53C86E1C4AD2"}, "output": {"bytes": 76720, "sha256": "CE98296D245ACB60BA96F3E646644B7A8936E5A420A3B1EB30FE295C100158F2"}},
+    {"path": "glossary/noether_paper30_intro_terms.json", "input": {"bytes": 8608, "sha256": "808376B37057DE2585FA31607B2789EE90AD5CFCC429C276480A533A87331A18"}, "output": {"bytes": 9210, "sha256": "C0862DCEBE2E6E88C1607EE8C7FF3FEE74C1EF5779908EAFBF30C541D194B753"}}
+  ],
+  "applicators": [
+    {"path": "apply_uk_associated_prime_family_v001.py", "bytes": 18635, "sha256": "D5A96FEB3D56B8D2038CBE4362C84061783B4E810139BB99BCD2C78B94DF0FFA", "independent_preapply_qa": "ACCEPT"},
+    {"path": "apply_uk_associated_prime_glossary_v001.py", "bytes": 10277, "sha256": "96140850B19174C6AC5A91E4B2A79FEB918F76ACD24DE0E05FD69D0FC3AF651C", "independent_preapply_qa": "ACCEPT"}
+  ],
+  "protected_and_excluded": {
+    "corresponding_prime_phrases": {"count": 4, "base_lines": [18280, 18563, 18902, 22113], "disposition": "preserved"},
+    "prime_number_analogy": {"base_lines": [12395, 12397], "disposition": "preserved"},
+    "all_other_nalezh_family": "preserved",
+    "comments_math_controls_xrefs_source_language_material": "preserved"
+  },
+  "qa": {
+    "exact_target_count": 70,
+    "producer_histogram": [6, 6, 24, 11, 14, 1, 1, 5, 1, 1],
+    "legacy_formal_phrase_residue": 0,
+    "modern_associated_prime_family": "47 to 117",
+    "producer_body_matches_assembled_body_before_and_after": true,
+    "utf8_nfc_lf_terminal_lf": true,
+    "tex_math_xref_structure_invariant": true,
+    "relative_local_source_markers": 10,
+    "producer_identity_updates": 10,
+    "independent_source_applicator_qa": "ACCEPT",
+    "independent_glossary_applicator_qa": "ACCEPT"
+  },
+  "evidence_boundary": "No admitted native Ukrainian witness exists in the harvested corpus. This is German-authority and cross-paper terminology harmonization, not native validation, certification, community acceptance, or endorsement.",
+  "published_v047_unchanged": true,
+  "public_r35_unchanged": true,
+  "publication_effect": "none",
+  "doi_effect": "none"
+}

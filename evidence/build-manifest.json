@@ -1,0 +1,371 @@
+{
+  "schema": "noether-ukrainian-build-manifest/1.0",
+  "release_id": "NOETHER-UK-v001-UK001-EDIT-0016",
+  "generated_at": "2026-08-22T00:00:00Z",
+  "source_date_epoch": 1787356800,
+  "build_policy": {
+    "engine": "XeLaTeX",
+    "passes_per_document": 2,
+    "serial": true,
+    "shell_escape": false,
+    "release_blockers": [
+      "nonzero engine exit",
+      "missing glyph",
+      "undefined reference",
+      "undefined citation",
+      "multiply-defined label",
+      "cumulative page mismatch"
+    ]
+  },
+  "authenticated_inputs": {
+    "source/base-papers1-43-uk.tex": {
+      "bytes": 2683138,
+      "sha256": "508BE633BD8DF81854582BD5FE7229A4B09C3AA1EDEDC7D0909FA6C00204CC4D"
+    },
+    "source/44-book-uk.tex": {
+      "bytes": 234758,
+      "sha256": "7C52BCFAD8B097DE6D2C94C37290BEA63D0320E1B282763299C16394D69F451F"
+    },
+    "source/45-uk.tex": {
+      "bytes": 35081,
+      "sha256": "8437DB33C1A2D42AFFCEA56EECBA74300232D81AB79C808754671E5F6299BBD9"
+    },
+    "source/bib-uk.tex": {
+      "bytes": 12777,
+      "sha256": "8A15AB2116E25CCEA760AD96E26ACDF217333CE6B3679D3D5FA235A1992D0F09"
+    },
+    "assets/authority_rosette_native_supported_mask.png": {
+      "bytes": 797,
+      "sha256": "B2AF3955A8255B4A6D925E174B7B81311C64C669CE21B07E75002494E55F2FF5"
+    }
+  },
+  "installed_release_sources": [
+    {
+      "path": "release_v001_edit0016/source/base-papers1-43-uk.tex",
+      "bytes": 2683138,
+      "sha256": "508BE633BD8DF81854582BD5FE7229A4B09C3AA1EDEDC7D0909FA6C00204CC4D"
+    },
+    {
+      "path": "release_v001_edit0016/source/44-book-uk.tex",
+      "bytes": 234758,
+      "sha256": "7C52BCFAD8B097DE6D2C94C37290BEA63D0320E1B282763299C16394D69F451F"
+    },
+    {
+      "path": "release_v001_edit0016/source/45-uk.tex",
+      "bytes": 35081,
+      "sha256": "8437DB33C1A2D42AFFCEA56EECBA74300232D81AB79C808754671E5F6299BBD9"
+    },
+    {
+      "path": "release_v001_edit0016/source/bib-uk.tex",
+      "bytes": 12777,
+      "sha256": "8A15AB2116E25CCEA760AD96E26ACDF217333CE6B3679D3D5FA235A1992D0F09"
+    },
+    {
+      "path": "release_v001_edit0016/source/assets/authority_rosette_native_supported_mask.png",
+      "bytes": 797,
+      "sha256": "B2AF3955A8255B4A6D925E174B7B81311C64C669CE21B07E75002494E55F2FF5"
+    }
+  ],
+  "language": "Ukrainian",
+  "language_tag": "uk-Cyrl",
+  "decision_head": "UK001-EDIT-0016",
+  "components": [
+    {
+      "component": "base-papers1-43",
+      "source": {
+        "path": "release_v001_edit0016/source/base-papers1-43-uk.tex",
+        "bytes": 2683138,
+        "sha256": "508BE633BD8DF81854582BD5FE7229A4B09C3AA1EDEDC7D0909FA6C00204CC4D"
+      },
+      "pdf": {
+        "path": "release_v001_edit0016/pdf/components/base-papers1-43-uk.pdf",
+        "bytes": 2413070,
+        "sha256": "344F07A7808F75209FA3CF5D469448EE11E4A579C1085FCBA22D99995D877242",
+        "pages": 530
+      },
+      "build_logs": [
+        {
+          "pass": 1,
+          "exit_code": 0,
+          "stdout": {
+            "path": "tmp/pdfs/uk_release_v001_edit0016/components/base-papers1-43/pass1.stdout.log",
+            "bytes": 147592,
+            "sha256": "3CFCEF39BFB1FCECB9DA68914D180122A16B04712B7514C76CDD29E8578BC39F"
+          },
+          "tex_log": {
+            "path": "tmp/pdfs/uk_release_v001_edit0016/components/base-papers1-43/base-papers1-43-uk.log",
+            "bytes": 172716,
+            "sha256": "810EBFA58FA6FA5D136F63AD094D120EDF237CF91DBCEEC7E95CC67EEFDC1346"
+          },
+          "warnings": {
+            "missing_character": 0,
+            "undefined_reference": 4,
+            "undefined_citation": 0,
+            "multiply_defined_label": 0,
+            "overfull_hbox": 0,
+            "overfull_vbox": 0
+          }
+        },
+        {
+          "pass": 2,
+          "exit_code": 0,
+          "stdout": {
+            "path": "tmp/pdfs/uk_release_v001_edit0016/components/base-papers1-43/pass2.stdout.log",
+            "bytes": 147439,
+            "sha256": "B5A5E7471B0545A3230DBC22EF9E7669798505FF06C707E9B2F13A20E3A9931C"
+          },
+          "tex_log": {
+            "path": "tmp/pdfs/uk_release_v001_edit0016/components/base-papers1-43/base-papers1-43-uk.log",
+            "bytes": 172564,
+            "sha256": "69BD6A0E43249E52F039306A31171706D802E85544294472BCD66C3E291E2947"
+          },
+          "warnings": {
+            "missing_character": 0,
+            "undefined_reference": 0,
+            "undefined_citation": 0,
+            "multiply_defined_label": 0,
+            "overfull_hbox": 0,
+            "overfull_vbox": 0
+          }
+        }
+      ]
+    },
+    {
+      "component": "44-book",
+      "source": {
+        "path": "release_v001_edit0016/source/44-book-uk.tex",
+        "bytes": 234758,
+        "sha256": "7C52BCFAD8B097DE6D2C94C37290BEA63D0320E1B282763299C16394D69F451F"
+      },
+      "pdf": {
+        "path": "release_v001_edit0016/pdf/components/44-book-uk.pdf",
+        "bytes": 364113,
+        "sha256": "55DD60DB60D7F9D6919D96DAC024A32FB39AD07DCA5EEF92E6B4CE628AFEC53F",
+        "pages": 46
+      },
+      "build_logs": [
+        {
+          "pass": 1,
+          "exit_code": 0,
+          "stdout": {
+            "path": "tmp/pdfs/uk_release_v001_edit0016/components/44-book/pass1.stdout.log",
+            "bytes": 6237,
+            "sha256": "FCC788415C30D490231CCD220BA86187C7CE2674EFCBF49809A8C741B702F488"
+          },
+          "tex_log": {
+            "path": "tmp/pdfs/uk_release_v001_edit0016/components/44-book/44-book-uk.log",
+            "bytes": 25311,
+            "sha256": "B33A8766AAC2DAA92C1769C0ADAAD0C66161933F473D53E7940E63063F863998"
+          },
+          "warnings": {
+            "missing_character": 0,
+            "undefined_reference": 0,
+            "undefined_citation": 0,
+            "multiply_defined_label": 0,
+            "overfull_hbox": 0,
+            "overfull_vbox": 0
+          }
+        },
+        {
+          "pass": 2,
+          "exit_code": 0,
+          "stdout": {
+            "path": "tmp/pdfs/uk_release_v001_edit0016/components/44-book/pass2.stdout.log",
+            "bytes": 6439,
+            "sha256": "D5CAE5AF0A04C230FD0FA286371FBC15D9330ACDA8B0458FFAC8961C788599DA"
+          },
+          "tex_log": {
+            "path": "tmp/pdfs/uk_release_v001_edit0016/components/44-book/44-book-uk.log",
+            "bytes": 25477,
+            "sha256": "F7EC741F78B7C806CF7F7C50E66436DECB1BD2D9ABF5076D40129CEE67F1D421"
+          },
+          "warnings": {
+            "missing_character": 0,
+            "undefined_reference": 0,
+            "undefined_citation": 0,
+            "multiply_defined_label": 0,
+            "overfull_hbox": 0,
+            "overfull_vbox": 0
+          }
+        }
+      ]
+    },
+    {
+      "component": "45",
+      "source": {
+        "path": "release_v001_edit0016/source/45-uk.tex",
+        "bytes": 35081,
+        "sha256": "8437DB33C1A2D42AFFCEA56EECBA74300232D81AB79C808754671E5F6299BBD9"
+      },
+      "pdf": {
+        "path": "release_v001_edit0016/pdf/components/45-uk.pdf",
+        "bytes": 161390,
+        "sha256": "74F66B0DAC492B52BE6C65110D11FEF0CCB9A473956F9F55C31DCC3BA3CF98B9",
+        "pages": 7
+      },
+      "build_logs": [
+        {
+          "pass": 1,
+          "exit_code": 0,
+          "stdout": {
+            "path": "tmp/pdfs/uk_release_v001_edit0016/components/45/pass1.stdout.log",
+            "bytes": 7486,
+            "sha256": "B9B13BDE883349E775C9E0D10543D57E50B008B2A7002193F0B194003393CC74"
+          },
+          "tex_log": {
+            "path": "tmp/pdfs/uk_release_v001_edit0016/components/45/45-uk.log",
+            "bytes": 26211,
+            "sha256": "65380B9ADF62464EF9CFA3A41BF49E38AE6AFFC2385D08AC4A8D711457E7CE23"
+          },
+          "warnings": {
+            "missing_character": 0,
+            "undefined_reference": 40,
+            "undefined_citation": 0,
+            "multiply_defined_label": 0,
+            "overfull_hbox": 0,
+            "overfull_vbox": 0
+          }
+        },
+        {
+          "pass": 2,
+          "exit_code": 0,
+          "stdout": {
+            "path": "tmp/pdfs/uk_release_v001_edit0016/components/45/pass2.stdout.log",
+            "bytes": 4562,
+            "sha256": "EB77DC46D08CEDF2BD6B1F5663C9CD63FECE27318175599D3507A43AD8D849A5"
+          },
+          "tex_log": {
+            "path": "tmp/pdfs/uk_release_v001_edit0016/components/45/45-uk.log",
+            "bytes": 23288,
+            "sha256": "1F8A743FE67C48EB4D4CCFFCDCD1E14721232D61046E08004489485D8AAD6634"
+          },
+          "warnings": {
+            "missing_character": 0,
+            "undefined_reference": 0,
+            "undefined_citation": 0,
+            "multiply_defined_label": 0,
+            "overfull_hbox": 0,
+            "overfull_vbox": 0
+          }
+        }
+      ]
+    },
+    {
+      "component": "bib",
+      "source": {
+        "path": "release_v001_edit0016/source/bib-uk.tex",
+        "bytes": 12777,
+        "sha256": "8A15AB2116E25CCEA760AD96E26ACDF217333CE6B3679D3D5FA235A1992D0F09"
+      },
+      "pdf": {
+        "path": "release_v001_edit0016/pdf/components/bib-uk.pdf",
+        "bytes": 115314,
+        "sha256": "91499435893E911B6A7FDC5B073E3AD50470641D581A16B3401FEEAFF56FAFD1",
+        "pages": 5
+      },
+      "build_logs": [
+        {
+          "pass": 1,
+          "exit_code": 0,
+          "stdout": {
+            "path": "tmp/pdfs/uk_release_v001_edit0016/components/bib/pass1.stdout.log",
+            "bytes": 4257,
+            "sha256": "79065CC7FD7725A0A5E956AD7430B41654EDA7C94077DFFF7792613D249A59A7"
+          },
+          "tex_log": {
+            "path": "tmp/pdfs/uk_release_v001_edit0016/components/bib/bib-uk.log",
+            "bytes": 22700,
+            "sha256": "0C8CDE93920B3F3F9194870A756101C5721A1FAC1F51034E7CB7DCC4BCD5C15A"
+          },
+          "warnings": {
+            "missing_character": 0,
+            "undefined_reference": 0,
+            "undefined_citation": 0,
+            "multiply_defined_label": 0,
+            "overfull_hbox": 0,
+            "overfull_vbox": 0
+          }
+        },
+        {
+          "pass": 2,
+          "exit_code": 0,
+          "stdout": {
+            "path": "tmp/pdfs/uk_release_v001_edit0016/components/bib/pass2.stdout.log",
+            "bytes": 4414,
+            "sha256": "4E7EA9336C126C87BDF7BAF083C500EDC2C416AFA8998519A952687A2EFD4159"
+          },
+          "tex_log": {
+            "path": "tmp/pdfs/uk_release_v001_edit0016/components/bib/bib-uk.log",
+            "bytes": 22858,
+            "sha256": "6F373FB2F59C7413A9271456A0128BF1E48CDE0F2C77D2711BDAE63D0987CDD3"
+          },
+          "warnings": {
+            "missing_character": 0,
+            "undefined_reference": 0,
+            "undefined_citation": 0,
+            "multiply_defined_label": 0,
+            "overfull_hbox": 0,
+            "overfull_vbox": 0
+          }
+        }
+      ]
+    }
+  ],
+  "cumulative_recipe": {
+    "path": "release_v001_edit0016/source/emmy-noether-ukrainian-v001-edit0016.tex",
+    "bytes": 397,
+    "sha256": "55AED0126C521A18008FA7D4622BB52F638C1DC4CF9560D89EAE9D6F851FADD1"
+  },
+  "reader_pdf": {
+    "path": "release_v001_edit0016/pdf/emmy-noether-ukrainian-v001-edit0016.pdf",
+    "bytes": 3292434,
+    "sha256": "846634F9E9F8940D918A1411330D1B801CD7EC27DBC8C1D3603DBBF9CCBFA02B",
+    "pages": 588
+  },
+  "build_logs": [
+    {
+      "pass": 1,
+      "exit_code": 0,
+      "stdout": {
+        "path": "tmp/pdfs/uk_release_v001_edit0016/reader/pass1.stdout.log",
+        "bytes": 6305,
+        "sha256": "CD89279378B11B7E5AB59BB58D2635BE5E02EB734C690DC580AD36FD38B163F3"
+      },
+      "tex_log": {
+        "path": "tmp/pdfs/uk_release_v001_edit0016/reader/emmy-noether-ukrainian-v001-edit0016.log",
+        "bytes": 236144,
+        "sha256": "AD144E8CC399E77C33199FBF535DB49DDEB30D9DC33876CF6195CEB6B1C6B89E"
+      },
+      "warnings": {
+        "missing_character": 0,
+        "undefined_reference": 0,
+        "undefined_citation": 0,
+        "multiply_defined_label": 0,
+        "overfull_hbox": 0,
+        "overfull_vbox": 0
+      }
+    },
+    {
+      "pass": 2,
+      "exit_code": 0,
+      "stdout": {
+        "path": "tmp/pdfs/uk_release_v001_edit0016/reader/pass2.stdout.log",
+        "bytes": 6453,
+        "sha256": "036E18206A8913F75F1026784528CE9371D1E7EBDE1F93A0745A5507B07C5C90"
+      },
+      "tex_log": {
+        "path": "tmp/pdfs/uk_release_v001_edit0016/reader/emmy-noether-ukrainian-v001-edit0016.log",
+        "bytes": 236293,
+        "sha256": "6FA69D50DEFCD562A6873C03E8479384971DF1CD71E421D055A5B28F14EBE50F"
+      },
+      "warnings": {
+        "missing_character": 0,
+        "undefined_reference": 0,
+        "undefined_citation": 0,
+        "multiply_defined_label": 0,
+        "overfull_hbox": 0,
+        "overfull_vbox": 0
+      }
+    }
+  ]
+}

@@ -1,32 +1,35 @@
 {
-  "access_right": "open",
-  "contributors": [
-    {
-      "name": "Manuscript Typesetting Project",
-      "type": "Editor"
-    },
-    {
-      "name": "OpenAI Codex",
-      "type": "Other"
-    }
-  ],
+  "upload_type": "publication",
+  "publication_type": "book",
+  "title": "Еммі Нетер: повне українське видання корпусу / Emmy Noether: Complete Ukrainian Corpus Edition",
   "creators": [
     {
       "name": "Noether, Emmy"
     }
   ],
-  "description": "<p><strong><a href=\"https://zenodo.org/records/21926374/files/00_NOETHER_UKRAINIAN_COMPLETE_LINKED_READER.pdf\">Preview the complete linked Ukrainian reader</a></strong> / <a href=\"https://zenodo.org/records/21926374/files/00_NOETHER_UKRAINIAN_COMPLETE_LINKED_READER.pdf?download=1\">download the PDF</a>.</p><p>This is the complete maintained Ukrainian edition of the Emmy Noether corpus in release v047: Papers 1–43, Work 44, Paper 45, and the bibliography. It is a machine-assisted scholarly working edition, not a peer-reviewed critical edition and not a claim of native-speaker certification. Exact source, build, QA, render, provenance, unresolved-item, and hash evidence accompany the release.</p><p>Stable Ukrainian concept DOI: <a href=\"https://doi.org/10.5281/zenodo.21926373\">10.5281/zenodo.21926373</a>; exact release DOI: <a href=\"https://doi.org/10.5281/zenodo.21926374\">10.5281/zenodo.21926374</a>.</p><p>DataCite intent: this edition <em>IsTranslationOf</em> the German authority corpus NOETH-DE-ED-0011 (SHA-256 9E6BF2BC3155ECE3DF98CD8A408C23662BEFB047A1DDF200CA1DC8476A488BF3) and <em>IsPartOf</em> the multilingual hub <a href=\"https://doi.org/10.5281/zenodo.20412587\">10.5281/zenodo.20412587</a>. Current Zenodo relation vocabulary carries IsPartOf; the intended IsTranslationOf mapping is preserved in the evidence sidecar. Standalone source repository: <a href=\"https://github.com/KokunoYumeto/emmy-noether-uk\">https://github.com/KokunoYumeto/emmy-noether-uk</a>.</p><p>CC0 applies only to the extent rights exist in project-created translation, typesetting, metadata, manifests, tools, and evidence. Emmy Noether’s original works, German editorial material, facsimiles, fonts, software, and other third-party material retain their own legal status and licenses.</p>",
-  "keywords": [
-    "Emmy Noether",
-    "Ukrainian",
-    "translation",
-    "mathematics",
-    "algebra",
-    "complete corpus edition"
+  "contributors": [
+    {
+      "name": "AI typesetting & translation",
+      "type": "Other"
+    }
   ],
+  "description": "<p><strong><a href=\"https://zenodo.org/records/22053778/files/00_NOETHER_UKRAINIAN_COMPLETE_LINKED_READER.pdf\">Читати повне 588-сторінкове українське видання</a></strong> / <a href=\"https://zenodo.org/records/22053778/files/00_NOETHER_UKRAINIAN_COMPLETE_LINKED_READER.pdf?download=1\">завантажити PDF</a>.</p><p>Повне підтримуване українське видання корпусу Еммі Нетер: статті 1–43, лекції 1929/30 року про гіперкомплексні величини (праця 44), стаття 45 та українська бібліографія. Версія 2026.08.22-r2 закріплює 16 послідовних відтворюваних редакційних рішень, переносні локатори походження та два побайтово однакові чисті складання. Перевірено структуру TeX, математичний запис, посилання, шрифти, видобутий текст, міжголовну тотожність після суто прованансної правки та контрольні сторінки; відкритих редакційних блокувань немає.</p><p>Це машинно-асистоване наукове робоче видання, а не рецензоване критичне видання і не твердження про перевірку носіями української мови. Редаговані джерела, рішення, засоби відтворення, QA та машинний покажчик оприлюднено разом із книгою.</p><p>Сталий DOI українського видання: <a href=\"https://doi.org/10.5281/zenodo.21926373\">10.5281/zenodo.21926373</a>; DOI цієї версії: <a href=\"https://doi.org/10.5281/zenodo.22053778\">10.5281/zenodo.22053778</a>. Німецька проєктна опора: <a href=\"https://doi.org/10.5281/zenodo.21940320\">NOETH-DE-ED-0015</a>; глобальний багатомовний каталог: <a href=\"https://doi.org/10.5281/zenodo.20412587\">10.5281/zenodo.20412587</a>; джерела: <a href=\"https://github.com/KokunoYumeto/emmy-noether-uk\">https://github.com/KokunoYumeto/emmy-noether-uk</a>.</p><hr><p><strong>English.</strong> This complete maintained Ukrainian edition covers Papers 1–43, the 1929/30 hypercomplex-quantities lectures, Paper 45, and the Ukrainian bibliography. Version 2026.08.22-r2 seals 16 reversible editorial decisions, portable provenance locators, two byte-identical clean builds, and passing TeX/math/link/font/text/cross-head/visual QA, with zero open editorial holds. It is a machine-assisted scholarly working edition, not a peer-reviewed critical edition and not a claim of native-speaker certification. Editable sources, replay evidence, reproduction tools, and the public machine index accompany the reader.</p><p>CC0 applies only to the extent rights exist in project-created translation, typesetting, metadata, manifests, tools, and evidence. Original works, German editorial material, facsimiles, fonts, software, and other third-party material retain their own legal status and licenses.</p>",
+  "access_right": "open",
   "license": "cc-zero",
-  "publication_date": "2026-08-14",
-  "publication_type": "book",
+  "publication_date": "2026-08-22",
+  "version": "2026.08.22-r2",
+  "language": "ukr",
+  "keywords": [
+    "Еммі Нетер",
+    "Emmy Noether",
+    "українська мова",
+    "Ukrainian",
+    "переклад",
+    "translation",
+    "математика",
+    "алгебра",
+    "machine-assisted edition"
+  ],
   "related_identifiers": [
     {
       "identifier": "10.5281/zenodo.20412587",
@@ -34,12 +37,14 @@
       "resource_type": "publication-other"
     },
     {
+      "identifier": "10.5281/zenodo.21940320",
+      "relation": "isDerivedFrom",
+      "resource_type": "publication-book"
+    },
+    {
       "identifier": "https://github.com/KokunoYumeto/emmy-noether-uk",
       "relation": "isSupplementedBy",
       "resource_type": "software"
     }
-  ],
-  "title": "Emmy Noether: Complete Ukrainian Corpus Edition / Еммі Нетер: Повне українське видання",
-  "upload_type": "publication",
-  "version": "2026.08.14-r1"
+  ]
 }

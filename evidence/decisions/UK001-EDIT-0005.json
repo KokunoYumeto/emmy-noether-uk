@@ -1,0 +1,132 @@
+{
+  "schema": "noether-ukrainian-decision-record-v1",
+  "decision_id": "UK001-EDIT-0005",
+  "recorded_at": "2026-08-14T05:08:39+02:00",
+  "status": "applied_and_independently_verified",
+  "epistemic_type": "source_fidelity_mathematical_sign_repair",
+  "scope": "Paper 2 Section 11 unit: one erroneous reduction sign in the Ukrainian producer and assembled working base, plus local producer source and identity receipts.",
+  "summary": "Remove the spurious minus before one-third in the reduction of theta_eta H_vartheta: ED0011 and the immediately adjacent identity require positive one-third after substitution of the negative theta_eta-squared term.",
+  "defect_id": "UK001-DEF-P02-S11-SIGN-0001",
+  "predecessor": {
+    "decision_id": "UK001-EDIT-0004",
+    "ledger_rows": 4,
+    "ledger_bytes": 5207,
+    "ledger_sha256": "911294DB955291267AF9B96ACC2E38B56F1050FD490022734A8BE20ECF1A5588",
+    "sidecar_bytes": 5695,
+    "sidecar_sha256": "1BE39E50FB71A448D37818171E4469F00E6E5027FB050DF8F3EFAB91383037FC"
+  },
+  "exact_changes": [
+    {
+      "producer_locator": "producer_units/Noether_Paper02_Section11_Ukrainian_v001.tex:167:1",
+      "assembled_locator": "source/base-papers1-43-uk.tex:1587:1",
+      "german_ed0011_locator": "noether.tex:1796:1",
+      "before": "\\sim-\\frac13(\\vartheta\\R x)-\\frac16s_\\vartheta(\\theta su),",
+      "after": "\\sim\\frac13(\\vartheta\\R x)-\\frac16s_\\vartheta(\\theta su),",
+      "reason": "The preceding line contains -theta_eta^2 and the adjacent control gives theta_eta^2 approximately -1/3(vartheta R x); substitution therefore yields +1/3. ED0011 prints the positive sign."
+    }
+  ],
+  "preserved_controls": [
+    "producer line 166 / assembled line 1586 retains the required leading minus before theta_eta-squared",
+    "producer line 170 / assembled line 1590 retains theta_eta-squared approximately -1/3 as the substitution control",
+    "the Ukrainian house symbol R and every other mathematical token remain unchanged",
+    "all terminology, labels, citations, environments, and protected payloads remain unchanged",
+    "historical producer origin, frozen v047, and public r35 remain immutable"
+  ],
+  "producer_successors": [
+    {
+      "unit": "Paper02-Section11",
+      "origin": "interlanguage-workspace://03_projects/noether/02_slavic_working_corpus/translations/paper02/ukrainian/v001/Noether_Paper02_Section11_Ukrainian_v001.tex",
+      "local": "producer_units/Noether_Paper02_Section11_Ukrainian_v001.tex",
+      "input": {
+        "bytes": 17525,
+        "sha256": "71B0CCF427D3AEEB11E35BD9F456C8693773D72F0BE80D3671794EEFAA13B86F"
+      },
+      "output": {
+        "bytes": 17524,
+        "sha256": "E63F4BDE5E1C7B81DF59FC5A9A51940F31CD36A2D546B01A2CFAA02D15129176"
+      }
+    }
+  ],
+  "producer_lineage": {
+    "assembled_source_marker": "../producer_units/Noether_Paper02_Section11_Ukrainian_v001.tex",
+    "assembled_identity_updated": true,
+    "producer_body_matches_assembled_body": true,
+    "historical_origin_unchanged": true
+  },
+  "source_inputs": {
+    "source/base-papers1-43-uk.tex": {
+      "bytes": 2689973,
+      "sha256": "5DA75C73E617B0288C44FC1B9F3A2761437A8661838A6AF6119014FC93EC6CC7"
+    },
+    "source/44-book-uk.tex": {
+      "bytes": 234758,
+      "sha256": "7C52BCFAD8B097DE6D2C94C37290BEA63D0320E1B282763299C16394D69F451F"
+    },
+    "source/45-uk.tex": {
+      "bytes": 35056,
+      "sha256": "1650DEF7A7A8CE27A5CA2AB52186A7BE5A3E898DFAE2AE8068D65FF360C949A8"
+    },
+    "source/bib-uk.tex": {
+      "bytes": 12777,
+      "sha256": "8A15AB2116E25CCEA760AD96E26ACDF217333CE6B3679D3D5FA235A1992D0F09"
+    }
+  },
+  "source_outputs": {
+    "source/base-papers1-43-uk.tex": {
+      "bytes": 2689869,
+      "sha256": "F2812F43908A40B56F91F7F7CC2EF9F7E93EE04D85A44FE4A6E947A1B0733E54"
+    },
+    "unchanged_components": [
+      "source/44-book-uk.tex",
+      "source/45-uk.tex",
+      "source/bib-uk.tex"
+    ]
+  },
+  "authority": {
+    "german_ed0011": {
+      "bytes": 2153594,
+      "sha256": "9E6BF2BC3155ECE3DF98CD8A408C23662BEFB047A1DDF200CA1DC8476A488BF3",
+      "lines": [1795, 1796, 1799]
+    },
+    "active_v047_pointer": {
+      "bytes": 132270,
+      "sha256": "0053EA0B7E44DDE7EA7DC285ABC115DFC43F4A74B34C54DE8F39DE4E445D5BEA"
+    },
+    "section11_glossary": {
+      "bytes": 12390,
+      "sha256": "77873F1C0600E62D7FF6AFAFF98A8F398B858961D9908D602938A0BDC12FF0A2",
+      "effect": "unchanged"
+    }
+  },
+  "applicator": {
+    "path": "apply_uk_p02_s11_reduction_sign_fidelity_v001.py",
+    "bytes": 27704,
+    "sha256": "2A9FCE7E4B2D03D51C190DBE74EE6B8E36B5877290EC940FC1E4022E3323913A",
+    "default_mode": "dry_run",
+    "apply_mode": "explicit_one_shot"
+  },
+  "qa": {
+    "independent_preapply_reconstruction": "PASS",
+    "independent_preapply_verdict": "ACCEPT",
+    "changed_producer_lines": [167],
+    "changed_base_lines": [1430, 1431, 1587],
+    "reverse_replay": "PASS",
+    "producer_body_matches_assembled": true,
+    "double_transform_byte_identity": "PASS",
+    "structure_and_transport": "PASS",
+    "stale_negative_reduction": "1 to 0",
+    "correct_positive_reduction": "0 to 1"
+  },
+  "evidence_boundary": {
+    "catalog_class": "generated translation/review support",
+    "admission": "generated_support_excluded_from_native_evidence",
+    "native_validation_claim": false
+  },
+  "publication": {
+    "published_v047_unchanged": true,
+    "public_r35_unchanged": true,
+    "working_successor_published": false,
+    "publication_effect": "none",
+    "doi_effect": "none"
+  }
+}

@@ -1,0 +1,249 @@
+{
+  "schema": "noether-ukrainian-decision-record-v1",
+  "decision_id": "UK001-EDIT-0015",
+  "recorded_at": "2026-08-16T19:10:00+02:00",
+  "status": "applied_and_independently_verified",
+  "epistemic_type": "primary_and_active_project_authority_mathematical_sign_fidelity_repair",
+  "scope": "Paper30 Section08 item2 / assembled Unit122 only: derive one local producer from immutable adverse lineage, change exactly two n-congruence signs, synchronize the assembled source and identity receipts, and preserve every outside byte.",
+  "summary": "Replace two inherited n-not-congruent-zero-mod-p readings with the positive congruences required by the primary print, German ED0015, and the proof; retain all neighboring negative congruences.",
+  "human_companion": {
+    "path": "decision_records/UK001-EDIT-0015.md",
+    "bytes": 5023,
+    "sha256": "92BFA25FCB8E537FDD0A4C8970DE50BC780891D00B92C099D304C4CDC28C87AD"
+  },
+  "human_auditable_considerations": {
+    "accepted": [
+      "Both n congruences are positive in the primary printed page and German ED0015.",
+      "The proof needs n in p: together with b in p this gives bn in p^2, contradicting mc not in p^2 because bn=mc.",
+      "A local successor producer plus synchronized assembled Unit122 preserves custody and replayability."
+    ],
+    "rejected": [
+      "Retain either inherited negative n reading, because it conflicts with both authorities and breaks the stated contradiction.",
+      "Repair only the assembled base, because that would leave the active producer and assembled body inconsistent.",
+      "Modify the central producer origin, because it is immutable adverse lineage.",
+      "Change neighboring m, m^2, c, mc, or b congruences, or modernize prose or notation, because those readings are protected and outside scope."
+    ],
+    "claim_boundary": "Project-authority mathematical-sign fidelity only; no native-language validation, community certification, critical-edition claim, build, publication, or DOI effect."
+  },
+  "predecessor": {
+    "decision_id": "UK001-EDIT-0014",
+    "ledger_rows": 14,
+    "ledger_bytes": 22210,
+    "ledger_sha256": "526F140CE6CC9B9F5B646506C149B5FFE999E48D53F0486818F29580946226E2",
+    "state_bytes": 7078,
+    "state_sha256": "1397917BA30E85CA20B570299DC1CCC8347F7B409A74CE2FC07320B165373319",
+    "sidecar_bytes": 10558,
+    "sidecar_sha256": "863F5E9B18DD59B7442AC07CE370EDF1995C9D91FAAA840D4802D4EFB227B9E2",
+    "human_bytes": 3558,
+    "human_sha256": "407DB959C8C7C0958128BA19E719E6FFAB845214190BE9048B4FCA69BB56288F",
+    "verifier_bytes": 17067,
+    "verifier_sha256": "8E6FF1B27F6445EA4076DD24EA5EE9B6820A435DCD4FEA303D58EF0C3E4D8C86"
+  },
+  "applicator": {
+    "path": "apply_uk_p30_congruence_sign_fidelity_v001.py",
+    "bytes": 71909,
+    "sha256": "3ABE9F6309C47907275EC00B9C13452DBFA7EF5327E67860B8AA2266C87A4FA2",
+    "default_mode": "strict_no_write_dry_run",
+    "apply_mode": "explicit_owned_lock_staged_two_output_transaction"
+  },
+  "verifier_identity": {
+    "path": "verify_session_independent_state_uk_v001.py",
+    "bytes": 43000,
+    "normalization": "EXPECTED_STATE_CANONICAL_SHA256_TO_64_ZERO_ASCII",
+    "normalized_sha256": "F8D2879C24F5CC01EC1904FD386917CCC02315A0474BE0D2807BCCF9456BDA3F"
+  },
+  "seal_custody": {
+    "status": "SECOND_METADATA_RESEAL_AFTER_INDEPENDENT_REJECT",
+    "rejected_seal_defects": [
+      "The first event0015 receipt conflated four retained closed Paper45 disposition entries with open authority uncertainties.",
+      "The first verifier-run receipt did not label its 1156-byte hash as LF-normalized or distinguish the raw Windows CRLF serialization.",
+      "The first head did not durably bind the verifier or current worklog, so their deletion or mutation was outside MATCH coverage.",
+      "The first reseal still treated the mutable state as an unanchored root; changing updated_at or injecting an unknown state field still yielded MATCH."
+    ],
+    "worklog_prefix": {
+      "rows": 14,
+      "bytes": 20608,
+      "sha256": "AD4D21D6F62763F654BF544A7763A2DA342DE2C01FD7CFCB4BFCF9105DC0954C"
+    },
+    "binding_pattern": "Sidecar, ledger, and worklog bind the verifier after normalizing only its embedded canonical-state digest to 64 zero ASCII bytes. The final state alone carries the live verifier byte/hash receipt. The verifier hardcodes a canonical digest of the entire final state with only that self-receipt field omitted, then separately checks its live bytes against the omitted receipt. The canonical state includes the complete worklog binding and exact 14-row prefix, avoiding a self-hash cycle while anchoring the state root.",
+    "source_effect": "none; source and producer bytes remain the already accepted transaction outputs"
+  },
+  "transaction_review": {
+    "rejected_versions": [
+      {
+        "bytes": 60975,
+        "sha256": "F0A2F31B5881F7448DAC3F986C65EC383AC9AA5123605046AA4238EDD98635F8",
+        "status": "REJECT",
+        "defect": "Rollback exception handlers performed unguarded BASE/LOCAL stat and read probes before preserve_recovery was enabled; a probe failure could escape into cleanup, while residue cleanup used paths without invocation identity and could delete recovery, lock, or a third-state entry.",
+        "transform_status": "exact output pins already correct"
+      },
+      {
+        "bytes": 67544,
+        "sha256": "30A9ECDEE0DE9DF050407FA0844223EE8D9B4F6494DD93323F51DB3570DAE527",
+        "status": "REJECT",
+        "defect": "Created-path ownership was recorded only after write, flush, fsync, and fstat; a failure after exclusive creation could leave an untracked partial lock, stage, or recovery file, permit a false clean rollback, remove the lock, and strand residue.",
+        "transform_status": "exact output pins preserved"
+      }
+    ],
+    "accepted_version": {
+      "bytes": 71909,
+      "sha256": "3ABE9F6309C47907275EC00B9C13452DBFA7EF5327E67860B8AA2266C87A4FA2",
+      "status": "ACCEPT",
+      "fixes": [
+        "record every attempted path before exclusive open",
+        "bind descriptor and path device/inode/file-type identity immediately after exclusive open and before write, flush, or fsync",
+        "preserve attempted-but-unowned, foreign, unreadable, or identity-drifted entries",
+        "aggregate probe, rollback, and cleanup diagnostics",
+        "retain invocation-owned recovery artifacts and lock whenever rollback or ownership disposition is incomplete",
+        "refuse to delete or overwrite distinct-inode third states even when their bytes equal an accepted pin"
+      ]
+    },
+    "hostile_matrix": {
+      "cases": 24,
+      "status": "PASS_EXACT_FULL_STATE_ASSERTIONS",
+      "coverage": [
+        "success",
+        "write",
+        "flush",
+        "fsync",
+        "fstat",
+        "lstat",
+        "descriptor/path identity mismatch",
+        "local replace before and after",
+        "base replace before and after",
+        "pre-install and post-install verification",
+        "rollback replace",
+        "rollback unlink",
+        "commit and rollback cleanup",
+        "foreign regular stage",
+        "foreign directory",
+        "foreign exact-content lock",
+        "foreign different-content local and base",
+        "foreign distinct-inode exact-content local and base"
+      ],
+      "receipt_sha256": "FE478EDF770F25380D848447517DA0E63AEA941ED53632B76FF68DE8606D5F1D",
+      "receipt_boundary": "Run-specific receipt only: captured diagnostic prefixes contain randomized temporary roots; the inline harness was not retained as a durable artifact.",
+      "false_positive_guard": "Every hostile case required an exception and an exact seven-field final state. Exact-content foreign cases used distinct inodes and required preservation plus retained lock/recovery; content-only ownership would fail these assertions."
+    },
+    "final_dry_runs": {
+      "runs": 2,
+      "exit_codes": [0, 0],
+      "stdout_bytes": 12275,
+      "stdout_sha256": "C1A3A0A66F605EEB0F6C813236A32485CACB5D548AA84F48CB68FF3893572738",
+      "bounded_manifest_entries": 46,
+      "bounded_manifest_sha256": "D79F4CD5E847A2D32F9DB00F7BBD2CD430A13E664B4579E68C2575C1B70A5EA1",
+      "write_effect": "none"
+    },
+    "final_independent_review": "ACCEPT; independently reconstructed producer and base without importing the applicator, reversed both exactly, checked source/authority/body/loci/custody and all transaction branches, and inspected the 24-case matrix logic for false-positive success.",
+    "apply_residue": []
+  },
+  "producer_successors": [
+    {
+      "unit": "Paper30 Section08 / Unit122",
+      "origin": "interlanguage-workspace://03_projects/noether/02_slavic_working_corpus/translations/paper30/section08/ukrainian/v001/Noether_Paper30_Section08_Ukrainian_v001.tex",
+      "local": "producer_units/Noether_Paper30_Section08_Ukrainian_v001.tex",
+      "input": {
+        "bytes": 10357,
+        "sha256": "B71723A121E19F9DBD0FC758192CB7445955330AD733BF6A2115E41050DF367A"
+      },
+      "output": {
+        "bytes": 10349,
+        "sha256": "63936A016E9FED562DFAE81BD49742AC72E3E34F021D3CA8E5ABDA850E1BB539"
+      },
+      "changed_lines": [108, 111],
+      "reverse_replay": "PASS_EXACT_TO_IMMUTABLE_CENTRAL_ORIGIN",
+      "origin_disposition": "preserved_unmodified_adverse_lineage"
+    }
+  ],
+  "source_transaction": {
+    "path": "source/base-papers1-43-uk.tex",
+    "input": {
+      "bytes": 2690387,
+      "sha256": "FC3241DF6896DBC1731DDC4AE231036288DAB9538BCAA1577A556ACC954A4FE5"
+    },
+    "output": {
+      "bytes": 2690266,
+      "sha256": "16CFA035A13015DBB38D6238B844D055A44D9F0978F5E55A95D241997CACF19E"
+    },
+    "changed_lines": [16804, 16805, 16902, 16905],
+    "raw_byte_delta": -121,
+    "header_repairs": [
+      {"line":16804,"old":"absolute central-origin source receipt","new":"../producer_units/Noether_Paper30_Section08_Ukrainian_v001.tex","old_byte_offset_0":1865773},
+      {"line":16805,"old":"10357 B / B71723A1...","new":"10349 B / 63936A01...","old_byte_offset_0":1865959}
+    ],
+    "sign_repairs": [
+      {"line":16902,"relation_column_1":34,"deleted_not_column_1":37,"old_byte_offset_0":1871986,"old":"\\mn\\not\\equiv0\\pmod{\\mpideal}","new":"\\mn\\equiv0\\pmod{\\mpideal}"},
+      {"line":16905,"relation_column_1":15,"deleted_not_column_1":16,"old_byte_offset_0":1872286,"old":"n\\not\\equiv0\\pmod{\\mpideal}","new":"n\\equiv0\\pmod{\\mpideal}"}
+    ],
+    "prefix": {"bytes":1865747,"sha256":"C847D78C610A6F3820D8F9A83F1012AB341A076813147228A0F23456E30BCFD2"},
+    "unit122_input": {"bytes":10445,"sha256":"DDBE45D48B75396FF04565C89A72606A2DB4D5B2562B47A24CCF9485F5BC0407"},
+    "unit122_output": {"bytes":10324,"sha256":"E6539101BB2F1C2E04E78687C17FF31CD7B78D8556EE7D7211E32716F64D54CF"},
+    "suffix": {"bytes":814195,"sha256":"74AAA534C32F713F542CFFB444A158370BED94D75EFF939BB79B03E26916AF61"},
+    "reverse_replay": "PASS_EXACT_TO_UK001_EDIT0014_2690387_FC3241DF",
+    "producer_assembled_body_identity": "PASS_EXACT"
+  },
+  "source_outputs": {
+    "source/base-papers1-43-uk.tex": {"bytes":2690266,"sha256":"16CFA035A13015DBB38D6238B844D055A44D9F0978F5E55A95D241997CACF19E"},
+    "source/44-book-uk.tex": {"bytes":234758,"sha256":"7C52BCFAD8B097DE6D2C94C37290BEA63D0320E1B282763299C16394D69F451F"},
+    "source/45-uk.tex": {"bytes":35081,"sha256":"8437DB33C1A2D42AFFCEA56EECBA74300232D81AB79C808754671E5F6299BBD9"},
+    "source/bib-uk.tex": {"bytes":12777,"sha256":"8A15AB2116E25CCEA760AD96E26ACDF217333CE6B3679D3D5FA235A1992D0F09"}
+  },
+  "producer_pins": {
+    "producer_units/Noether_Paper02_Section01_Ukrainian_v001.tex": {"bytes":10288,"sha256":"6C6CB147FEC867FB9A33B48C14026B6C6A3C513B11F048720396D5323455D846"},
+    "producer_units/Noether_Paper02_Section11_Ukrainian_v001.tex": {"bytes":17524,"sha256":"E63F4BDE5E1C7B81DF59FC5A9A51940F31CD36A2D546B01A2CFAA02D15129176"},
+    "producer_units/Noether_Paper08_Ukrainian_v001.tex": {"bytes":32892,"sha256":"F1CA7819DC8BC853999C9F24867871D989A18E69D830756801DC677258D8F25C"},
+    "producer_units/Noether_Paper19_Introduction_Ukrainian_v001.tex": {"bytes":19567,"sha256":"B577B9540CA7E2F8CC8716C1A514FA2E5DF3F0ACC1FE948401FC677BD7774F60"},
+    "producer_units/Noether_Paper19_Section04_Ukrainian_v001.tex": {"bytes":17341,"sha256":"F532B16FF6319B785B52CD220CD38A95E6D0DCA25CA1EA4C0DBF00A2C5C8CF62"},
+    "producer_units/Noether_Paper19_Section05_Ukrainian_v001.tex": {"bytes":13641,"sha256":"D9209C0FECE327D370ADE0FA923891C2E6BAD64EC83E75FD4EAAD225BF48F826"},
+    "producer_units/Noether_Paper19_Section06_Ukrainian_v001.tex": {"bytes":21988,"sha256":"4F3CD2D751C77B8C7006A202732D46620E525FF94DC3584BCDEC4A8A68C51F7B"},
+    "producer_units/Noether_Paper19_Section07_Ukrainian_v001.tex": {"bytes":9010,"sha256":"1F632389E67ECBBF0537EB651A96CEDB7F1ADC2FF1DD6F73704B66B1F7418DB1"},
+    "producer_units/Noether_Paper19_Section08_Ukrainian_v001.tex": {"bytes":12896,"sha256":"93D4271E02C4E3A8278B60CB285C59692E50B49F62AFF16881D48BB5921509C3"},
+    "producer_units/Noether_Paper19_Section09_Ukrainian_v001.tex": {"bytes":16145,"sha256":"323D9C01D057F29D1C5994B583FC72FC25BCCC0238F439493F54C3BB1C71EDEF"},
+    "producer_units/Noether_Paper19_Section10_Ukrainian_v001.tex": {"bytes":17379,"sha256":"3C909E24870E8215CE301C78CDF211CE2401ED1925BF0F656025C8243D06251F"},
+    "producer_units/Noether_Paper19_Section11_Ukrainian_v001.tex": {"bytes":9435,"sha256":"90293D112C83DB13B584746EAD96C3B0291528135E0E6B01097B026679230991"},
+    "producer_units/Noether_Paper22_Ukrainian_v001.tex": {"bytes":109157,"sha256":"678823DCAE1B0675C08C0D7F366C2B99E222B4372DB9A1D153056EA5C7565129"},
+    "producer_units/Noether_Paper24_Through_Section07_Ukrainian_v001.tex": {"bytes":146218,"sha256":"C09B737ED366D2486749D9B9F6B62F8C702231F4FA17B5577C7D5BFBF42FDB65"},
+    "producer_units/Noether_Paper24_Through_Section07_Ukrainian_v001_p24-0004.tex": {"bytes":146419,"sha256":"D47DA0B0D9D543E408863015351EB92E7DD753B0B69D86362045F8E89F8CEB93"},
+    "producer_units/Noether_Paper30_Intro_Ukrainian_v001.tex": {"bytes":14613,"sha256":"0ED7A80C0D59E1F424DE7B666B11F4D7F622860EF4BFA74674678E0FB7A99D6B"},
+    "producer_units/Noether_Paper30_Section02_Ukrainian_v001.tex": {"bytes":9621,"sha256":"4EA84148CB0B804A77F6AA09D7F2191F43F0E86C678BFA947FA8FE1B7DA9D94C"},
+    "producer_units/Noether_Paper30_Section08_Ukrainian_v001.tex": {"bytes":10349,"sha256":"63936A016E9FED562DFAE81BD49742AC72E3E34F021D3CA8E5ABDA850E1BB539"},
+    "producer_units/Noether_Paper31_Section06_Entry01_Ukrainian_v001.tex": {"bytes":4166,"sha256":"5D3CF3669E8CC92A8DA023E52BF560C1676DAEB1D74556BF29D517A63F54601B"},
+    "producer_units/Noether_Paper31_Section07_Entry02_Ukrainian_v001.tex": {"bytes":1494,"sha256":"9D437324807C3DF2C27C82BA30EB21A64696804C7F56557C36AAB4E83DAC563A"},
+    "producer_units/Noether_Paper31_Section08_Entry05_Ukrainian_v001.tex": {"bytes":2745,"sha256":"AC8805A9EF74CD6ADE9434D04C858BC5C9734EE94326D3554AF441A86952D737"},
+    "producer_units/Noether_Paper34_Section23_SourceFidelity_Ukrainian_v001.tex": {"bytes":6995,"sha256":"A1A75A466D30D51EE2F00E1B7C77677FD22C3E3F1051984ECF5D725C4AC4C241"}
+  },
+  "authority": {
+    "article": {"author":"Emmy Noether","title":"Abstrakter Aufbau der Idealtheorie in algebraischen Zahl- und Funktionenkörpern","journal":"Mathematische Annalen","volume":"96","pages":"26-61","year":1927,"doi":"10.1007/BF01209152"},
+    "current_pointer": {"pointer_id":"NOETH-DE-AUTH-v052-20260815","bytes":156949,"sha256":"8F264C42E3639911DFCE651C4911FF87129046A119413DCDA189C906345B54BC"},
+    "german_ed0015": {"authority_id":"NOETH-DE-ED-0015","bytes":2154017,"sha256":"51A25101C04877AE740989E72B2AD65A7A7E65B081077C4A518BF1737AD5B907","positive_n_lines":[15174,15177]},
+    "primary_pdf": {"path":"interlanguage-workspace://03_projects/noether/07_german_canon_control/evidence/P30/print.pdf","bytes":3218412,"sha256":"4259EF9054DE32AE81BA1A6A66481BF951F4C33B306AA15817F841BB75FABCE2","printed_page":52,"observed_signs":["n congruent 0 mod p","n congruent 0 mod p"]},
+    "primary_crop_review": {"bytes":194720,"sha256":"915C73DE7712E4C53D53D382249333D73D38F62F3BBBB1637BA104445A09E6AE","disposition":"transient crop independently viewed and then deleted; complete primary PDF remains pinned"}
+  },
+  "inherited_dispositions": {
+    "paper24_NOETH_DEF_P24_0003": "CLOSED_AND_VISUALLY_VERIFIED_AT_UK001_EDIT0013",
+    "paper24_sidecar": {"bytes":4243,"sha256":"0274134B9D33A17E0EFA552FC8940F6E3A7DAAD390FEE4EEB19892E7A68E6DAE"},
+    "paper45": [
+      {"work":"Paper45","surface":"d(y) versus d_i(y)","status":"CHANGE_APPLIED_ACTIVE_ED0015_UK001_EDIT0014_CLOSED"},
+      {"work":"Paper45","surface":"bare f(0,y) coefficient","status":"CHANGE_APPLIED_ACTIVE_ED0015_UK001_EDIT0014_CLOSED"},
+      {"work":"Paper45","surface":"P overloaded as ambient object and displayed product","status":"KEEP_ADJUDICATED_CLOSED"},
+      {"work":"Paper45","surface":"Bemerkung-II h_i y^(K) before lambda=(K)","status":"KEEP_ADJUDICATED_CLOSED"}
+    ]
+  },
+  "qa": {
+    "exact_reverse": "PASS_PRODUCER_AND_BASE",
+    "producer_assembled_body_identity": "PASS",
+    "prefix_suffix_identity": "PASS",
+    "sign_census": "PASS_TWO_TARGETS_POSITIVE_ALL_NEIGHBORING_NEGATIVE_CONTROLS_PRESERVED",
+    "authority_custody": "PASS_EXACT_PINS_AND_LOCATORS",
+    "transport_structure": "PASS_UTF8_NFC_LF_STRUCTURE",
+    "apply_residue": []
+  },
+  "explicit_holds": [],
+  "open_dispositions": [],
+  "retained_authority_uncertainties": 0,
+  "build_effect": "none",
+  "publication_effect": "none",
+  "doi_effect": "none",
+  "working_successor_published": false,
+  "native_validation_claim": false
+}

@@ -1,0 +1,135 @@
+{
+  "schema": "noether-ukrainian-decision-record-v1",
+  "decision_id": "UK001-EDIT-0006",
+  "recorded_at": "2026-08-14T06:00:48+02:00",
+  "status": "applied_and_independently_verified",
+  "epistemic_type": "source_fidelity_mathematical_symbol_repair",
+  "scope": "Paper 8: restore the scalar pair c_1,c_2 at one stale theta_1,theta_2 locus and synchronize a local producer shadow.",
+  "summary": "Replace the stale form-symbol pair theta_1,theta_2 with the scalar pair c_1,c_2. ED0011, the active defect pointer, its checker packet, and the printed primary page agree, while the adjacent c_1P_1+c_2P_2 expression fixes the symbols unambiguously.",
+  "defect_id": "NOETH-DEF-P08-0001",
+  "predecessor": {
+    "decision_id": "UK001-EDIT-0005",
+    "ledger_rows": 5,
+    "ledger_bytes": 6482,
+    "ledger_sha256": "B322389B6ADA66E7007C691FE462CFC23670B420607C505703CBB5185CA29926",
+    "sidecar_bytes": 5525,
+    "sidecar_sha256": "BEC021041AFD5B88823CC201C3FC88CBC57FB56B5427B3130A89A57B07C10BEA"
+  },
+  "exact_changes": [
+    {
+      "producer_locator": "producer_units/Noether_Paper08_Ukrainian_v001.tex:95:408",
+      "assembled_locator": "source/base-papers1-43-uk.tex:6797:408",
+      "german_ed0011_locator": "noether.tex:6043",
+      "before": "\\theta_1,\\theta_2",
+      "after": "c_1,c_2",
+      "reason": "The coefficients multiplying P_1 and P_2 are scalars; the active German authority and primary print use c_1,c_2."
+    }
+  ],
+  "producer_successors": [
+    {
+      "unit": "Paper08",
+      "origin": "interlanguage-workspace://03_projects/noether/02_slavic_working_corpus/translations/paper08/ukrainian/v001/Noether_Paper08_Ukrainian_v001.tex",
+      "local": "producer_units/Noether_Paper08_Ukrainian_v001.tex",
+      "input": {
+        "bytes": 32911,
+        "sha256": "40598841BD6FBD450176384D712708029083C0140413E27A7B96B8ACB2E9D190"
+      },
+      "output": {
+        "bytes": 32901,
+        "sha256": "27021131AAF34902C5A9ACEF723B843147F02B21B2F481A0269724C2C9742E97"
+      }
+    }
+  ],
+  "producer_lineage": {
+    "assembled_source_marker": "../producer_units/Noether_Paper08_Ukrainian_v001.tex",
+    "assembled_identity_updated": true,
+    "producer_body_matches_assembled_body": true,
+    "historical_origin_unchanged": true
+  },
+  "source_inputs": {
+    "source/base-papers1-43-uk.tex": {
+      "bytes": 2689869,
+      "sha256": "F2812F43908A40B56F91F7F7CC2EF9F7E93EE04D85A44FE4A6E947A1B0733E54"
+    },
+    "source/44-book-uk.tex": {
+      "bytes": 234758,
+      "sha256": "7C52BCFAD8B097DE6D2C94C37290BEA63D0320E1B282763299C16394D69F451F"
+    },
+    "source/45-uk.tex": {
+      "bytes": 35056,
+      "sha256": "1650DEF7A7A8CE27A5CA2AB52186A7BE5A3E898DFAE2AE8068D65FF360C949A8"
+    },
+    "source/bib-uk.tex": {
+      "bytes": 12777,
+      "sha256": "8A15AB2116E25CCEA760AD96E26ACDF217333CE6B3679D3D5FA235A1992D0F09"
+    }
+  },
+  "source_outputs": {
+    "source/base-papers1-43-uk.tex": {
+      "bytes": 2689756,
+      "sha256": "8FC87427E242CD6A37E2AC78C2542DF828839EA4C39B858EA65DE730935A9AAC"
+    },
+    "unchanged_components": [
+      "source/44-book-uk.tex",
+      "source/45-uk.tex",
+      "source/bib-uk.tex"
+    ]
+  },
+  "authority": {
+    "german_ed0011": {
+      "bytes": 2153594,
+      "sha256": "9E6BF2BC3155ECE3DF98CD8A408C23662BEFB047A1DDF200CA1DC8476A488BF3",
+      "line": 6043
+    },
+    "active_v047_pointer": {
+      "bytes": 132270,
+      "sha256": "0053EA0B7E44DDE7EA7DC285ABC115DFC43F4A74B34C54DE8F39DE4E445D5BEA"
+    },
+    "checker_packet": {
+      "bytes": 4180,
+      "sha256": "C8393D19D72295E884072ABBB2F7F8B60DE8742886E3A66E31F45CED52C80FD1"
+    },
+    "primary_page": {
+      "bytes": 2121926,
+      "sha256": "ABAEBA56F68D62865CACAB8EAC706028AAF0A73D8F78245AC4F4E01A574C94E6"
+    }
+  },
+  "applicator": {
+    "path": "apply_uk_p08_c1c2_fidelity_v001.py",
+    "bytes": 26826,
+    "sha256": "4DCEF48AB5CF3E6C4AD69C2CF5CB656F2D7847F0DDCD6B54A8E850D6C662F958",
+    "default_mode": "dry_run",
+    "apply_mode": "explicit_one_shot"
+  },
+  "qa": {
+    "independent_preapply_verdict": "ACCEPT after one-byte semantic-hold count repair",
+    "changed_producer_lines": [95],
+    "changed_base_lines": [6712, 6713, 6797],
+    "reverse_replay": "PASS",
+    "producer_body_matches_assembled": true,
+    "double_transform_byte_identity": "PASS",
+    "structure_and_transport": "PASS",
+    "stale_pair": "1 to 0",
+    "accepted_pair": "2 to 3",
+    "semantic_holds": 1
+  },
+  "explicit_holds": [
+    {
+      "hold_id": "UK001-HOLD-P08-REGISTER-0001",
+      "surface": "раціонально-цілих",
+      "reason": "Adjacent Ukrainian register wording is outside this mathematical-symbol repair and remains separately auditable."
+    }
+  ],
+  "evidence_boundary": {
+    "catalog_class": "generated translation/publication or audit lineage",
+    "admission": "generated_support_excluded_from_native_evidence",
+    "native_validation_claim": false
+  },
+  "publication": {
+    "published_v047_unchanged": true,
+    "public_r35_unchanged": true,
+    "working_successor_published": false,
+    "publication_effect": "none",
+    "doi_effect": "none"
+  }
+}

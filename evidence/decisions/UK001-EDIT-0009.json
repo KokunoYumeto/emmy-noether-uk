@@ -1,0 +1,104 @@
+{
+  "schema": "noether-ukrainian-decision-record-v1",
+  "decision_id": "UK001-EDIT-0009",
+  "recorded_at": "2026-08-14T14:47:03+02:00",
+  "status": "applied_and_independently_verified",
+  "epistemic_type": "primary_source_and_project_authority_coefficient_ideal_fidelity_repair",
+  "scope": "Paper30 Section02 only: three coupled formula/argument readings and the synchronized local producer projection.",
+  "summary": "Restore the distinction between the ordinary coefficient b_l and Fraktur ideals in the minimal-length argument, and restore the source-order alpha expansion. The earlier legitimate Fraktur ideal congruence remains unchanged.",
+  "human_auditable_considerations": {
+    "question": "Whether the three inherited Ukrainian Paper30 readings preserve the source's distinction between a coefficient and its associated ideals.",
+    "evidence_weighed": [
+      "ED0014 lines 14797 and 14802 distinguish ordinary b_l from Fraktur ideals and give alpha=a_1 xi_1+...+b_l xi_l.",
+      "The accepted P30b adjudication, checker, and primary-print receipt independently bind the same readings.",
+      "The earlier sentence's Fraktur b_i congruent 0 modulo Fraktur a_i is a legitimate ideal-to-ideal relation and serves as a negative control."
+    ],
+    "alternatives_rejected": [
+      "Globally replace Fraktur b in the paragraph: most occurrences name ideals and must remain Fraktur.",
+      "Repair only the expansion or only one congruence: the three loci form one coupled contradiction argument and partial repair leaves it incoherent.",
+      "Retranslate surrounding Ukrainian prose or infer native-language certification from generated corpus witnesses."
+    ],
+    "uncertainty": "The mathematical/source distinction is directly controlled. The bounded Ukrainian wording is retained from the edition; no native/community review or critical-edition certification is claimed."
+  },
+  "predecessor": {
+    "decision_id": "UK001-EDIT-0008",
+    "ledger_rows": 8,
+    "ledger_bytes": 10855,
+    "ledger_sha256": "0D4E19CDB911342DFAA1C96D82978F64E81ECE862CBF0C9D7BAAE8BD808CB13B",
+    "sidecar_bytes": 9064,
+    "sidecar_sha256": "96DA0AA4253D285233DC5BE95A519B29BA298554B25DB131805BFE9BDB7E8B94"
+  },
+  "defect_ids": ["NOETH-DEF-P30-0005"],
+  "exact_changes": [
+    {
+      "producer_line": 44,
+      "assembled_line": 16290,
+      "before_summary": "Fraktur b_l congruent 0 modulo Fraktur a_l as the final minimal-length condition",
+      "after_summary": "ordinary b_l congruent 0 modulo Fraktur b_l and not congruent 0 modulo Fraktur a_l"
+    },
+    {
+      "producer_line": 48,
+      "assembled_line": 16294,
+      "before": "Із $\\mathfrak b_\\ell=\\mathfrak a_\\ell$",
+      "after": "Із $b_\\ell\\equiv0\\pmod{\\mathfrak a_\\ell}$"
+    },
+    {
+      "producer_line": 50,
+      "assembled_line": 16296,
+      "before": "\\alpha=a_\\ell\\xi_\\ell+\\cdots+a_1\\xi_1",
+      "after": "\\alpha=a_1\\xi_1+\\cdots+b_\\ell\\xi_\\ell"
+    }
+  ],
+  "producer_successors": [
+    {
+      "unit": "P30-S02",
+      "origin": "interlanguage-workspace://03_projects/noether/02_slavic_working_corpus/translations/paper30/section02/ukrainian/v001/Noether_Paper30_Section02_Ukrainian_v001.tex",
+      "local": "producer_units/Noether_Paper30_Section02_Ukrainian_v001.tex",
+      "input": {"bytes": 9584, "sha256": "C867D034011C4AED8C6A324089E526019B3493D83C2D02575A8BAFD4A8CFD234"},
+      "output": {"bytes": 9621, "sha256": "4EA84148CB0B804A77F6AA09D7F2191F43F0E86C678BFA947FA8FE1B7DA9D94C"}
+    }
+  ],
+  "source_inputs": {
+    "source/base-papers1-43-uk.tex": {"bytes": 2689641, "sha256": "7E0FE4690229C84A7967108D3CEBA41E698414FB4F05C7984FE060F1C043C756"},
+    "source/44-book-uk.tex": {"bytes": 234758, "sha256": "7C52BCFAD8B097DE6D2C94C37290BEA63D0320E1B282763299C16394D69F451F"},
+    "source/45-uk.tex": {"bytes": 35056, "sha256": "1650DEF7A7A8CE27A5CA2AB52186A7BE5A3E898DFAE2AE8068D65FF360C949A8"},
+    "source/bib-uk.tex": {"bytes": 12777, "sha256": "8A15AB2116E25CCEA760AD96E26ACDF217333CE6B3679D3D5FA235A1992D0F09"}
+  },
+  "source_outputs": {
+    "source/base-papers1-43-uk.tex": {"bytes": 2689565, "sha256": "894D0A0BC2466ACF3E5529D801F7CE80CB115A898FF73CC199D15C9CCB12D7B3"},
+    "source/44-book-uk.tex": {"bytes": 234758, "sha256": "7C52BCFAD8B097DE6D2C94C37290BEA63D0320E1B282763299C16394D69F451F"},
+    "source/45-uk.tex": {"bytes": 35056, "sha256": "1650DEF7A7A8CE27A5CA2AB52186A7BE5A3E898DFAE2AE8068D65FF360C949A8"},
+    "source/bib-uk.tex": {"bytes": 12777, "sha256": "8A15AB2116E25CCEA760AD96E26ACDF217333CE6B3679D3D5FA235A1992D0F09"}
+  },
+  "authority": {
+    "project_active_german": {"authority_id": "NOETH-DE-ED-0014", "source_bytes": 2154011, "source_sha256": "EE226847656BC4D65EDDA9E9BF9BB1D25797C0C6D672D267D94A97FD88C7AD58", "pointer_bytes": 152755, "pointer_sha256": "2B36556DCF123F19281AB6BF36CE6E46BEE8ADDBF37DA682032372306564D0DE", "activation_receipt_bytes": 28837, "activation_receipt_sha256": "1F34D25C36C2ADCEDB47A58ACD4EC92A34EA2F1E88D2F85283313627EA53E436", "version_doi": "10.5281/zenodo.21908301", "anonymous_all_file_readback": "PASS_53_OF_53", "canonical_claim": false},
+    "P30b_adjudication": {"bytes": 9518, "sha256": "AE39BE98EE303CB03B67CCAEC5304EB2871CC285FBFA40D34B700944244DC5DF"},
+    "P30b_checker": {"bytes": 4318, "sha256": "9C1DA0B6BA85EBA730557AD8A943A95412F8B019FD093A0F9B68CF4F97A463B1"},
+    "P30b_primary_receipt": {"bytes": 938, "sha256": "DA3BE4E7ABD8B4A32780A194B7B11BBB8EA0D8A7E770D72AE2BCBCF88A9CF455"}
+  },
+  "applicator": {
+    "path": "apply_uk_p30_coefficient_ideal_fidelity_v001.py",
+    "bytes": 25827,
+    "sha256": "5D495C3C3F59293B9FA9450577C7E2A09F48CE108B3FE5B24715800C2860F6E1",
+    "default_mode": "dry_run",
+    "apply_mode": "explicit_one_shot"
+  },
+  "qa": {
+    "independent_preapply_verdict": "ACCEPT; exact defects 0",
+    "exact_reconstruction": "PASS",
+    "producer_body_projection": "PASS",
+    "reverse_replay": "PASS",
+    "protected_structure_transport": "PASS",
+    "frozen_and_public_immutability": "PASS",
+    "no_write_dry_run_tree_digest": "PASS",
+    "semantic_holds": 0
+  },
+  "explicit_holds": [],
+  "publication": {
+    "published_v047_unchanged": true,
+    "public_r35_unchanged": true,
+    "working_successor_published": false,
+    "publication_effect": "none",
+    "doi_effect": "none"
+  }
+}

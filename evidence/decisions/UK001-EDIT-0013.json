@@ -1,0 +1,52 @@
+{
+  "schema": "noether-ukrainian-decision-record-v1",
+  "decision_id": "UK001-EDIT-0013",
+  "recorded_at": "2026-08-14T21:31:00+02:00",
+  "status": "applied_built_visually_verified",
+  "epistemic_type": "project_authority_presentation_fidelity_repair",
+  "defect_id": "NOETH-DEF-P24-0003",
+  "summary": "Restore left equation labels (2)-(5), vertically centering labels (3) and (4), while preserving Ukrainian wording, mathematics, and citation content.",
+  "human_companion_path": "decision_records/UK001-EDIT-0013.md",
+  "predecessor": {
+    "decision_id": "UK001-EDIT-0012",
+    "ledger_rows": 12,
+    "ledger_bytes": 18092,
+    "ledger_sha256": "D0A6607096F15A4F2338C4C4B34A57468496E06C67F4E1E4EEAAADB61E3A1393",
+    "sidecar_bytes": 12158,
+    "sidecar_sha256": "30CB280ED7E3DE3FA391A67501BBF38041E2D8B99C249CB1679AB2FB00115F01",
+    "state_bytes": 6771,
+    "state_sha256": "2DC945CE27CAFB0F6CEA72592AE04C15D507A667C2C2BEBCD4D5F5F67FA90222"
+  },
+  "applicator": {"path": "apply_uk_p24_label_geometry_v001.py", "bytes": 13772, "sha256": "9E474DA64C8D4A1026C0AE8B6EB3B52038EF09F862BD538178AD7E380D0586F7", "default_mode": "dry_run", "apply_mode": "explicit_atomic_one_shot"},
+  "source_replay": {
+    "producer": {"path": "producer_units/Noether_Paper24_Through_Section07_Ukrainian_v001_p24-0004.tex", "input": {"bytes": 146229, "sha256": "260A8C8BF2D0AB012468E775996B1D53AC835EF43ADF2E850411B345D79B8D17"}, "output": {"bytes": 146419, "sha256": "D47DA0B0D9D543E408863015351EB92E7DD753B0B69D86362045F8E89F8CEB93"}, "changed_lines": [95, 97, 101, 104, 105, 118, 122, 123, 369, 372]},
+    "base": {"path": "source/base-papers1-43-uk.tex", "input": {"bytes": 2690197, "sha256": "645241FBB193B55815B34F640843D218F2A17B11F59336C680D83D53EA9CADB0"}, "output": {"bytes": 2690387, "sha256": "FC3241DF6896DBC1731DDC4AE231036288DAB9538BCAA1577A556ACC954A4FE5"}, "changed_lines": [15209, 15292, 15294, 15298, 15301, 15302, 15315, 15319, 15320, 15566, 15569]},
+    "reverse_replay": "PASS",
+    "producer_assembled_body_identity": "PASS"
+  },
+  "authority": {
+    "geometry_adjudication": {"bytes": 12873, "sha256": "7A4B69C63FC12B28D9532E2841CD2547659D0E57C8D0CC293FF2E0AA57374B81"},
+    "geometry_review": {"bytes": 11185, "sha256": "A1DF81CC8BCF368B675CC3F7A047D41DDC7A025A5357980C4C6B2320455A446C"},
+    "prototype_receipt": {"bytes": 13656, "sha256": "ABDFFF97A0953AE3BCED77BC3DFF70596C3527DCB6C12D639722DDD9CD7FDB73"},
+    "official_pdf": {"bytes": 3159565, "sha256": "BB8D15C70DB720BB816E0A10DE738D9DE35E48B1DD32182E1CF83D89AC0CF83C"},
+    "active_german": {"authority_id": "NOETH-DE-ED-0014", "sha256": "EE226847656BC4D65EDDA9E9BF9BB1D25797C0C6D672D267D94A97FD88C7AD58", "activation_version_doi": "10.5281/zenodo.21908301", "anonymous_readback": "PASS_53_OF_53"},
+    "historical_note": "Creation-time candidate wording is retained; later r33 activation and the live pointer establish current project use."
+  },
+  "visual_qa": {
+    "verdict": "ACCEPT; exact defects 0",
+    "producer_pdf": {"path": "00_lane_control/output/pdf/p24_geometry_20260814/uk-paper24-geometry-edit0013.pdf", "bytes": 257884, "sha256": "0C07AA4806A0792C475CF32F184FE646795ACE4428E83BA016CADE9201C6766A", "pages": 20, "inspected_pages": [3, 4, 14]},
+    "assembled_pdf": {"path": "00_lane_control/output/pdf/p24_geometry_20260814/uk-papers1-43-geometry-edit0013.pdf", "bytes": 2413073, "sha256": "AA046113A839ABF38118F060C70196BAA0CCD8B1E207C5FC05393AA56B9F2762", "pages": 530, "inspected_pages": [307, 308, 318]},
+    "deterministic_builds": "PASS; A/B PDFs and logs byte-identical",
+    "findings": ["labels (2)-(5) are left-positioned", "labels (3) and (4) are vertically centered", "formula-(4) citation retained", "no clipping or collision"],
+    "warning_boundary": "All producer and cumulative logs have zero severe or overfull warnings."
+  },
+  "claim_boundary": "Project-authority presentation fidelity only; no native-language certification and no critical-edition claim.",
+  "remaining_p24_dispositions": [],
+  "retained_authority_uncertainties": 4,
+  "published_v047_unchanged": true,
+  "public_r35_unchanged": true,
+  "standalone_ukrainian_unchanged": true,
+  "working_successor_published": false,
+  "publication_effect": "none",
+  "doi_effect": "none"
+}

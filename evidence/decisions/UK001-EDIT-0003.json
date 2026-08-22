@@ -1,0 +1,157 @@
+{
+  "schema": "noether-ukrainian-decision-record-v1",
+  "decision_id": "UK001-EDIT-0003",
+  "recorded_at": "2026-08-14T03:46:07+02:00",
+  "status": "applied_and_independently_verified",
+  "epistemic_type": "source_fidelity_formula_and_ideal_identity_repair",
+  "scope": "Paper 34 Section 23 unit 207: one formula subscript, two omitted ideal symbols, one omitted left-ideal qualifier, the unit-local macro definition, and assembled source/identity receipts.",
+  "summary": "Close UK001-HOLD-P34-LEFT-IDEAL-FIDELITY-0001 by restoring W_nu and the two l_nu identities from German ED0011, restoring simple-left-ideal wording at the second locus, and preserving the two legitimate W_i controls.",
+  "predecessor": {
+    "decision_id": "UK001-EDIT-0002",
+    "ledger_rows": 2,
+    "ledger_bytes": 2646,
+    "ledger_sha256": "E3914B4AB1F9D4ECB93DB148FADC7C7DC67796BB6318D1AB6991BCAC87BDBD11",
+    "sidecar_bytes": 9723,
+    "sidecar_sha256": "87D02146ACC198CB23D52B9B20DC665B95B864634F069C1FA82B4F518CB7831A"
+  },
+  "hold_closed": "UK001-HOLD-P34-LEFT-IDEAL-FIDELITY-0001",
+  "exact_changes": [
+    {
+      "producer_locator": "producer_units/Noether_Paper34_Section23_SourceFidelity_Ukrainian_v001.tex:13:1",
+      "assembled_locator": "source/base-papers1-43-uk.tex:22038:1",
+      "before": "\\providecommand{\\mc}{\\mathfrak{c}}",
+      "after": "\\providecommand{\\mc}{\\mathfrak{c}}\\providecommand{\\ml}{\\mathfrak{l}}",
+      "reason": "Unit 207 is locally grouped; define the already-established l macro inside the unit without shifting lines."
+    },
+    {
+      "producer_locator": "producer_units/Noether_Paper34_Section23_SourceFidelity_Ukrainian_v001.tex:86:16",
+      "assembled_locator": "source/base-papers1-43-uk.tex:22111:16",
+      "before": "$|W_i|$",
+      "after": "$|W_\\nu|$",
+      "reason": "The paragraph is computing the already-defined W_nu; German ED0011 lines 18065-18067 use W_nu."
+    },
+    {
+      "producer_locator": "producer_units/Noether_Paper34_Section23_SourceFidelity_Ukrainian_v001.tex:86:208",
+      "assembled_locator": "source/base-papers1-43-uk.tex:22111:208",
+      "before": "відповідний ідеал",
+      "after": "відповідний ідеал $\\ml_\\nu$",
+      "reason": "German ED0011 line 18067 explicitly identifies Ideal l_nu."
+    },
+    {
+      "producer_locator": "producer_units/Noether_Paper34_Section23_SourceFidelity_Ukrainian_v001.tex:88:140",
+      "assembled_locator": "source/base-papers1-43-uk.tex:22113:140",
+      "before": "відповідний простий ідеал",
+      "after": "відповідний простий лівий ідеал $\\ml_\\nu$",
+      "reason": "German ED0011 line 18069 names l_nu among Linksidealen; earlier lines 17817-17850 define it as a simple left ideal."
+    }
+  ],
+  "preserved_controls": [
+    "source/base-papers1-43-uk.tex:22097:20 retains |W_i|",
+    "source/base-papers1-43-uk.tex:22099:45 retains |W_i|",
+    "the first restored ideal is not expanded to simple left ideal because German line 18067 only says Ideal l_nu",
+    "historical producer origin, frozen v047, and public r35 remain immutable"
+  ],
+  "producer_lineage": {
+    "historical_origin": {
+      "path": "interlanguage-workspace://03_projects/noether/02_slavic_working_corpus/translations/paper34/source_fidelity_section23/ukrainian/v001/Noether_Paper34_Section23_SourceFidelity_Ukrainian_v001.tex",
+      "bytes": 6928,
+      "sha256": "8526F1BA8C88E86279990D93E477DE5F3699C9DB37756E249952223D81D43FDE"
+    },
+    "local_successor": {
+      "path": "producer_units/Noether_Paper34_Section23_SourceFidelity_Ukrainian_v001.tex",
+      "bytes": 6995,
+      "sha256": "A1A75A466D30D51EE2F00E1B7C77677FD22C3E3F1051984ECF5D725C4AC4C241"
+    },
+    "assembled_source_marker": "../producer_units/Noether_Paper34_Section23_SourceFidelity_Ukrainian_v001.tex",
+    "assembled_identity_updated": true,
+    "producer_body_matches_assembled_body": true
+  },
+  "producer_successors": [
+    {
+      "unit": "207",
+      "origin": "interlanguage-workspace://03_projects/noether/02_slavic_working_corpus/translations/paper34/source_fidelity_section23/ukrainian/v001/Noether_Paper34_Section23_SourceFidelity_Ukrainian_v001.tex",
+      "local": "producer_units/Noether_Paper34_Section23_SourceFidelity_Ukrainian_v001.tex",
+      "input": {
+        "bytes": 6928,
+        "sha256": "8526F1BA8C88E86279990D93E477DE5F3699C9DB37756E249952223D81D43FDE"
+      },
+      "output": {
+        "bytes": 6995,
+        "sha256": "A1A75A466D30D51EE2F00E1B7C77677FD22C3E3F1051984ECF5D725C4AC4C241"
+      }
+    }
+  ],
+  "source_inputs": {
+    "source/base-papers1-43-uk.tex": {
+      "bytes": 2690132,
+      "sha256": "C6D75D81ACE9B0B500959D889899A8427E66150A5081262655A050E4CD27184C"
+    },
+    "source/44-book-uk.tex": {
+      "bytes": 234758,
+      "sha256": "7C52BCFAD8B097DE6D2C94C37290BEA63D0320E1B282763299C16394D69F451F"
+    },
+    "source/45-uk.tex": {
+      "bytes": 35056,
+      "sha256": "1650DEF7A7A8CE27A5CA2AB52186A7BE5A3E898DFAE2AE8068D65FF360C949A8"
+    },
+    "source/bib-uk.tex": {
+      "bytes": 12777,
+      "sha256": "8A15AB2116E25CCEA760AD96E26ACDF217333CE6B3679D3D5FA235A1992D0F09"
+    }
+  },
+  "source_outputs": {
+    "source/base-papers1-43-uk.tex": {
+      "bytes": 2690070,
+      "sha256": "5C1C0F73DB975B0D14DF7400F1E39F21A36BC2B7429E7C59E878DCD730E0176D"
+    },
+    "unchanged_components": [
+      "source/44-book-uk.tex",
+      "source/45-uk.tex",
+      "source/bib-uk.tex"
+    ]
+  },
+  "authority": {
+    "german_ed0011": {
+      "bytes": 2153594,
+      "sha256": "9E6BF2BC3155ECE3DF98CD8A408C23662BEFB047A1DDF200CA1DC8476A488BF3",
+      "relevant_lines": [17817, 17848, 17850, 18057, 18059, 18065, 18067, 18069]
+    },
+    "terminology_logbook": {
+      "bytes": 428819,
+      "sha256": "D2A5C985C7D6636807009D7595691DEB6DEBFB1A535E4C854BC825448B610421"
+    },
+    "section23_glossary": {
+      "bytes": 5155,
+      "sha256": "514E60AA9D6974F8BC2AE8425D7943F03069718588DDEADB55C94275577A0CCA"
+    },
+    "categorized_corpus_boundary": {
+      "catalog_bytes": 10642398,
+      "catalog_sha256": "354BE2A6EDFB9FE90CA9A42870666AF9DEB295F28D3F7ADA3DA898EC728756EC",
+      "finding": "The Ukrainian and parallel generated files are translation lineage, not independent native evidence."
+    }
+  },
+  "routed_upstream_defect": {
+    "artifact_sha256": "EE9CF671A879DDCB2CE6BACA532EC1C012C807551109D5D02C763C337BDEB627",
+    "finding": "The curated German witness at lines 80/82 repeats W_i, omits l_nu twice, and drops Links- despite validation_pass metadata.",
+    "disposition": "route centrally with exact evidence; do not mutate it from this language lane"
+  },
+  "applicator": {
+    "path": "apply_uk_p34_left_ideal_fidelity_v001.py",
+    "bytes": 25840,
+    "sha256": "2EE67F244F69E3335F503086248D6C52589D8F80899867DD65B254AEF5B4AB73"
+  },
+  "qa": {
+    "independent_preapply_review": "ACCEPT after provenance-gate hardening; no remaining defect",
+    "producer_changed_lines": [13, 86, 88],
+    "base_changed_lines": [22033, 22034, 22038, 22111, 22113],
+    "structural_and_protected_gates": "PASS",
+    "reverse_replay": "PASS",
+    "frozen_v047_pdf_and_sources_unchanged": true,
+    "public_r35_source_and_pdf_unchanged": true,
+    "known_pycache_residue_preserved": true
+  },
+  "publication_effect": "none",
+  "doi_effect": "none",
+  "working_successor_published": false,
+  "native_validation_claim": false
+}

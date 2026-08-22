@@ -1,0 +1,6 @@
+item_id	status	description
+GENERAL-001	disclosed	Машинно-асистоване наукове робоче видання; наступні виправлення виходять новими версіями. / Machine-assisted scholarly working edition; later corrections are released as successor versions.
+REVIEW-001	not_completed_not_a_gate	Не заявлено зовнішньої, громадської чи носійської сертифікації українського тексту. / No external, community, or native-speaker certification is claimed.
+CRITICAL-001	not_claimed	Ні німецька опора проєкту, ні український переклад не оголошуються критичним виданням. / Neither the project German authority nor this Ukrainian translation is claimed as a critical edition.
+OPEN-HOLDS	zero	На голові UK001-EDIT-0016 немає відкритих редакційних блокувань чи диспозицій. / No open editorial holds or dispositions at UK001-EDIT-0016.
+MATH-FONT-001	disclosed	Дев'ять традиційних математичних символьних шрифтів не мають ToUnicode; текстові та кириличні шрифти його мають. / Nine traditional math-symbol fonts lack ToUnicode; text and Cyrillic fonts carry it.
