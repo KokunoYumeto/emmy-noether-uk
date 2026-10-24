@@ -1,21 +1,12 @@
 cff-version: 1.2.0
-message: "Якщо ви використовуєте це видання, цитуйте наведену бібліографічну форму. / If you use this edition, cite the preferred citation."
-title: "Еммі Нетер: повне українське видання корпусу"
-type: dataset
+message: "Еммі Нетер — Математичні праці українською"
+title: "Еммі Нетер — Математичні праці українською"
+type: book
 authors:
   - family-names: Noether
     given-names: Emmy
-version: "2026.08.22-r2"
-date-released: "2026-08-22"
-url: "https://doi.org/10.5281/zenodo.22053778"
-preferred-citation:
-  type: book
-  title: "Еммі Нетер: повне українське видання корпусу / Emmy Noether: Complete Ukrainian Corpus Edition"
-  authors:
-    - family-names: Noether
-      given-names: Emmy
-  doi: "10.5281/zenodo.22053778"
-  version: "2026.08.22-r2"
-  date-released: "2026-08-22"
-  languages:
-    - "uk"
+version: "2026-10-24-sources"
+repository-code: "https://github.com/KokunoYumeto/emmy-noether-uk"
+url: "https://github.com/KokunoYumeto/emmy-noether-uk"
+languages:
+  - ukr
