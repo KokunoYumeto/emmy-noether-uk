@@ -2,36 +2,39 @@
 
 Статті 1–43, лекції 1929/30 року в записі M. Deuring, праця Kapferer і Noether з доповненням, бібліографія та заключні списки.
 
-[**Читати PDF архівного видання**](https://github.com/KokunoYumeto/emmy-noether-uk/blob/main/reader/00_NOETHER_UKRAINIAN_COMPLETE_LINKED_READER.pdf).
+## Основний текст
 
-### Основний текст
+1. [PDF](https://github.com/KokunoYumeto/emmy-noether-uk/releases/download/noether-uk-2026-10-24-r2/01-noether-uk-base.pdf)
+2. [Редаговані джерела LaTeX](https://github.com/KokunoYumeto/emmy-noether-uk/releases/download/noether-uk-2026-10-24-r2/02-noether-uk-base.tex)
+3. [Повний архів джерел](https://github.com/KokunoYumeto/emmy-noether-uk/releases/download/noether-uk-2026-10-24-r2/03-noether-uk-base-sources.zip)
 
-- [Редаговані джерела LaTeX 1](editions/2026-10-24/uk/current/02-01-base-papers1-43-uk.tex).
-- [Редаговані джерела LaTeX 2](editions/2026-10-24/uk/current/02-02-44-book-uk.tex).
-- [Редаговані джерела LaTeX 3](editions/2026-10-24/uk/current/02-03-45-uk.tex).
-- [Редаговані джерела LaTeX 4](editions/2026-10-24/uk/current/02-04-bib-uk.tex).
-- [Повний архів джерел](editions/2026-10-24/uk/current/03-noether-uk-sources.zip).
+## Текст із редакційними виправленнями
 
-### Текст із редакційними виправленнями
-
-- [Редаговані джерела LaTeX 1](editions/2026-10-24/uk/corrected/02-01-base-papers1-43-uk.tex).
-- [Редаговані джерела LaTeX 2](editions/2026-10-24/uk/corrected/02-02-44-book-uk.tex).
-- [Редаговані джерела LaTeX 3](editions/2026-10-24/uk/corrected/02-03-45-uk.tex).
-- [Редаговані джерела LaTeX 4](editions/2026-10-24/uk/corrected/02-04-bib-uk.tex).
-- [Повний архів джерел](editions/2026-10-24/uk/corrected/03-noether-uk-sources.zip).
-
-PDF за посиланням належить попередньому виданню й не відповідає цим джерелам. Джерела зберігають увесь зазначений корпус; редакційні виправлення обґрунтовано в наукових примітках. Перевірка окремих місць не засвідчує точність усього корпусу.
-
-Збережіть структуру розпакованого архіву. Кожен головний файл слід двічі зібрати XeLaTeX із його каталогу. Пакети та шрифти зазначено в преамбулі.
+1. [PDF](https://github.com/KokunoYumeto/emmy-noether-uk/releases/download/noether-uk-2026-10-24-r2/04-noether-uk-emendations.pdf)
+2. [Редаговані джерела LaTeX](https://github.com/KokunoYumeto/emmy-noether-uk/releases/download/noether-uk-2026-10-24-r2/05-noether-uk-emendations.tex)
+3. [Повний архів джерел](https://github.com/KokunoYumeto/emmy-noether-uk/releases/download/noether-uk-2026-10-24-r2/06-noether-uk-emendations-sources.zip)
 
 Переклад створено ШІ. Виправлення й набір виконано OpenAI Codex — GPT-6 Astra, рівень міркування Ultra. Збережено авторство Emmy Noether, M. Deuring та співавторів, зазначених у кожній праці. Видавцеві не приписано людського перекладу чи незалежного наукового рецензування.
 
-[Авторство і права](editions/2026-10-24/uk/RIGHTS.md).
+Точну модель і рівень міркування для успадкованого перекладу не встановлено за збереженими записами. Виправлення й набір, виконані ШІ: 23–24 жовтня 2026 року. Видання: 24 жовтня 2026 року.
 
+Прямий файл сукупного LaTeX містить усі тексти й преамбули в редагованому вигляді. Програма Python розпаковує початкові файли, компілює їх за допомогою XeLaTeX і об’єднує PDF частин у порядку читання. Зображення та сторінки PDF не замінюють транскрипцію. ZIP зберігає початкову структуру, той самий сукупний LaTeX і програму складання. Потрібні Python 3, pypdf, пакети TeX і шрифти, зазначені в преамбулах. Байти PDF можуть залежати від версій TeX і шрифтів. Фіксована внутрішня дата набору не є датою публікації.
+
+[Python](https://github.com/KokunoYumeto/emmy-noether-uk/blob/main/editions/2026-10-24-r2/uk/build.py) · [SHA-256](https://github.com/KokunoYumeto/emmy-noether-uk/blob/main/editions/2026-10-24-r2/uk/07-noether-uk-SHA256SUMS.txt)
+
+Програму складання створено ШІ: OpenAI Codex — GPT-6 Astra, Ultra, 24 жовтня 2026 року.
+
+## Авторство і права
+
+Права залишаються у відповідних правовласників. Безкоштовне поширення з некомерційною, суто освітньою метою ґрунтується на припущенні видавця про відсутність заперечень, а не на встановленому дозволі. Вільний доступ сам собою не дозволяє похідної публікації. Правовласники можуть подати заперечення за посиланням нижче; видавець вилучить відповідний матеріал на їхнє прохання. Нової ліцензії чи передачі в суспільне надбання не надано.
+
+[Заперечення правовласників](https://github.com/KokunoYumeto/emmy-noether-uk/issues/new).
 
 ## Попередні видання
 
-- [10.5281/zenodo.20412587](https://doi.org/10.5281/zenodo.20412587).
-- [10.5281/zenodo.21926373](https://doi.org/10.5281/zenodo.21926373).
-- [10.5281/zenodo.21940320](https://doi.org/10.5281/zenodo.21940320).
-- [10.5281/zenodo.22053778](https://doi.org/10.5281/zenodo.22053778).
+- [zenodo.20412587](https://doi.org/10.5281/zenodo.20412587).
+- [zenodo.21926373](https://doi.org/10.5281/zenodo.21926373).
+- [zenodo.21940320](https://doi.org/10.5281/zenodo.21940320).
+- [zenodo.22053778](https://doi.org/10.5281/zenodo.22053778).
+
+[GitHub](https://github.com/KokunoYumeto/emmy-noether-uk/releases).
