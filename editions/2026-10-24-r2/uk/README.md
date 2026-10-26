@@ -4,19 +4,19 @@
 
 ## Основний текст
 
-1. [PDF](https://github.com/KokunoYumeto/emmy-noether-uk/releases/download/noether-uk-2026-10-24-r2/01-noether-uk-base.pdf)
-2. [Редаговані джерела LaTeX](https://github.com/KokunoYumeto/emmy-noether-uk/releases/download/noether-uk-2026-10-24-r2/02-noether-uk-base.tex)
-3. [Повний архів джерел](https://github.com/KokunoYumeto/emmy-noether-uk/releases/download/noether-uk-2026-10-24-r2/03-noether-uk-base-sources.zip)
+1. [PDF](https://github.com/KokunoYumeto/emmy-noether-uk/releases/download/noether-uk-2026-10-26/01-noether-uk-base.pdf)
+2. [Редаговані джерела LaTeX](https://github.com/KokunoYumeto/emmy-noether-uk/releases/download/noether-uk-2026-10-26/02-noether-uk-base.tex)
+3. [Повний архів джерел](https://github.com/KokunoYumeto/emmy-noether-uk/releases/download/noether-uk-2026-10-26/03-noether-uk-base-sources.zip)
 
 ## Текст із редакційними виправленнями
 
-1. [PDF](https://github.com/KokunoYumeto/emmy-noether-uk/releases/download/noether-uk-2026-10-24-r2/04-noether-uk-emendations.pdf)
-2. [Редаговані джерела LaTeX](https://github.com/KokunoYumeto/emmy-noether-uk/releases/download/noether-uk-2026-10-24-r2/05-noether-uk-emendations.tex)
-3. [Повний архів джерел](https://github.com/KokunoYumeto/emmy-noether-uk/releases/download/noether-uk-2026-10-24-r2/06-noether-uk-emendations-sources.zip)
+1. [PDF](https://github.com/KokunoYumeto/emmy-noether-uk/releases/download/noether-uk-2026-10-26/04-noether-uk-emendations.pdf)
+2. [Редаговані джерела LaTeX](https://github.com/KokunoYumeto/emmy-noether-uk/releases/download/noether-uk-2026-10-26/05-noether-uk-emendations.tex)
+3. [Повний архів джерел](https://github.com/KokunoYumeto/emmy-noether-uk/releases/download/noether-uk-2026-10-26/06-noether-uk-emendations-sources.zip)
 
 Переклад створено ШІ. Виправлення й набір виконано OpenAI Codex — GPT-6 Astra, рівень міркування Ultra. Збережено авторство Emmy Noether, M. Deuring та співавторів, зазначених у кожній праці. Видавцеві не приписано людського перекладу чи незалежного наукового рецензування.
 
-Точну модель і рівень міркування для успадкованого перекладу не встановлено за збереженими записами. Виправлення й набір, виконані ШІ: 23–24 жовтня 2026 року. Видання: 24 жовтня 2026 року.
+Точну модель і рівень міркування для успадкованого перекладу не встановлено за збереженими записами. Виправлення й набір, виконані ШІ: 23–24 жовтня 2026 року; Claude Opus 5.5 (Anthropic), 26 жовтня 2026 року. Видання: 26 жовтня 2026 року.
 
 Прямий файл сукупного LaTeX містить усі тексти й преамбули в редагованому вигляді. Програма Python розпаковує початкові файли, компілює їх за допомогою XeLaTeX і об’єднує PDF частин у порядку читання. Зображення та сторінки PDF не замінюють транскрипцію. ZIP зберігає початкову структуру, той самий сукупний LaTeX і програму складання. Потрібні Python 3, pypdf, пакети TeX і шрифти, зазначені в преамбулах. Байти PDF можуть залежати від версій TeX і шрифтів. Фіксована внутрішня дата набору не є датою публікації.
 
