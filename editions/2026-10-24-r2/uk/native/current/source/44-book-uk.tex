@@ -53,7 +53,7 @@
 \tocsec{6}{Незвідні зображення комутативних систем}{8}
 \tocsec{7}{Ізоморфізми поля}{8}
 \tocsec{8}{Поле розщеплення}{9}
-\tocsec{9}{Ізоморфізми $Z_1$ на $Z_i$}{9}
+\tocsec{9}{Ізоморфізми $\mathsf{Z}_1$ на $\mathsf{Z}_i$}{9}
 \tocsec{10}{Група Галуа}{9}
 \tocsec{11}{Основна теорема теорії Галуа}{9}
 \tocsec{12}{Формальне значення компонент $e_i$}{11}
@@ -79,7 +79,7 @@
 \tocsec{26}{Множення схрещених зображень}{43}
 \medskip
 \tocline{\textbf{Розділ VI: Теорія схрещених добутків}}{44}
-\tocsec{27}{Зображення $\mathfrak R_r$ як схрещених добутків}{44}
+\tocsec{27}{Зображення $\mathfrak K_r$ як схрещених добутків}{44}
 \tocsec{28}{Теорема добутку для фактор-систем}{47}
 \tocsec{29}{Теорема про головний рід у мінімальному}{50}
 \tocsec{30}{Спеціалізація до циклічних полів розщеплення}{50}
@@ -129,7 +129,7 @@
 \emph{Прямим зображенням} \(n\)-го степеня кільця \(\mathfrak{o}\) у \(\mathsf T\) називається підкільце \(\mathfrak D\) кільця \(\mathsf T_n\) матриць \(n\)-го степеня з елементами з \(\mathsf T\), на яке \(\mathfrak{o}\) гомоморфно відображається як кільце. У символах
 
 \[
-\mathfrak{o}\to\mathfrak D\subseteq\mathsf T_n.
+\mathfrak{o}\to\mathfrak D\subseteqq\mathsf T_n.
 \]
 
 \subsection*{Означення реципрокного зображення}\label{definition-der-reziproken-darstellung}
@@ -137,7 +137,7 @@
 \emph{Реципрокним зображенням} \(n\)-го степеня кільця \(\mathfrak{o}\) у \(\mathsf T^*\) називається підкільце \(\mathfrak D^*\) кільця \(\mathsf T_n^*\) матриць \(n\)-го степеня з елементами з \(\mathsf T^*\), на яке \(\mathfrak{o}\) реципрокно гомоморфно відображається як кільце. Реципрокна кільцева гомоморфність означає таке: якщо елементам кільця \(\mathfrak{o}\), а саме \(c,d\), відповідають елементи кільця \(\mathfrak D^*\), а саме \(c^*,d^*\), то елементові кільця \(\mathfrak{o}\), тобто \(cd\), має відповідати елемент кільця \(\mathfrak D^*\), а саме \(d^*\cdot c^*\), а елементові кільця \(\mathfrak{o}\), тобто \(c+d\), --- елемент кільця \(\mathfrak D^*\), а саме \(c^*+d^*\). У символах
 
 \[
-\mathfrak{o}\nrightarrow\mathfrak D^*\subseteq\mathsf T_n^*.
+\mathfrak{o}\nrightarrow\mathfrak D^*\subseteqq T_n^*.
 \]
 
 Наведімо приклад реципрокної гомоморфності: якщо кожній квадратній матриці порядку \(n\) над комутативним полем поставити у відповідність транспоновану до неї матрицю, то ця відповідність є реципрокним ізоморфізмом кілець.
@@ -263,8 +263,8 @@ cd(x_1,\ldots,x_n)
 \[
 \begin{aligned}
 c(y_1,\ldots,y_n)
-&=c(x_1,\ldots,x_n)P=((x_1,\ldots,x_n)C)P\\
-&=(x_1,\ldots,x_n)CP=((y_1,\ldots,y_n)P^{-1})CP\\
+&=c(x_1,\ldots,x_n)P=((x,\ldots,x_n)C)P\\
+&=(x_1,\ldots,x_n)CP=((y_p,\ldots,y_n)P^{-1})CP\\
 &=(y_1,\ldots,y_n)P^{-1}CP.
 \end{aligned}
 \]
@@ -517,7 +517,7 @@ E_1=e_1+\cdots+e_h
 
 Елемент \(E_1\) не є інваріантним за жодного такого, що не належить до \(\mathfrak H\), відображення \(S_i\). Справді, для такого \(S_i\) сума
 \[
-S_i E_1=e_i+\cdots
+S_i e_1=e_i+\cdots
 \]
 містить компоненту, якої немає серед \(e_1,\ldots,e_h\), а саме \(e_i\), тоді як подання суми \(E_1\) є однозначним.
 % END BOOK_S11
@@ -583,7 +583,7 @@ e_j=e_j^2=\sum \varrho_\nu^{(j)}z_\nu e_j
 
 Нехай \(\mathfrak Z=z_1\mathsf P+\cdots+z_n\mathsf P\) --- комутативна, гіперкомплексна, цілком звідна система. Нехай \(\mathfrak S\) і \(\mathfrak T\) --- у цій ситуації неодмінно також цілком звідні підсистеми системи \(\mathfrak Z\):
 \[
-\mathsf P\subseteq\mathfrak S\subseteq\mathfrak T\subseteq\mathfrak Z .
+\mathsf P\subseteqq\mathfrak S\subseteqq\mathfrak T\subseteqq\mathfrak Z .
 \]
 За M. Z. § 13 кожна з трьох систем має одиницю. Проте ці три одиниці аж ніяк не мусять збігатися. (Вони напевно не збігаються, якщо \(\mathfrak S\) і \(\mathfrak T\) є відмінними від \(\mathfrak Z\) ідеалами системи \(\mathfrak Z\).) Нехай \(E\) --- одиниця системи \(\mathfrak S\). Система \(\mathfrak T\cdot E\) є \(\mathfrak S\)-модулем скінченного рангу:
 \[
@@ -696,7 +696,7 @@ a\cdot\mathsf P(a_1+\cdots+a_h)
 \emph{Доведення.} Група \(\mathfrak A\) є прямим добутком циклічних груп \(\mathfrak Z_i\) порядків \(h_i\):
 \[
 \mathfrak A=\mathfrak Z_1\times\cdots\times\mathfrak Z_t,\qquad
-h=h_1h_2\cdots h_t .
+h=h_1h_2\ldots h_t .
 \]
 Якщо \(z_i\) --- твірний елемент групи \(\mathfrak Z_i\), то відповідний йому елемент незвідного зображення (першого степеня) мусить бути коренем \(h_i\)-го степеня з одиниці \(\varepsilon_\nu^{(h_i)}\). Навпаки, якщо кожному \(z_i\) поставити у відповідність корінь \(h_i\)-го степеня з одиниці \(\varepsilon_\nu^{(h_i)}\), то дістанемо незвідне зображення кільця \(\mathfrak o\) в \(\Omega\). Оскільки \(h\not\equiv0(p)\), а тим паче \(h_i\not\equiv0(p)\), існує рівно \(h_1h_2\cdots h_t=h\) різних зображень кільця \(\mathfrak o\), що й треба було довести.
 
@@ -710,8 +710,8 @@ aE=E\cdot 1\quad\text{або}\quad \sum x_i a a_i=\sum x_i a_i
 \]
 звідки при \(a=a_j a_i^{-1}\)
 \[
-x_1a_ja_i^{-1}a_1+\cdots+x_i a_j+\cdots+x_ha_ja_i^{-1}a_h
-=x_1a_1+\cdots+x_ha_h
+x_1a_ja_i^{-1}a_1+\cdots+x_i a_j+\cdots+x_na_ja_i^{-1}a_n
+=x_1a_1+\cdots+x_na_n
 \]
 і тому
 \[
@@ -756,7 +756,7 @@ x=\frac{1}{h},\qquad E=\frac{1}{h}(a_1+\cdots+a_h).
 або, оскільки \(e_1 = (1/h) \sum a_i\),
 
 \[
-\sum_\nu \Theta_i a_\nu=\begin{cases} h & i=1,\\ 0 & i\ne 1, \end{cases}
+\sum_\nu \Theta_i a_\nu=\begin{cases} h & i=1\\ 0 & i\ne 1 \end{cases}
 \]
 
 Це відомі співвідношення характерів:
@@ -950,7 +950,7 @@ h & \nu=1,\\
 
 Кожний елемент перетину \(\mathfrak c_{\mathsf K}\cap\mathfrak M\), позначений \(c\), допускає базисне подання як елемент модуля \(\mathfrak c_{\mathsf K}\):
 \[
-c=\sum_{i=1}^{r}y_i\chi_i
+c=\sum_{i=1}^{r}y_i\varkappa_i
 \]
 і базисне подання як елемент модуля \(\mathfrak M\):
 
@@ -988,8 +988,8 @@ c=\sum_{i=1}^{r}y_i\varrho_i
 Звідси для перших \(r\) елементів \(x_1,\ldots,x_r\) базису модуля \(\mathfrak M\) випливають рівняння
 
 \[
-x_i=z_i-\sum_{j=r+1}^{n}x_j\chi_j^{(i)},\qquad
-z_i\in\mathfrak C,\quad \chi_j^{(i)}\in\mathsf K.
+x_i=z_i-\sum_{j=r+1}^{n}x_j\varkappa_j^{(i)},\qquad
+z_i\in\mathfrak C,\quad \varkappa_j^{(i)}\in\mathsf K.
 \]
 
 Оскільки елементи \(z_i\) разом з \(x_{r+1},\ldots,x_n\), очевидно, утворюють базис модуля \(\mathfrak M_{\mathsf K}\), вони лінійно незалежні, а тому \(z_1,\ldots,z_r\) є базисом модуля \(\mathfrak C\). Базис \(z_1,\ldots,z_r\) має шуканий вигляд: елементи \(z_i\) належать до \(\mathfrak M\):
@@ -999,8 +999,8 @@ z_i\in\mathfrak C,\quad \chi_j^{(i)}\in\mathsf K.
 \[
 \begin{array}{rcl}
 (1)\qquad \gamma z_i
-&=&\gamma x_i+\displaystyle\sum_{j=r+1}^{n}\gamma x_j\cdot \gamma\chi_j^{(i)}
-=x_i+\displaystyle\sum_{j=r+1}^{n}x_j\gamma\chi_j^{(i)}.
+&=&\gamma x_i+\displaystyle\sum_{j=r+1}^{n}\gamma x_j\cdot \gamma\varkappa_j^{(i)}
+=x_i+\displaystyle\sum_{j=r+1}^{n}x_j\gamma\varkappa_j^{(i)}.
 \end{array}
 \]
 
@@ -1018,7 +1018,7 @@ z_i\in\mathfrak C,\quad \chi_j^{(i)}\in\mathsf K.
 \begin{array}{rcl}
 (3)\qquad \gamma z_i
 &=&\displaystyle\sum_{\mu=1}^{r}x_\mu\sigma_\mu^{(i)}
-+\displaystyle\sum_{j=r+1}^{n}x_j\sum_{\mu=1}^{r}\chi_j^{(\mu)}\sigma_\mu^{(i)}
++\displaystyle\sum_{j=r+1}^{n}x_j\sum_{\mu=1}^{r}\varkappa_j^{(\mu)}\sigma_\mu^{(i)}
 \end{array}
 \]
 
@@ -1056,10 +1056,10 @@ z_i\in\mathfrak C,\quad \chi_j^{(i)}\in\mathsf K.
 
 \textbf{2.} За щойно доведеною допоміжною лемою двобічний \(\mathfrak S_{\mathsf K}\)-ідеал \(\mathfrak a\) мусить бути ідеалом розширення деякого підмодуля \(\mathfrak A\) системи \(\mathfrak S\), тобто \(\mathfrak a=\mathfrak A_{\mathsf K}\). Модуль \(\mathfrak A\) є двобічним ідеалом системи \(\mathfrak S\), бо з \(\mathfrak A=\mathfrak S\cap\mathfrak a\) дістаємо
 \[
-\mathfrak S\mathfrak A\subseteq\mathfrak S\mathfrak S\cap\mathfrak S\mathfrak a\subseteq\mathfrak S\cap\mathfrak a=\mathfrak A
+\mathfrak S\mathfrak A\subseteqq\mathfrak S\mathfrak S\cap\mathfrak S\mathfrak a\subseteqq\mathfrak S\cap\mathfrak a=\mathfrak A
 \]
 \[
-\mathfrak A\mathfrak S\subseteq\mathfrak S\mathfrak S\cap\mathfrak a\mathfrak S\subseteq\mathfrak S\cap\mathfrak a=\mathfrak A.
+\mathfrak A\mathfrak S\subseteqq\mathfrak S\mathfrak S\cap\mathfrak a\mathfrak S\subseteqq\mathfrak S\cap\mathfrak a=\mathfrak A.
 \]
 
 Але оскільки \(\mathfrak S\) містить лише двобічні ідеали 0 і \(\mathfrak S\), то й у \(\mathfrak S_{\mathsf K}\) є лише два двобічні ідеали 0 та \(\mathfrak S_{\mathsf K}\), що й треба було довести.
@@ -1072,16 +1072,16 @@ z_i\in\mathfrak C,\quad \chi_j^{(i)}\in\mathsf K.
 \]
 зі співвідношенням переставності
 \[
-s(xm)=x(sm).
+s(\varkappa m)=\varkappa (sm).
 \]
 
 Доведемо, що \(\mathfrak M\) можна також розглядати як лівий \(\mathfrak S_{\mathsf K}\)-модуль. Спершу треба означити множення елемента системи \(\mathfrak S_{\mathsf K}\) на елемент модуля \(\mathfrak M\). Якщо \(s\in\mathfrak S,\ x\in\mathsf K,\ m\in\mathfrak M\), покладемо
 \[
-sx\cdot m=s\cdot(x\cdot m)
+s\varkappa \cdot m=s\cdot(\varkappa \cdot m)
 \]
 і відповідно для загального елемента системи \(\mathfrak S_{\mathsf K}\), позначеного \(\sum s_ix_i\),
 \[
-\sum s_ix_i\cdot m=\sum s_i\cdot(x_i\cdot m).
+\sum s_i\varkappa _i\cdot m=\sum s_i\cdot(\varkappa _i\cdot m).
 \]
 
 Переконаймося, що це означення однозначне й не залежить від способу подання елемента системи \(\mathfrak S_{\mathsf K}\) як суми добутків \(s_ix_i\).
@@ -1089,12 +1089,12 @@ sx\cdot m=s\cdot(x\cdot m)
 Отже, треба з
 \[
 \begin{array}{rcl}
-(1)\qquad \displaystyle\sum_{i=1}^{p}s_ix_i&=&0
+(1)\qquad \displaystyle\sum_{i=1}^{p}s_i\varkappa _i&=&0
 \end{array}
 \]
 вивести
 \[
-\sum_{i=1}^{p}s_i(x_i m)=0
+\sum_{i=1}^{p}s_i(\varkappa _i m)=0
 \]
 Припустімо, що \(s_1,\ldots,s_q\) лінійно незалежні, а \(s_{q+1},\ldots,s_p\) виражаються через \(s_1,\ldots,s_q\):
 \[
@@ -1104,31 +1104,31 @@ s_j=\sum_{i=1}^{q}s_i\varrho_i^{(j)},\qquad j=q+1,\ldots,p.
 Коефіцієнти мусять належати до \(\mathsf P\), бо елемент \(s_j\) можна виразити лише одним способом, а таке подання вже можливе в \(\mathfrak S\). З рівності (1) випливає
 
 \[
-x_i+\sum_{j=q+1}^{p}\varrho_i^{(j)}x_j=0,\qquad i=1,\ldots,q.
+\varkappa _i+\sum_{j=q+1}^{p}\varrho_i^{(j)}\varkappa _j=0,\qquad i=1,\ldots,q.
 \]
 
 Отже,
 
 \[
 \begin{aligned}
-\sum_{i=1}^{p}s_i(x_i m)
-&=s_1(x_1m)+\cdots+s_q(x_qm)
-  +\left(\sum_i s_i\varrho_i^{(q+1)}\right)(x_{q+1}m)\\
-&\quad+\cdots+\left(\sum_i s_i\varrho_i^{(p)}\right)(x_pm)\\
-&=s_1(x_1m)+\cdots+s_q(x_qm)\\
-&\quad+s_1\varrho_1^{(q+1)}(x_{q+1}m)+\cdots+s_q\varrho_q^{(q+1)}(x_{q+1}m)
+\sum_{i=1}^{p}s_i(\varkappa _i m)
+&=s_1(\varkappa _1m)+\cdots+s_q(\varkappa _qm)
+  +\left(\sum_i s_i\varrho_i^{(q+1)}\right)(\varkappa _{q+1}m)\\
+&\quad+\cdots+\left(\sum_i s_i\varrho_i^{(p)}\right)(\varkappa _pm)\\
+&=s_1(\varkappa _1m)+\cdots+s_q(\varkappa _qm)\\
+&\quad+s_1\varrho_1^{(q+1)}(\varkappa _{q+1}m)+\cdots+s_q\varrho_q^{(q+1)}(\varkappa _{q+1}m)
   \qquad\text{за властивістю модуля}\\
 &\quad+\cdots\\
 &\quad\cdots\\
-&\quad+s_1\varrho_1^{(p)}(x_pm)+\cdots+s_q\varrho_q^{(p)}(x_pm)\\
-&=s_1(x_1m)+\cdots+s_q(x_qm)\\
-&\quad+s_1(\varrho_1^{(q+1)}x_{q+1}m)+\cdots+s_q(\varrho_q^{(q+1)}x_{q+1}m)\\
+&\quad+s_1\varrho_1^{(p)}(\varkappa _pm)+\cdots+s_q\varrho_q^{(p)}(\varkappa _pm)\\
+&=s_1(\varkappa _1m)+\cdots+s_q(\varkappa _qm)\\
+&\quad+s_1(\varrho_1^{(q+1)}\varkappa _{q+1}m)+\cdots+s_q(\varrho_q^{(q+1)}\varkappa _{q+1}m)\\
 &\quad+\cdots\\
 &\quad\cdots\\
-&\quad+s_1(\varrho_1^{(p)}x_pm)+\cdots+s_q(\varrho_q^{(p)}x_pm)
-  \qquad\begin{gathered}\text{внаслідок}\\ \text{закону асоціативності }s'(sm)\\ =s's\cdot m\text{ та}\\ x'(xm)=x'x\cdot m\end{gathered}\\
-&=s_1\left(x_1m+\varrho_1^{(q+1)}x_{q+1}\cdot m+\cdots+\varrho_1^{(p)}x_p\cdot m\right)+\cdots\\
-&=s_1\left(\left(x_1+\varrho_1^{(q+1)}x_{q+1}+\cdots+\varrho_1^{(p)}x_p\right)m\right)+\cdots\\
+&\quad+s_1(\varrho_1^{(p)}\varkappa _pm)+\cdots+s_q(\varrho_q^{(p)}\varkappa _pm)
+  \qquad\begin{gathered}\text{внаслідок}\\ \text{закону асоціативності }s'(sm)\\ =s's\cdot m\text{ та}\\ \varkappa '(\varkappa m)=\varkappa '\varkappa \cdot m\end{gathered}\\
+&=s_1\left(\varkappa _1m+\sum\varrho_1^{(q+1)}\varkappa _{q+1}\cdot m\right)+\cdots\\
+&=s_1\left(\left(\varkappa _1+\sum\varrho_1^{q+1}\varkappa _{q+1}\right)m\right)+\cdots\\
 &=0.
 \end{aligned}
 \]
@@ -1137,35 +1137,35 @@ x_i+\sum_{j=q+1}^{p}\varrho_i^{(j)}x_j=0,\qquad i=1,\ldots,q.
 Серед властивостей \(\mathfrak S_{\mathsf K}\)-модуля для \(\mathfrak M\) дистрибутивні закони \((S+S')m=Sm+S'm,\ S(m+m')=Sm+Sm'\) очевидні. Ще треба перевірити закон асоціативності \(S(S'm)=SS'\cdot m\); оскільки дистрибутивні закони справджуються, можна обмежитися випадком
 
 \[
-sx\cdot(s'x' m)=sx(s'x'\cdot m)
+s\varkappa \cdot(s'\varkappa ' m)=s\varkappa (s'\varkappa '\cdot m)
 \]
 
 З одного боку, за означенням \(sx\cdot m\),
 
 \[
-sx\cdot(s'x'\cdot m)=s\cdot(x\cdot(s'\cdot(x'\cdot m)))
+s\varkappa \cdot(s'\varkappa '\cdot m)=s\cdot(\varkappa \cdot(s'\cdot(\varkappa '\cdot m)))
 \]
 
 а з другого,
 
 \[
-sx s'x'\cdot m=ss'xx'\cdot m=ss'\cdot(xx'\cdot m)
-=s\cdot(s'\cdot(x\cdot(x'\cdot m)))
+s\varkappa  s'\varkappa '\cdot m=ss'\varkappa \varkappa '\cdot m=ss'\cdot(\varkappa \varkappa '\cdot m)
+=s\cdot(s'\cdot(\varkappa \cdot(\varkappa '\cdot m)))
 \]
 
 і внаслідок двох співвідношень переставності це дорівнює \(=s\cdot(x\cdot(s'\cdot(x'\cdot m)))\):
 
 \[
-x\cdot s'=s'\cdot x
+\varkappa \cdot s'=s'\cdot \varkappa
 \]
 \[
-s'\cdot(x\cdot m)=x\cdot(s'\cdot m)
+s'\cdot(\varkappa \cdot m)=\varkappa \cdot(s'\cdot m)
 \]
 
 Отже, \(\mathfrak M\) справді є лівим \(\mathfrak S_{\mathsf K}\)-модулем, звичайно, скінченним. Навпаки, кожний скінченний лівий \(\mathfrak S_{\mathsf K}\)-модуль є реципрокним модулем зображення системи \(\mathfrak S\) у \(\mathsf K\), бо він, очевидно, є скінченним \(\mathsf K\)-модулем і внаслідок рівностей
 
 \[
-s(x\cdot m)=sx\cdot m=xs\cdot m=x(s\cdot m)
+s(\varkappa \cdot m)=s\varkappa \cdot m=\varkappa s\cdot m=\varkappa (s\cdot m)
 \]
 
 задовольняє також умову переставності. (Пор. також простіше доведення в § 24.)
@@ -1207,13 +1207,13 @@ n=rt.
 Якщо \(Z=\xi_1\mathsf P+\cdots+\xi_n\mathsf P\) означає гіперкомплексну систему над \(\mathsf P\), то дві розширені системи \(\mathfrak K_Z\) і \(Z_{\mathfrak K}\) збігаються, бо для \(\mathfrak K_Z\) можна написати
 
 \[
-\mathfrak K_Z=y_1\xi_1\mathsf P+\cdots+y_m\xi_n\mathsf P
+\mathfrak K_{\mathsf{Z}}=y_1\xi_1\mathsf P+\cdots+y_m\xi_n\mathsf P
 \]
 
 а для \(Z_{\mathfrak K}\)
 
 \[
-Z_{\mathfrak K}=\xi_1y_1\mathsf P+\cdots+\xi_ny_m\mathsf P
+\mathsf{Z}_{\mathfrak K}=\xi_1y_1\mathsf P+\cdots+\xi_ny_m\mathsf P
 \]
 
 і обидва вирази збігаються внаслідок \(y_i\xi_j=\xi_jy_i\).
@@ -1251,7 +1251,7 @@ Z_{\mathfrak K}=\xi_1y_1\mathsf P+\cdots+\xi_ny_m\mathsf P
 \emph{Доведення.} 1. Нехай \(Z\) --- поле розщеплення, а \(\mathfrak T\) --- тіло автоморфізмів правих ідеалів системи \(\mathfrak K_Z\), тобто
 
 \[
-\mathfrak K_Z=\sum\mathfrak T c_{ik}
+\mathfrak K_{\mathsf{Z}}=\sum\mathfrak T c_{ik}
 \]
 
 Звідси випливає
@@ -1265,7 +1265,7 @@ Z_{\mathfrak K}=\xi_1y_1\mathsf P+\cdots+\xi_ny_m\mathsf P
 \textbf{2.} Якщо \(Z\) є тілом автоморфізмів простих ідеалів системи \(\mathfrak K_Z\), то
 
 \[
-\mathfrak K_Z=\sum Zc_{ik}
+\mathfrak K_{\mathsf{Z}}=\sum\mathsf Zc_{ik}
 \]
 
 а отже,
@@ -1291,7 +1291,7 @@ n\leq n^*=r^*t\leq rt=n \qquad\text{випливає}\qquad n^*=n.
 2. Нехай незвідне зображення \(\mathfrak Z\) степеня \(r\) комутативного поля розширення \(Z\) поля \(\mathsf P\) у \(\mathfrak K\) є максимальним комутативним підполем кільця \(\mathfrak K_r\). Тілом автоморфізмів простих ідеалів системи \(\mathfrak K_Z\) нехай буде \(\mathfrak T\), тобто
 
 \[
-\mathfrak K_Z=\sum_{1}^{t'}\mathfrak T c_{ik}.
+\mathfrak K_{\mathsf{Z}}=\sum_{1}^{t'}\mathfrak T c_{ik}.
 \]
 
 Тіло \(\mathfrak T\) містить \(Z\). Треба довести \(\mathfrak T=Z\). Простий правий ідеал \(\mathfrak r\) кільця \(\mathfrak K_r\) є не лише модулем зображення поля \(Z\) у \(\mathfrak K\), а й модулем зображення тіла \(\mathfrak T\), бо
@@ -1335,13 +1335,13 @@ n\leq n^*=r^*t\leq rt=n \qquad\text{випливає}\qquad n^*=n.
 морфізм задається відповідністю \(i\mapsto -i\). Тому за теоремою 7 існує елемент \(j^*\in\mathfrak K\), для якого
 
 \[
-j^{*-1}ij^*=-i.
+j^{*-1}ij^*=-1.
 \]
 
 Ранг системи \(\mathfrak Z_1(j^*)\) над \(\mathfrak Z_1\) не менший за 2, бо \(j^*\) не може належати до \(\mathfrak Z_1\). Отже, \(\mathfrak Z_1(j^*)\) має ранг 4 над \(R\), а тому дорівнює \(\mathfrak K\); можна покласти:
 
 \[
-\mathfrak K=R+Ri+Rj^*+Rij^*.
+\mathfrak K=\mathsf R+\mathsf Ri+\mathsf Rj^*+\mathsf Rij^*.
 \]
 
 Оскільки
@@ -1350,7 +1350,7 @@ j^{*-1}ij^*=-i.
 \begin{aligned}
 j^{*-2}1j^{*2}&=1,\\
 j^{*-2}ij^{*2}&=i,\\
-j^{*-2}j^*j^{*2}&=j^*,\\
+j^{*-2}jj^{*2}&=j^*,\\
 j^{*-2}ij^*j^{*2}&=ij^*
 \end{aligned}
 \]
@@ -1395,40 +1395,40 @@ j^{*-2}ij^*j^{*2}&=ij^*
 
 Нехай \(\mathfrak S\) та \(\mathfrak T\) --- тіла, проміжні між \(\mathsf P\) і \(\mathfrak K\),
 \[
-\mathsf P \subseteq \mathfrak S \subseteq \mathfrak T \subseteq \mathfrak K.
+\mathsf P \subseteqq \mathfrak S \subseteqq \mathfrak T \subseteqq \mathfrak K.
 \]
 Стверджуємо, що кожний реципрокний ізоморфізм тіла \(\mathfrak S\) на підтіло тіла \(K\) (реципрокне зображення першого степеня тіла \(\mathfrak S\) у \(K\)) можна принаймні стількома способами продовжити до реципрокних ізоморфізмів тіла \(\mathfrak T\), скільки становить степінь \(s\) тіла \(\mathfrak T\) над \(\mathfrak S\).
 
 Тіла \(\mathsf P\), \(\mathfrak S\), \(\mathfrak T\), \(\mathfrak K\) розширимо тілом \(K\):
 \[
-K\subseteq \mathfrak S_K\subseteq \mathfrak T_K\subseteq \mathfrak K_K.
+\mathsf{K}\subseteqq \mathfrak S_{\mathsf{K}}\subseteqq \mathfrak T_{\mathsf{K}}\subseteqq \mathfrak K_{\mathsf{K}}.
 \]
 Кожна система \(\mathfrak S_K\) за теоремою 1 зі сторінки 20 двобічно проста й цілком звідна, а її прості ліві ідеали, операторно ізоморфні між собою, є модулями зображення для єдиного класу незвідних зображень тіла \(\mathfrak S\) у \(K\). Оскільки цей клас зображень має степінь 1 --- адже за побудовою тіла \(K\) у \(K\) є тіла, реципрокно ізоморфні до \(\mathfrak S\), --- усі прості ліві ідеали мають ранг 1; тобто система розкладається в суму такої кількості лівих ідеалів, яким є її степінь над \(\mathsf P\):
 \[
-\mathfrak S_K=K E_1+\cdots+K E_p,\qquad K E_\nu=\mathfrak S_K E_\nu.
+\mathfrak S_{\mathsf{K}}=\mathsf K E_1+\cdots+\mathsf K E_p,\qquad \mathsf K E_\nu=\mathfrak S_{\mathsf{K}} E_\nu.
 \]
 
 Тоді
 \[
 \begin{aligned}
-\mathfrak T_K&=\mathfrak T\cdot K=\mathfrak T\cdot \mathfrak S_K,\\
-\mathfrak T_K&=\mathfrak T\mathfrak S_K E_1+\cdots+\mathfrak T\mathfrak S_K E_p
-              =\mathfrak T_K E_1+\cdots+\mathfrak T_K E_p.
+\mathfrak T_{\mathsf{K}}&=\mathfrak T\cdot \mathsf{K}=\mathfrak T\cdot \mathfrak S_{\mathsf{K}},\\
+\mathfrak T_{\mathsf{K}}&=\mathfrak T\mathfrak S_{\mathsf{K}} E_1+\cdots+\mathfrak T\mathfrak S_{\mathsf{K}} E_p
+              =\mathfrak T_{\mathsf{K}} E_1+\cdots+\mathfrak T_{\mathsf{K}} E_p.
 \end{aligned}
 \]
 Кожний ідеал \(\mathfrak T_K\cdot E_\nu\) розкладається на \(s\) простих ідеалів, бо
 \[
-[\mathfrak T_K E_\nu:K]=[\mathfrak T_K E_\nu:K E_\nu]=[\mathfrak T_K E_\nu:\mathfrak S_K E_\nu]\leqq[\mathfrak T_K:\mathfrak S_K]=[\mathfrak T:\mathfrak S]=s
+[\mathfrak T_{\mathsf{K}} E_\nu:\mathsf{K}]=[\mathfrak T_{\mathsf{K}} E_\nu:\mathsf K E_\nu]=[\mathfrak T_{\mathsf{K}} E_\nu:\mathfrak S_{\mathsf{K}} E_\nu]\leqq[\mathfrak T_{\mathsf{K}}:\mathfrak S_{\mathsf{K}}]=[\mathfrak T:\mathfrak S]=s
 \]
 і
 \[
-\sum [\mathfrak T_K E_\nu:K]=sp
+\sum [\mathfrak T_{\mathsf{K}} E_\nu:\mathsf{K}]=sp
 \]
 а отже,
 \[
-[\mathfrak T_K E_\nu:K]=s,
+[\mathfrak T_{\mathsf{K}} E_\nu:\mathsf{K}]=s,
 \qquad
-\mathfrak T_K E_\nu=K e_1^{(\nu)}+\cdots+K e_s^{(\nu)}.
+\mathfrak T_{\mathsf{K}} E_\nu=\mathsf K e_1^{(\nu)}+\cdots+\mathsf K e_s^{(\nu)}.
 \]
 
 Задане модулем \(K e_i^{(\nu)}\) зображення тіла \(\mathfrak T\) є продовженням заданого модулем \(K E_\nu\) зображення тіла \(\mathfrak S\), бо якщо \(\alpha\in \mathfrak S\), то
@@ -1581,29 +1581,29 @@ S(\mathfrak l_j)=\mathfrak l_i,
 
 Через модуль зображення \(e_i\Gamma\) система \(\mathfrak Z\) відображається на підполе \(Z_i\) поля \(\Gamma\). Елемент \(e_i\) уже належить до \(\mathfrak Z_{Z_i}\), бо зображення \(Z_i\) системи \(\mathfrak Z\) уже міститься в \(Z_i\); отже, система \(\mathfrak Z_{Z_i}\) мусить відщеплювати модуль зображення \(e_iZ_i\). Нехай \(\{Z_i,Z_k\}\) --- композитум полів \(Z_i\) та \(Z_k\). Система \(\mathfrak K_{r\{Z_i,Z_k\}}\) відщеплює два ліві ідеали
 \[
-\bar{\mathfrak l}_i=\mathfrak K_{r\{Z_i,Z_k\}}e_i,\qquad
-\bar{\mathfrak l}_k=\mathfrak K_{r\{Z_i,Z_k\}}e_k
+\bar{\mathfrak l}_i=\mathfrak K_{i\{\mathsf{Z}_i,\mathsf{Z}_k\}}e_i,\qquad
+\bar{\mathfrak l}_k=\mathfrak K_{r\{\mathsf{Z}_i,\mathsf{Z}_k\}}e_k
 \]
 які є простими, бо \(\mathfrak l_i=\mathfrak K_{r\Gamma}\bar{\mathfrak l}_i\). Отже,
 \[
-\bar{\mathfrak l}_i=\sum_{\lambda=1}^m\{Z_i,Z_k\}c_{\lambda i}^{(ik)},\qquad
-\bar{\mathfrak l}_k=\sum_{\lambda}\{Z_i,Z_k\}c_{\lambda k}^{(ik)}.
+\bar{\mathfrak l}_i=\sum_{\lambda=1}^m\{\mathsf{Z}_i,\mathsf{Z}_k\}c_{\lambda i}^{(ik)},\qquad
+\bar{\mathfrak l}_k=\sum_{\lambda}\{\mathsf{Z}_i,\mathsf{Z}_k\}c_{\lambda k}^{(ik)}.
 \]
 Елементи \(c_{\lambda\rho}^{(ik)}\) утворюють систему матричних одиниць кільця \(\mathfrak K_{r\{Z_i,Z_k\}}\).
 
 Кожний ізоморфізм \(a_i\mapsto a_k\) ідеалу \(\bar{\mathfrak l}_i\) на \(\bar{\mathfrak l}_k\) з областю операторів \(\mathfrak K_{r\{Z_i,Z_k\}}\) визначається елементом \(p_{ik}\) через \(e_i\mapsto p_{ik}\), бо тоді \(a_i=a_ie_i\mapsto a_ip_{ik}\), а отже, \(\bar{\mathfrak l}_i\cdot p_{ik}=\bar{\mathfrak l}_k\). Усі можливі елементи \(p_{ik}\) такого типу, очевидно, мають вигляд
 \[
-p_{ik}=c_{ik}^{(ik)}\gamma_{ik},\qquad \gamma_{ik}\ne0\quad\text{з}\quad \{Z_i,Z_k\}.
+p_{ik}=c_{ik}^{(ik)}\gamma_{ik},\qquad \gamma_{ik}\ne0\quad\text{з}\quad \{\mathsf{Z}_i,\mathsf{Z}_k\}.
 \]
 Відображення \(a_i\mapsto a_ip_{ik}\) задає також операторний ізоморфізм ідеалу \(\mathfrak l_i\) на \(\mathfrak l_k\). Тепер виберімо певні системи таких елементів \(p_{ik}\), наклавши на них умову спряженості.
 
 Дію підстановки \(S\) на індекс \(i\) означимо так:
 \[
-S(i)=k,\qquad\text{якщо}\qquad S(Z_i)=Z_k.
+S(i)=k,\qquad\text{якщо}\qquad S(\mathsf{Z}_i)=\mathsf{Z}_k.
 \]
 Для кожної пари індексів \((\nu,\mu)\) існує принаймні одна спряжена пара \(S(\nu,\mu)\) вигляду \(S(\nu,\mu)=(1,k)\). З кожного класу спряжених пар індексів виберімо фіксовану пару \((1,k)\), а тоді для цієї пари \((1,k)\) покладімо:
 \[
-p_{1k}=c_{1k}^{(1k)}\gamma_{1k},\qquad \gamma_{1k}\ne0\quad\text{з}\quad \{Z_1,Z_k\},
+p_{1k}=c_{1k}^{(1k)}\gamma_{1k},\qquad \gamma_{1k}\ne0\quad\text{з}\quad \{\mathsf{Z}_1,\mathsf{Z}_k\},
 \]
 в інших аспектах вибір довільний; далі, якщо \(S(1,k)=(\nu,\mu)\), покладімо
 \[
@@ -1612,7 +1612,7 @@ p_{\nu\mu}=S(p_{1k}).
 Тоді \(p_{\nu\mu}\) справді має вигляд
 \[
 p_{\nu\mu}=c_{\nu\mu}^{(\nu\mu)}\gamma_{\nu\mu},\qquad
-\gamma_{\nu\mu}\ne0\quad\text{з}\quad \{Z_\nu,Z_\mu\}.
+\gamma_{\nu\mu}\ne0\quad\text{з}\quad \{\mathsf{Z}_\nu,\mathsf{Z}_\mu\}.
 \]
 Справді, дія підстановки \(S\) на ізоморфізм
 \[
@@ -1640,7 +1640,7 @@ c_{ij}c_{jk}=c_{ik}
 \begin{aligned}
 p_{ij}p_{1k}&=0,\quad &&\text{якщо }j\ne1,\\
 p_{ij}p_{jk}&=\alpha_{ik}^{(j)}p_{ik},\quad
-&&\alpha_{ik}^{(j)}\text{ з }\Gamma\text{ (точніше, з }\{Z_i,Z_j,Z_k\}\text{)}
+&&\alpha_{ik}^{(j)}\text{ з }\Gamma\text{ (точніше, з }\{\mathsf{Z}_i,\mathsf{Z}_j,\mathsf{Z}_k\}\text{)}
 \end{aligned}
 \]
 Усі \(n^3\) величин \(\alpha\) утворюють \emph{фактор-систему тіла \(\mathfrak K\) за основного вибору \(Z\)}, що належить до системи \(p_{ik}\) «\emph{псевдоматрицевих одиниць}».
@@ -1664,7 +1664,7 @@ p_{\nu\mu}^*=p_{\nu\mu}\delta_{\nu\mu}
 \]
 де \(\delta_{\nu\mu}\) належить до \(\{Z_\nu,Z_\mu\}\); величини \(\delta_{\nu\mu}\) спряжені, і з \(S(i,k)=(\nu,\mu)\) випливає \(S(\delta_{ik})=\delta_{\nu\mu}\). Якщо \(\alpha^*\) --- фактор-система, що належить до \(p_{ik}^*\), то маємо
 \[
-\alpha_{ik}^{(j)*}=\frac{\delta_{ij}\delta_{jk}}{\delta_{ik}}\alpha_{ik}^{(j)}.
+\alpha_{ik}^{(i)*}=\frac{\delta_{ij}\delta_{jk}}{\delta_{ik}}\alpha_{ik}^{(j)}.
 \]
 
 Фактор-системи \(\alpha^*\) та \(\alpha\) називаються \emph{асоційованими} (так само \(p_{ik}^*\) і \(p_{ik}\)); усі фактор-системи тіла \(\mathfrak K\) за основного вибору \(Z\) утворюють клас \(\{\alpha\}\) асоційованих фактор-систем.
@@ -1707,7 +1707,7 @@ p'_{ik}=\lambda^{-1}p_{ik}\lambda,
 \]
 внутрішнім автоморфізмом системи \(\mathfrak K_r\):
 \[
-A=\tau^{-1}\mathfrak K_r\tau\cdot\tau^{-1}\mathfrak z_1\tau
+\mathsf{A}=\tau^{-1}\mathfrak K_r\tau\cdot\tau^{-1}\mathfrak z_1\tau
 =\mathfrak K'_r\cdot\mathfrak z'_1.
 \]
 
@@ -1721,7 +1721,7 @@ S(\tau^{-1}\mathfrak l_i\tau\cdot\mathfrak z'_1)
 у
 \[
 \tag{1}
-A_\Gamma=\mathfrak l'_1\mathfrak z'_1+\cdots+\mathfrak l'_n\mathfrak z'_1
+\mathsf{A}_\Gamma=\mathfrak l'_1\mathfrak z'_1+\cdots+\mathfrak l'_n\mathfrak z'_1
 \]
 дістаємо розклад \(A_\Gamma\) на спряжені ліві ідеали. Маємо
 \[
@@ -1732,7 +1732,7 @@ A_\Gamma=\mathfrak l'_1\mathfrak z'_1+\cdots+\mathfrak l'_n\mathfrak z'_1
 Кожний інший розклад
 \[
 \tag{2}
-A_\Gamma=\mathfrak q_1+\cdots+\mathfrak q_n,\qquad
+\mathsf{A}_\Gamma=\mathfrak q_1+\cdots+\mathfrak q_n,\qquad
 S\mathfrak q_i=\mathfrak q_k\quad\text{якщо}\quad
 S\mathfrak l'_i\mathfrak z'_1=\mathfrak l'_k\mathfrak z'_1
 \]
@@ -1741,14 +1741,14 @@ S\mathfrak l'_i\mathfrak z'_1=\mathfrak l'_k\mathfrak z'_1
 \mathfrak q_i=\lambda^{-1}\mathfrak l'_i\mathfrak z'_1\lambda,
 \qquad
 \text{отже, якщо \(e_i^*\) є одиницею \(\mathfrak q_i\),}\quad
-e_i^*=\lambda^{-1}e'_iE'\lambda.
+e'_i=\lambda^{-1}e'_iE'\lambda.
 \]
 
 Доведення є безпосереднім наслідком такої допоміжної леми:
 
 \textbf{Допоміжна лема.} \emph{Нехай \(A\) --- лівий ідеал із \(\mathfrak K_n\), і нехай}
 \[
-A=\mathfrak l_1+\cdots+\mathfrak l_n
+\mathsf{A}=\mathfrak l_1+\cdots+\mathfrak l_n
 =\mathfrak K_{n\Gamma}e_1+\cdots+\mathfrak K_{n\Gamma}e_n
 \]
 \emph{є розкладом на спряжені ліві ідеали, який існує за припущенням; при цьому без обмеження загальності можна вважати елементи \(\mathfrak l_i\) спряженими.}
@@ -1790,19 +1790,19 @@ s=s_1+\cdots+s_n;\qquad t=t_1+\cdots+t_n;
 \mathfrak q_i=\mathfrak l_is;\qquad
 \mathfrak l_i=\mathfrak q_it;\qquad
 st=e_1+\cdots+e_n=\xi;\qquad
-ts=e_1^*+\cdots+e_n^*=\xi^*,
+ts=e_1^*+\cdots+e_u^*=\xi^*,
 \]
 причому \(\xi\) та \(\xi^*\) належать до \(\mathfrak K_n\); маємо
 \[
-A\xi=A,\qquad \mathfrak z\xi^*=\mathfrak z\quad
-(\text{бо }\mathfrak l_i\xi=\mathfrak l_i\mathfrak l_i=\mathfrak l_i),
+\mathsf{A}\xi=\mathsf{A},\qquad \mathfrak z\xi^*=\mathfrak z\quad
+(\text{бо }\mathfrak l_i\xi=\mathfrak l_il_i=\mathfrak l_i),
 \]
 \[
 \xi^2=\xi,\qquad \xi^{*2}=\xi^*.
 \]
 Покладімо тепер \(e=\overline E+E=\overline E^*+E^*\), а разом із цим:
 \[
-\mathfrak K_n=\overline A+A
+\mathfrak K_n=\overline{\mathsf A}+\mathsf{A}
 =\mathfrak K_n\overline\xi+\mathfrak K_n\xi
 =\overline{\mathfrak z}+\mathfrak z
 =\mathfrak K_n\overline\xi^*+\mathfrak K_n\xi^*,
@@ -1823,8 +1823,8 @@ A\xi=A,\qquad \mathfrak z\xi^*=\mathfrak z\quad
 \mathfrak l_i\lambda=\mathfrak q_i,\qquad
 \lambda^{-1}\mathfrak q_i=\mathfrak q_i
 \quad
-(\lambda^{-1}\mathfrak q_i\subseteq\mathfrak q_i
-=\lambda\cdot\lambda^{-1}\mathfrak q_i\subseteq\lambda^{-1}\mathfrak q_i)
+(\lambda^{-1}\mathfrak q_i\subseteqq\mathfrak q_i
+=\lambda\cdot\lambda^{-1}\mathfrak q_i\leqq\lambda^{-1}\mathfrak q_i)
 \]
 і тому
 \[
@@ -1833,7 +1833,7 @@ A\xi=A,\qquad \mathfrak z\xi^*=\mathfrak z\quad
 
 Для розкладу (1) знову можна визначити елементи
 \[
-r_{ik}=c_{ik}^{\prime(ik)}\gamma_{ik},\qquad \gamma_{ik}\in\{Z_i,Z_k\},
+r_{ik}=c_{ik}^{\prime(ik)}\gamma_{ik},\qquad \gamma_{ik}c\{\mathsf{Z}_i\mathsf{Z}_k\},
 \]
 які через \(e'_iE'\mapsto r_{ik}\) задають операторні ізоморфізми між ідеалами \(\mathfrak l'_i\mathfrak z'_1\) та \(\mathfrak l'_k\mathfrak z'_1\) і задовольняють умову спряженості \(S(r_{ik})=r_{\nu\mu}\), якщо \(S(i,k)=(\nu,\mu)\). Вони визначають рівностями
 \[
@@ -1849,7 +1849,7 @@ r_{ik}=\tau^{-1}p_{ik}\tau\cdot E'
 
 \textbf{Теорема.} \emph{Фактор-системи системи \(A_\Gamma\), утворені за допомогою будь-якого розкладу}
 \[
-A_\Gamma=\mathfrak q_1+\cdots+\mathfrak q_n
+\mathsf{A}_\Gamma=\mathfrak q_1+\cdots+\mathfrak q_n
 \]
 \emph{системи \(A_\Gamma\) на спряжені ліві ідеали, збігаються з фактор-системами кільця \(\mathfrak K_r\).}
 
@@ -1876,11 +1876,11 @@ A_\Gamma=\mathfrak q_1+\cdots+\mathfrak q_n
 
 є розкладом на \(n^2\) ненульових, а отже, простих ідеалів. Тому
 \[
-A_1=\mathfrak l_1\mathfrak m_1+\mathfrak l_2\mathfrak m_2+\cdots+\mathfrak l_n\mathfrak m_n
+\mathsf{A}_1=\mathfrak l_1\mathfrak m_1+\mathfrak l_2\mathfrak m_2+\cdots+\mathfrak l_n\mathfrak m_n
 \]
 є ідеалом абсолютної довжини \(n\). Ідеал \(A_1\) інваріантний за всіх \(S\), бо ідеали \(\mathfrak m_i\) трансформуються так само, як \(\mathfrak l_i\); отже, існує \(\mathfrak K_r\times\mathfrak S_s\)-ідеал \(A\), для якого
 \[
-A_1=A_\Gamma
+\mathsf{A}_1=\mathsf{A}_\Gamma
 \]
 (допоміжна лема, сторінка 18).
 
@@ -1889,7 +1889,7 @@ A_1=A_\Gamma
 Проте для означення можна використати такий розклад системи \(A_\Gamma\) на спряжені ідеали:
 \[
 \tag{3}
-A_\Gamma=\mathfrak l_1\mathfrak m_1+\mathfrak l_2\mathfrak m_2+\cdots+\mathfrak l_n\mathfrak m_n.
+\mathsf{A}_\Gamma=\mathfrak l_1\mathfrak m_1+\mathfrak l_2\mathfrak m_2+\cdots+\mathfrak l_n\mathfrak m_n.
 \]
 Якщо \(\alpha_{ik}^{(j)}\), \(\beta_{ik}^{(j)}\) належать відповідно до псевдоматрицевих одиниць \(p_{ik}\), \(q_{ik}\) тіл \(\mathfrak K\), \(\mathfrak S\), то, очевидно, \(r_{ik}=p_{ik}q_{ik}\) є системою псевдоматрицевих одиниць системи \(A_\Gamma\) для розкладу (3); відповідна фактор-система \(\varepsilon_{ik}^{(j)}=\alpha_{ik}^{(j)}\beta_{ik}^{(j)}\) є тоді також фактор-системою тіла \(\mathfrak M\).
 
@@ -1901,20 +1901,20 @@ A_\Gamma=\mathfrak l_1\mathfrak m_1+\mathfrak l_2\mathfrak m_2+\cdots+\mathfrak 
 
 Ідеал системи \(\mathfrak K_{r\Gamma}\)
 \[
-\Omega=\mathfrak l_1(p_{11}+\cdots+p_{1n})
+\mathfrak L=\mathfrak l_1(p_{11}+\cdots+p_{1n})
 \]
 ненульовий -- \(e_1\sum_i p_{1i}\ne0\) -- і простий, а отже, має ранг \(n\). Ідеал \(\Omega\) є \(\mathfrak G\)-інваріантним:
 \[
-S\Omega
-=\mathfrak l_i\sum_\nu S p_{1\nu}
+S\mathfrak L
+=\mathfrak L\mathfrak l_1\sum_\nu S p_{1\nu}
 =\mathfrak l_i\sum_\mu p_{i\mu}
 =\mathfrak l_i\sum_\mu p_{i1}p_{1\mu}
 \]
 бо \(\alpha_{ik}^{(j)}=1\). Тому
 \[
-S\Omega=\mathfrak l_ip_{i1}\sum_\mu p_{1\mu}
+S\mathfrak L=\mathfrak l_ip_{i1}\sum_\mu p_{1\mu}
 =\mathfrak l_1\sum_\mu p_{1\mu}
-=\Omega.
+=\mathfrak L.
 \]
 Отже, \(\Omega=\mathfrak l_\Gamma\), \emph{де \(\mathfrak l\) означає \(\mathfrak K_r\)-ідеал рангу \(n\).}
 
@@ -1948,13 +1948,13 @@ S(\xi_{ik}^{(j)})=\xi_{\nu\mu}^{\tau}.
 
 З
 \[
-r_{i\lambda}s_{\lambda j}r_{j\lambda}s_{\lambda k}
+r_{i\lambda}s_{\lambda j}r_{j\lambda}\varepsilon_{\lambda k}
 =r_{i\lambda}e_\lambda^*s_{\lambda k}
 =r_{i\lambda}s_{\lambda k}
 \]
 випливає
 \[
-p_{ij}\xi_{ij}^{(\lambda)}\cdot p_{jk}\xi_{jk}^{(\lambda)}
+p_{ij}\xi_{ij}^{(\lambda)}\cdot p_{jk}\xi_{ik}^{(\lambda)}
 =p_{ik}\xi_{ik}^{(\lambda)}
 \]
 або, оскільки \(p_{ij}p_{jk}=p_{ik}\alpha_{ik}^{(j)}\),
@@ -1993,12 +1993,12 @@ P_{ik}P_{kj}=\alpha_{ij}^{(k)}P_{ij}
 \]
 є реципрокними модулями зображення кільця \(\mathfrak K_r\) у \(\Gamma\) (теорема 2, сторінка 32). Зафіксуймо базис \(k_1,\ldots,k_n\) кільця \(\mathfrak K_r\) відносно \(\mathfrak Z\). Тоді
 \[
-\mathfrak K_{r\Gamma}=k_1\mathfrak Z_r+\cdots+k_n\mathfrak Z_r,
+\mathfrak K_{r\Gamma}=k_1\mathfrak Z_\Gamma+\cdots+k_n\mathfrak Z_\Gamma,
 \]
 а отже,
 \[
 \mathfrak l_i=\mathfrak K_{r\Gamma}e_i
-=k_1\mathfrak Z_r e_i+\cdots+k_n\mathfrak Z_r e_i
+=k_1\mathfrak Z_\Gamma e_i+\cdots+k_n\mathfrak Z_\Gamma e_i
 =k_1e_i\Gamma+\cdots+k_ne_i\Gamma.
 \]
 Звідси випливає
@@ -2055,7 +2055,7 @@ P_{ik}P_{kj}(k_\varrho e_j)
 \[
 \{\mathfrak K\}^{\lambda}=\{\mathsf P\},
 \qquad
-\{\mathfrak K_T\}^{\lambda}=\{T\}
+\{\mathfrak K_{\mathsf{T}}\}^{\lambda}=\{\mathsf{T}\}
 \]
 випливає, що \(\lambda\equiv0\pmod {p^\alpha}\), твердження доведено. (Брауер навів приклади того, що рівність \(\lambda=t\) не є обов'язковою\srcfn{1}{Brauer: Untersuchungen über die arithmetischen Eigenschaften von Gruppen linearer Substitutionen II. Math. Zeitschr. 31, с. 733, § 5 (1930).}).
 
@@ -2063,7 +2063,7 @@ P_{ik}P_{kj}(k_\varrho e_j)
 
 \emph{Доведення.} За теоремами 3 і 4 порядок \(\lambda\) класу \(\{\mathfrak K\}\) дорівнює
 \[
-\lambda=\prod_i p_i^{\alpha_i},\qquad 1\le\alpha_i\le\varrho_i.
+\lambda=\prod_i p_i^{\alpha_i},\qquad 1\leqq\alpha_i\leqq\varrho_i.
 \]
 Циклічна підгрупа \(\mathfrak Z\) групи \(\mathscr K\), породжена класом \(\{\mathfrak K\}\), є прямим добутком підгруп \(\mathfrak Z_i\) порядків \(p_i^{\alpha_i}\), а отже,
 \[
@@ -2072,14 +2072,14 @@ P_{ik}P_{kj}(k_\varrho e_j)
 
 звідки випливає, що кожне поле розщеплення \(Z\) тіла \(\mathfrak K\) є також полем розщеплення тіла \(\mathfrak K^{(i)}\). Тому абсолютна кількість компонент \(p_i^{\sigma_i}\) тіла \(\mathfrak K^{(i)}\) ділить \(t\), тобто \(\sigma_i\le\varrho_i\). Нехай \(\prod_i \mathfrak K^{(i)}=\mathfrak K_m\), тоді
 \[
-\prod_i p_i^{\varrho_i}=\prod_i p_i^{\sigma_i}\cdot m,
+\prod p_i^{\varrho_i}=\prod p_i^{\varrho_i}\cdot m,
 \qquad
-\sigma_i\ge\varrho_i,
+\sigma_i\geqq\varrho_i,
 \]
 а отже,
 \[
 \sigma_i=\varrho_i,\qquad m=1,\qquad
-\mathfrak K=\prod_i \mathfrak K^{(i)},
+\mathfrak K=\prod \mathfrak K^{(j)},
 \quad\text{що й треба було довести.}
 \]
 % END BOOK_S24
@@ -2091,7 +2091,7 @@ P_{ik}P_{kj}(k_\varrho e_j)
 
 Нехай максимальне комутативне підполе \(\mathfrak Z\) тіла \(\mathfrak K_r\) є полем Галуа. За теоремою 7 на сторінці 25 \(n\) автоморфізмів \(H_i\) розширення \(\mathfrak Z/\mathsf P\) є внутрішніми автоморфізмами \(\mathfrak K_r\), тобто існують елементи \(u_i\), для яких
 \[
-H_i z=u_i^{-1}zu_i\quad\text{для всіх }z\text{ з }\mathfrak Z.
+\mathsf{H}_i z=u_i^{-1}zu_i\quad\text{для всіх }z\text{ з }\mathfrak Z.
 \]
 Кожен \(u_i\) визначений з точністю до ненульового множника \(y\) з \(\mathfrak Z\). Дійсно, якщо \(u^{-1}zu=u'^{-1}zu'\) для всіх \(z\) з \(\mathfrak Z\), то \((u^{-1}u')^{-1}z(u^{-1}u')=z\) для всіх \(z\in\mathfrak Z\). Тому приєднання \(u^{-1}u'\) до \(\mathfrak Z\) дає комутативне підполе тіла \(\mathfrak K_r\), яке через максимальність \(\mathfrak Z\) збігається з \(\mathfrak Z\). Отже, \(u^{-1}u'\) лежить у \(\mathfrak Z\).
 
@@ -2101,9 +2101,9 @@ H_i z=u_i^{-1}zu_i\quad\text{для всіх }z\text{ з }\mathfrak Z.
 \]
 Для цього, очевидно, достатньо лінійної незалежності елементів \(u_i\) над \(\mathfrak Z\). Доведення проведемо, безпосередньо задавши \(u_i\). Нехай
 \[
-\mathfrak Z_Z=e_1Z+\cdots+e_nZ,\qquad
-\mathfrak K_{rZ}=\mathfrak l_1+\cdots+\mathfrak l_n,\quad
-\mathfrak l_i=\mathfrak K_{rZ}e_i
+\mathfrak Z_{\mathsf{Z}}=e_1\mathsf{Z}+\cdots+e_n\mathsf{Z},\qquad
+\mathfrak K_{r\mathsf{Z}}=\mathfrak l_1+\cdots+\mathfrak l_n,\quad
+\mathfrak l_i=\mathfrak K_{r\mathsf{Z}}e_i
 \]
 і нехай \(p_{ik}\) --- система псевдоматричних одиниць для цього розкладу. На сторінці 8 ми позначили через \(\Theta_i\) ізоморфізм \(\mathfrak Z\) на \(Z\), породжений модулем зображення \(e_iZ\), так що
 \[
@@ -2116,11 +2116,11 @@ p_{ik}=p_{S_iS_k}.
 
 Автоморфізми \(\mathfrak Z\), числом \(n\), мають вигляд (\(E\) --- тотожна підстановка)
 \[
-H=\Theta_E^{-1}\Theta.
+\mathsf{H}=\Theta_E^{-1}\Theta.
 \]
 Тепер нумерацію автоморфізмів \(H\) виберемо так:
 \[
-H_S=\Theta_E^{-1}\Theta_{S^{-1}}.
+\mathsf{H}_S=\Theta_E^{-1}\Theta_{S^{-1}}.
 \]
 
 За цих умов можна покласти
@@ -2146,7 +2146,7 @@ R(u_T)=\sum_S RS(p_{E,T})=\sum_{S'} S'(p_{E,T})=u_T.
 
 3. Елемент \(u_T\) породжує \(H_T\), тобто якщо \(z\in\mathfrak Z\), то \(u_T^{-1}zu_T=H_T(z)\), або
 \[
-z u_T=u_T H_T(z).
+z u_T=u_T \mathsf{H}_T(z).
 \]
 
 Дійсно,
@@ -2172,21 +2172,21 @@ u_T=\sum_S S(p_{E,T}e_T)=\sum_S S(p_{E,T})e_{ST}
 а на елементах \(\mathfrak Z\) справедлива рівність
 
 \[
-\Theta_S H_T=\Theta_S\Theta_E^{-1}\Theta_{T^{-1}}
+\Theta_S \mathsf{H}_T=\Theta_S\Theta_E^{-1}\Theta_{T^{-1}}
 =S\Theta_{T^{-1}}=ST^{-1}\Theta_E=\Theta_{ST^{-1}}
 \]
 
 отже,
 
 \[
-H_T(z)=\sum_S e_S\Theta_S H_T(z)=\sum_S e_S\Theta_{ST^{-1}}(z)
+\mathsf{H}_T(z)=\sum_S e_S\Theta_S \mathsf{H}_T(z)=\sum_S e_S\Theta_{ST^{-1}}(z)
 \]
 
 Тобто
 
 \[
 \begin{aligned}
-u_TH_T(z)
+u_T\mathsf{H}_T(z)
 &=\sum_{S,S'} S(p_{E,T})e_{ST}\cdot e_{S'}\Theta_{S'T^{-1}}(z)\\
 &=\sum_S S(p_{E,T})\Theta_S(z)
 \end{aligned}
@@ -2195,7 +2195,7 @@ u_TH_T(z)
 Таким чином,
 
 \[
-z\cdot u_T=u_T\cdot H_T(z).
+z\cdot u_T=u_T\cdot \mathsf{H}_T(z).
 \]
 
 4. Елементи \(u_S\) лінійно незалежні над \(\mathfrak Z\).
@@ -2281,7 +2281,7 @@ u_Ru_T
 тіла \(\mathfrak K_r\) і помножимо його справа на \(u_S\). Отримаємо
 
 \[
-\text{(II)}\qquad k_{S_1}u_S, \ldots, k_{S_n}u_S.
+\text{(II)}\qquad k_{S_1}u_S, \ldots, k_{S_1}u_S.
 \]
 
 Регулярну матрицю \(A_S\), що перетворює (I) на (II),
@@ -2312,7 +2312,7 @@ u_Ru_T
 Це зображення групи \(\mathfrak{G}^*\) будемо називати схрещеним зображенням. Нехай \(h_{S_1}, \ldots, h_{S_n}\) --- інший базис \(\mathfrak{K}_r\) над \(\mathfrak{Z}\) і
 
 \[
-\text{(IV)}\qquad (h_{S_1}, \ldots, h_{S_n}) = (k_{S_1}, \ldots, k_{S_n})M
+\text{(IV)}\qquad (h_{S_1}, \ldots, h_{S_n}) = (k_{S_1}, \ldots, k_S)M
 \]
 
 Тоді з (III) і (IV) отримуємо
@@ -2370,13 +2370,13 @@ u_Ru_T
 Степінь цього неприводимого зображення дорівнює \(t\), де \(t\) --- індекс (абсолютне експонентне число) тіла \(\mathfrak K\). Це випливає з простого підрахунку рангів. Дійсно, степінь дорівнює рангу \((\mathfrak r:\mathfrak Z)\) простого правого ідеалу над \(\mathfrak Z\). На сторінці 22 встановлено:
 
 \[
-(\mathfrak Z:P)=n=rt;\qquad (\mathfrak K_r:P)=n^2;\qquad (\mathfrak r:P)=n\cdot t
+(\mathfrak Z:\mathsf{P})=n=rt;\qquad (\mathfrak K_r:\mathsf{P})\equiv n^2;\qquad (\mathfrak r:\mathsf{P})\equiv n\cdot t
 \]
 
 Остання рівність випливає з \(\mathfrak K_r = \mathfrak{r}_1 + \cdots + \mathfrak{r}_r\).
 
 З
-\[(\mathfrak{r}: P) = (\mathfrak{r}: \mathfrak Z) \cdot (\mathfrak Z: P)\]
+\[(\mathfrak{r}: \mathsf{P}) = (\mathfrak{r}: \mathfrak Z) \cdot (\mathfrak Z: \mathsf{P})\]
 або \(n \cdot t = (\mathfrak{r}: \mathfrak Z) \cdot n\) випливає \((\mathfrak{r}: \mathfrak Z) = t\).
 % END BOOK_S25
 
@@ -2387,7 +2387,7 @@ u_Ru_T
 
 Щоб описати таке зображення \(S\mapsto A_S\)\srcfn{1}{Саме таке зображення (незалежно від гіперкомплексних систем)
 \[
-S\mapsto A_S;\quad T\mapsto A_T;\quad ST\mapsto A_TA_S^T=A_{ST}\cdot a_{S,T}^{-1}
+S\mapsto A_S;\quad T\mapsto A_T;\quad ST\mapsto A_T\mathrm{A}_s^T=A_{ST}\cdot a_{S,T^{-1}}
 \]
 (або транспоноване) стало для Шпайзера (Math. Zschr. 5) вихідним пунктом означення фактор-систем \(a_{S,T}\). Отже, ці фактор-системи збігаються з уведеними тут на іншій основі.}, треба вказати, у якому \(\mathfrak K_r\) воно взяте, які \(u_S\) і який базис \(k_{S_1},\ldots,k_{S_n}\) кільця \(\mathfrak K\) над \(\mathfrak Z\) використовуються. Заміна базису дає еквівалентне зображення, а заміна елементів \(u\) --- асоційовані фактор-системи \(a_{S,\,T}\). Отже, істотними є кільця \(\mathfrak K_r\), у яких узято зображення, тобто клас \(\{a_{S,\,T}\}\) асоційованих фактор-систем.
 
@@ -2455,7 +2455,7 @@ A\times B=B\times A
 \[
 \mathfrak G\cong\mathfrak G^*/\mathfrak T^*
 \quad\text{при}\quad
-\mathfrak T^*\supseteq\mathfrak Z^*,
+\mathfrak T^*\supseteqq\mathfrak Z^*,
 \]
 (рівність \(\mathfrak T^*=\mathfrak Z^*\) буде доведена нижче; ще не встановлено, що \(\mathfrak Z\) є також максимальним комутативним підполем. Це можна довести і незалежно).
 
@@ -2480,7 +2480,7 @@ zt=zz_0+\cdots+zz_{n-1}u_T
 і
 \[
 tz=z_0z+\cdots+z_{n-1}u_Tz
-=z_0z+z^{S^{-1}}z_1u_S+\cdots+z^{T^{-1}}z_{n-1}u_T,
+=zz_0+z^{S^{-1}}z_1u_S+\cdots+z^{T^{-1}}z_{n-1}u_T,
 \]
 Внаслідок прямої суми звідси випливає
 \[
@@ -2588,8 +2588,8 @@ u_Ra_{S,T}u_{ST}
 (\(\mathfrak Z\) і \(\overline{\mathfrak Z}\) --- ізоморфні поля Галуа, а \(\mathfrak G\), \(\overline{\mathfrak G}\) --- їхні групи). Тоді
 \[
 \mathfrak K_r\times\overline{\mathfrak K}_r
-=\widetilde{\mathfrak Z}\,\widetilde{\mathfrak G}\times P_n
-=\mathfrak A_f\times P_n
+=\widetilde{\mathfrak Z}\,\widetilde{\mathfrak G}\times \mathsf{P}_n
+=\mathfrak A_f\times \mathsf{P}_n
 =\mathfrak A_j
 \]
 з \(\tilde u_S\tilde u_T=\tilde u_{ST}\tilde c_{S,T}\) (поле \(\widetilde{\mathfrak Z}\) ізоморфно \(\mathfrak Z\) і \(\overline{\mathfrak Z}\)). Це випливає з підрахунку рангів і з того, що \(\mathfrak Z\) також є полем розщеплення.
@@ -2614,8 +2614,8 @@ u_Ra_{S,T}u_{ST}
 
 \noindent\emph{Доведення.} Справді, \(c_{11}\) комутує з кожним елементом \(\mathfrak K_r\), і жоден елемент з \(\mathfrak K_r\) не анулюється, оскільки \(c_{11}\) --- породжувальний ідемпотент \(\mathfrak K_r\times P_s\), і
 \[
-c_{11}\cdot\mathfrak K_r\times P_s\cdot c_{11}
-=\mathfrak K_r\times c_{11}P_sc_{11}
+c_{11}\cdot\mathfrak K_r\times \mathsf{P}_s\cdot c_{11}
+=\mathfrak K_r\times c_{11}\mathsf Pc_{11}
 =\mathfrak K_rc_{11}.
 \]
 З цих допоміжних лем безпосередньо випливає теорема 1.
@@ -2627,7 +2627,7 @@ c_{11}\cdot\mathfrak K_r\times P_s\cdot c_{11}
 \]
 причому елементи з рискою і без риски поелементно комутують. Тому
 \[
-\mathfrak A_f
+\mathfrak A_j
 =(\mathfrak G\times\overline{\mathfrak G})\cdot(\mathfrak Z\times\overline{\mathfrak Z})
 =\mathfrak G\times\overline{\mathfrak G}\cdot(\mathfrak Ze_1+\cdots+\mathfrak Ze_n)
 \]
@@ -2668,7 +2668,7 @@ ze_1\cdot e_1u_S\bar u_Se_1
 =zu_S\bar u_Se_1\quad(\text{допоміжна лема 1})
 =u_Sz^S\bar u_Se_1
 =u_S\bar u_Se_1\cdot z^Se_1
-=b=e_1b,
+\equiv b=e_1b,
 \]
 (\(z\) комутує з \(\bar u\) і \(e_1\)). --- Нехай \(u'=u_S\bar u_Se_1\). Допоміжна лема 2 стверджує, що \(u'\) індукує перестановки поля \(\mathfrak Ze_1\), тож зазначене в теоремі схрещене зображення існує.
 
@@ -2755,7 +2755,7 @@ v_S=bu_Sb^{-1}=u_Sb^Sb^{-1}.
 \[
 u^\nu\cdot u^\mu=u^{\nu+\mu}\quad(\nu+\mu<n),
 \qquad
-u^\nu\cdot u^\mu=au^\varrho\quad(\nu+\mu=n+\varrho,\ 0\leq\varrho\leq n-2).
+u^\nu\cdot u^\mu=au^\varrho\quad(\tau+\mu=n+\varrho,\ 0\leqq\varrho\leqq n-2).
 \]
 Відповідність
 \[
@@ -2771,7 +2771,7 @@ u^\nu\cdot u^\mu=au^\varrho\quad(\nu+\mu=n+\varrho,\ 0\leq\varrho\leq n-2).
 v=uc,\qquad v^2=u^2\cdot c^S\cdot c;
 \]
 \[
-v^r=u^r c^{S^{r-1}}c^{S^{r-2}}\cdots c;
+v^r=u^r c^{S^{r-1}}c^{S^{r-2}}\ldots c;
 \qquad
 v^n=u^nN(c).
 \]
@@ -2798,7 +2798,7 @@ v^n=u^nN(c).
  \cong N(\mathfrak Z^*)\\
 &=\text{група класів }\{\mathfrak K\}\text{, що належать до }\mathfrak Z
  =\mathscr K_{\mathfrak Z}
- \cong P^*/N(\mathfrak Z^*).
+ \cong \mathsf{P}^*/N(\mathfrak Z^*).
 \end{aligned}
 \]
 % END BOOK_S30
