@@ -4,15 +4,15 @@
 
 ## Основний текст
 
-1. [PDF](https://github.com/KokunoYumeto/emmy-noether-uk/releases/download/noether-uk-2026-10-27-r2/01-noether-uk-base.pdf)
-2. [Редаговані джерела LaTeX](https://github.com/KokunoYumeto/emmy-noether-uk/releases/download/noether-uk-2026-10-27-r2/02-noether-uk-base.tex)
-3. [Повний архів джерел](https://github.com/KokunoYumeto/emmy-noether-uk/releases/download/noether-uk-2026-10-27-r2/03-noether-uk-base-sources.zip)
+1. [PDF](https://github.com/KokunoYumeto/emmy-noether-uk/releases/download/noether-uk-2026-10-27-r3/01-noether-uk-base.pdf)
+2. [Редаговані джерела LaTeX](https://github.com/KokunoYumeto/emmy-noether-uk/releases/download/noether-uk-2026-10-27-r3/02-noether-uk-base.tex)
+3. [Повний архів джерел](https://github.com/KokunoYumeto/emmy-noether-uk/releases/download/noether-uk-2026-10-27-r3/03-noether-uk-base-sources.zip)
 
 ## Текст із редакційними виправленнями
 
-1. [PDF](https://github.com/KokunoYumeto/emmy-noether-uk/releases/download/noether-uk-2026-10-27-r2/04-noether-uk-emendations.pdf)
-2. [Редаговані джерела LaTeX](https://github.com/KokunoYumeto/emmy-noether-uk/releases/download/noether-uk-2026-10-27-r2/05-noether-uk-emendations.tex)
-3. [Повний архів джерел](https://github.com/KokunoYumeto/emmy-noether-uk/releases/download/noether-uk-2026-10-27-r2/06-noether-uk-emendations-sources.zip)
+1. [PDF](https://github.com/KokunoYumeto/emmy-noether-uk/releases/download/noether-uk-2026-10-27-r3/04-noether-uk-emendations.pdf)
+2. [Редаговані джерела LaTeX](https://github.com/KokunoYumeto/emmy-noether-uk/releases/download/noether-uk-2026-10-27-r3/05-noether-uk-emendations.tex)
+3. [Повний архів джерел](https://github.com/KokunoYumeto/emmy-noether-uk/releases/download/noether-uk-2026-10-27-r3/06-noether-uk-emendations-sources.zip)
 
 Переклад створено ШІ. Виправлення й набір виконано OpenAI Codex — GPT-6 Astra, рівень міркування Ultra. Збережено авторство Emmy Noether, M. Deuring та співавторів, зазначених у кожній праці. Видавцеві не приписано людського перекладу чи незалежного наукового рецензування.
 
