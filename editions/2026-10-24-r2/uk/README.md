@@ -32,9 +32,4 @@
 
 ## Попередні видання
 
-- [zenodo.20412587](https://doi.org/10.5281/zenodo.20412587).
-- [zenodo.21926373](https://doi.org/10.5281/zenodo.21926373).
-- [zenodo.21940320](https://doi.org/10.5281/zenodo.21940320).
-- [zenodo.22053778](https://doi.org/10.5281/zenodo.22053778).
-
 [GitHub](https://github.com/KokunoYumeto/emmy-noether-uk/releases).

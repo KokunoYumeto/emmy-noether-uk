@@ -12,7 +12,7 @@
 
 ### 3. Роль ШІ
 
-OpenAI Codex допомагав виявляти розбіжності, формулювати кандидатні читання, збирати докази, виконувати детерміновані перетворення та технічні перевірки. ШІ не підмінено ярликом «перевірено людиною»: зовнішнього, громадського або носійського рецензування не проводилося. Тому публікація чесно називає себе машинно-асистованим науковим робочим виданням.
+OpenAI Codex виявляв розбіжності, формулював кандидатні читання, збирав докази, виконував детерміновані перетворення та технічні перевірки. Зовнішнього, громадського або носійського рецензування не проводилося: це наукове робоче видання, створене ШІ.
 
 ### 4. Відтворюваність і походження
 
@@ -32,6 +32,6 @@ PDF є похідним результатом, а не незалежним п�
 
 The project German authority is `NOETH-DE-ED-0015`; it controls structure, formulas, and intended meaning but is not claimed as a critical German edition. Every substantive Ukrainian change has a monotonic `UK001-EDIT-....` record with exact locators, before/after payloads, evidence roles, rejected alternatives, uncertainty, and reverse replay. Domain terminology sources are used only within their evidentiary scope; other translation lanes are comparators, not native-Ukrainian authority.
 
-OpenAI Codex assisted with discrepancy detection, candidate formulation, evidence assembly, deterministic transformation, and technical QA. No external, community, or native-speaker review is claimed. Four pinned TeX sources and one pinned image build serially with two XeLaTeX passes and no shell escape. Two clean builds are byte-identical; structural, math, reference, citation, label, font, text-extraction, cross-head, and targeted visual gates pass. The public machine index makes the edition discoverable and replayable without private filesystem paths.
+OpenAI Codex carried out the discrepancy detection, candidate formulation, evidence assembly, deterministic transformation, and technical QA. No external, community, or native-speaker review is claimed. Four pinned TeX sources and one pinned image build serially with two XeLaTeX passes and no shell escape. Two clean builds are byte-identical; structural, math, reference, citation, label, font, text-extraction, cross-head, and targeted visual gates pass. The public machine index makes the edition discoverable and replayable without private filesystem paths.
 
 The final edit changed only 198 provenance prefixes in TeX comments to portable `noether-corpus://` locators. A 530-page cross-head comparison found no content-stream or extracted-text difference. Public derivatives of older decision records replace private custody roots with logical URIs and pin both canonical and public-copy hashes. Historical tools that embed local custody paths are represented by exact source hashes; the current builder and package assembler are portable. The PDF is a derived artifact, not an independent translation witness, and the rights boundary above remains controlling.
