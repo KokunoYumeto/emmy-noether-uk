@@ -1,6 +1,6 @@
 7d402f760a02e5abac05f9e35efba36e8073887f461e6749d956e77a79ff91a8  01-noether-uk-base.pdf
 069e2a3c9b863a9d60bd3ebdfef923bbdf06f18f1bb68407e1eabfa945e7c011  02-noether-uk-base.tex
-2be37242c7225202b83540733a92af78967a3b7d442a87e49d917d37f172ff16  03-noether-uk-base-sources.zip
+413aa540f093936ae497476e62e6b9bb143aaa1acbfff552c3a4ebb10f6a7743  03-noether-uk-base-sources.zip
 739b8b2f2c38ddc8003cfb5649d3e9f3fe79ce6461666e7cbf7c569804f6c29d  04-noether-uk-emendations.pdf
 70839ead9f6e2ea9ae45922ff06b05d305140e760e73c7392b3c25c3280b65d8  05-noether-uk-emendations.tex
-83a0e8c2cd994ea2a0976d0aa743f51f3ff87a2504aceaa0faa67e7c14564b0c  06-noether-uk-emendations-sources.zip
+ce5ac1d0b37772cd487ccd86d903fc1ac606c65dedaee2c7e9827db879c514eb  06-noether-uk-emendations-sources.zip
