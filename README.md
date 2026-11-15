@@ -5,9 +5,21 @@
 (H. Kapferer) з доповненням, написаним спільно з Е. Нетер, а також бібліографія та списки коротких повідомлень,
 рецензій і книжок, у підготовці яких брала участь Еммі Нетер. Видання виходить у PDF і в редагованому LaTeX.
 
-[**Читати основний текст — PDF, 501 сторінка**](https://github.com/KokunoYumeto/emmy-noether-uk/releases/download/noether-uk-2026-11-15/01-noether-uk-base.pdf) ·
-[Текст із редакційними виправленнями — PDF, 507 сторінок](https://github.com/KokunoYumeto/emmy-noether-uk/releases/download/noether-uk-2026-11-15/04-noether-uk-emendations.pdf) ·
-[Усі файли видання від 27 жовтня 2026 року](https://github.com/KokunoYumeto/emmy-noether-uk/releases/tag/noether-uk-2026-11-15)
+[**Читати основний текст — PDF, 502 сторінка**](https://github.com/KokunoYumeto/emmy-noether-uk/releases/download/noether-uk-2026-11-15-r2/01-noether-uk-base.pdf) ·
+[Текст із редакційними виправленнями — PDF, 508 сторінок](https://github.com/KokunoYumeto/emmy-noether-uk/releases/download/noether-uk-2026-11-15-r2/04-noether-uk-emendations.pdf) ·
+[Усі файли видання від 27 жовтня 2026 року](https://github.com/KokunoYumeto/emmy-noether-uk/releases/tag/noether-uk-2026-11-15-r2)
+
+## How this was made: AI's failure modes, and what we do about them
+
+Everything here was produced by AI. The translation was made in a first pass mostly by GPT-5.6 Sol (OpenAI Codex,
+reasoning effort ultra), by the user's account (July and August 2026). Its formulas were then brought into line with the German text, which Claude Opus 5.5 at
+effort max compared page by page with Noether's printed originals (785 page checks, 26 October 2026), in automatic and
+hand rounds by Claude Opus 5.5 at effort max (26-27 October; 2,570 lines in the last hand round), against the known
+failures of AI translation of mathematics: renamed letters, formulas changed or dropped, statements narrowed, passages
+reworked or garbled, sentences and displays dropped, broken layout. Every change passes a release filter, and every PDF
+is checked for lines running into the margin (Claude Opus 5.5 at effort high, 15 November). No person has reviewed the
+translation. What was done in each round, the measured figures and what is still open:
+[How this was made](https://github.com/KokunoYumeto/emmy-noether#how-this-was-made-ais-failure-modes-and-what-we-do-about-them).
 
 ## Як створено видання
 
@@ -32,10 +44,10 @@
 
 | Варіант | PDF | LaTeX | Джерела |
 |---|---|---|---|
-| Основний текст: зберігає читання перших публікацій; редакційні примітки обговорюють ці читання | [PDF, 501 с.](https://github.com/KokunoYumeto/emmy-noether-uk/releases/download/noether-uk-2026-11-15/01-noether-uk-base.pdf) | [LaTeX](https://github.com/KokunoYumeto/emmy-noether-uk/releases/download/noether-uk-2026-11-15/02-noether-uk-base.tex) | [ZIP](https://github.com/KokunoYumeto/emmy-noether-uk/releases/download/noether-uk-2026-11-15/03-noether-uk-base-sources.zip) |
-| Текст із редакційними виправленнями: виправлення внесено в текст, кожне пояснено в редакційній примітці | [PDF, 507 с.](https://github.com/KokunoYumeto/emmy-noether-uk/releases/download/noether-uk-2026-11-15/04-noether-uk-emendations.pdf) | [LaTeX](https://github.com/KokunoYumeto/emmy-noether-uk/releases/download/noether-uk-2026-11-15/05-noether-uk-emendations.tex) | [ZIP](https://github.com/KokunoYumeto/emmy-noether-uk/releases/download/noether-uk-2026-11-15/06-noether-uk-emendations-sources.zip) |
+| Основний текст: зберігає читання перших публікацій; редакційні примітки обговорюють ці читання | [PDF, 502 с.](https://github.com/KokunoYumeto/emmy-noether-uk/releases/download/noether-uk-2026-11-15-r2/01-noether-uk-base.pdf) | [LaTeX](https://github.com/KokunoYumeto/emmy-noether-uk/releases/download/noether-uk-2026-11-15-r2/02-noether-uk-base.tex) | [ZIP](https://github.com/KokunoYumeto/emmy-noether-uk/releases/download/noether-uk-2026-11-15-r2/03-noether-uk-base-sources.zip) |
+| Текст із редакційними виправленнями: виправлення внесено в текст, кожне пояснено в редакційній примітці | [PDF, 508 с.](https://github.com/KokunoYumeto/emmy-noether-uk/releases/download/noether-uk-2026-11-15-r2/04-noether-uk-emendations.pdf) | [LaTeX](https://github.com/KokunoYumeto/emmy-noether-uk/releases/download/noether-uk-2026-11-15-r2/05-noether-uk-emendations.tex) | [ZIP](https://github.com/KokunoYumeto/emmy-noether-uk/releases/download/noether-uk-2026-11-15-r2/06-noether-uk-emendations-sources.zip) |
 
-[Контрольні суми SHA-256](https://github.com/KokunoYumeto/emmy-noether-uk/releases/download/noether-uk-2026-11-15/07-noether-uk-SHA256SUMS.txt).
+[Контрольні суми SHA-256](https://github.com/KokunoYumeto/emmy-noether-uk/releases/download/noether-uk-2026-11-15-r2/07-noether-uk-SHA256SUMS.txt).
 Ті самі файли лежать у [`editions/2026-10-24-r2/uk/`](editions/2026-10-24-r2/uk/).
 
 Складання: файл LaTeX містить усі початкові файли з їхніми преамбулами. Програма Python
@@ -60,7 +72,4 @@
 
 ## Права
 
-Праці Еммі Нетер перебувають у суспільному надбанні. Тією мірою, якою видавець має права на переклад, виправлення й
-набір, виконані ШІ, він передає їх у суспільне надбання за
-[CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.uk). Лекції в опрацюванні М. Дойрінга, праця
-Г. Капферера і внесок названих співавторів зберігають власний правовий статус.
+Еммі Нетер померла 1935 року, тому її праці перебувають у суспільному надбанні в Європейському Союзі та всюди, де строк охорони спливає через 70 років після смерті автора. У США її праці, вперше опубліковані 1931 року або пізніше, охороняються до спливу 95 років після публікації (праці 1931 року стають вільними 1 січня 2027 року). Тією мірою, якою видавець має права на переклад, виправлення та верстку, виконані ШІ, він передає їх у суспільне надбання за [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.uk). Лекції в записі M. Deuring, праця H. Kapferer і внесок названих співавторів цією заявою не охоплюються; права на них залишаються за їхніми авторами або спадкоємцями.
