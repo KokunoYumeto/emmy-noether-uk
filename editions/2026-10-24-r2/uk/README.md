@@ -5,7 +5,7 @@
 ## How this was made: AI's failure modes, and what we do about them
 
 Everything here was produced by AI. The translation was made in a first pass mostly by GPT-5.6 Sol (OpenAI Codex,
-reasoning effort ultra), by the user's account (July and August 2026). Its formulas were then brought into line with the German text, which Claude Opus 5.5 at
+reasoning effort ultra) (July and August 2026). Its formulas were then brought into line with the German text, which Claude Opus 5.5 at
 effort max compared page by page with Noether's printed originals (785 page checks, 26 October 2026), in automatic and
 hand rounds by Claude Opus 5.5 at effort max (26-27 October; 2,570 lines in the last hand round), against the known
 failures of AI translation of mathematics: renamed letters, formulas changed or dropped, statements narrowed, passages
@@ -28,7 +28,7 @@ translation. What was done in each round, the measured figures and what is still
 
 Переклад створено ШІ. Виправлення й набір виконано OpenAI Codex — GPT-6 Astra, рівень міркування Ultra. Збережено авторство Emmy Noether, M. Deuring та співавторів, зазначених у кожній праці. Видавцеві не приписано людського перекладу чи незалежного наукового рецензування.
 
-Успадкований переклад виконала, за словами користувача, переважно модель GPT-5.6 Sol (OpenAI Codex, рівень міркування ultra). Виправлення й набір, виконані ШІ: 23–24 жовтня 2026 року; Claude Opus 5.5 (Anthropic, рівень міркування max), 26–27 жовтня 2026 року, зокрема звірення формул з німецьким текстом, прочитаним за друкованими сторінками Noether. Видання: 27 жовтня 2026 року.
+Успадкований переклад виконала переважно модель GPT-5.6 Sol (OpenAI Codex, рівень міркування ultra). Виправлення й набір, виконані ШІ: 23–24 жовтня 2026 року; Claude Opus 5.5 (Anthropic, рівень міркування max), 26–27 жовтня 2026 року, зокрема звірення формул з німецьким текстом, прочитаним за друкованими сторінками Noether. Видання: 27 жовтня 2026 року.
 
 Прямий файл сукупного LaTeX містить усі тексти й преамбули в редагованому вигляді. Програма Python розпаковує початкові файли, компілює їх за допомогою XeLaTeX і об’єднує PDF частин у порядку читання. Зображення та сторінки PDF не замінюють транскрипцію. ZIP зберігає початкову структуру, той самий сукупний LaTeX і програму складання. Потрібні Python 3, pypdf, пакети TeX і шрифти, зазначені в преамбулах. Байти PDF можуть залежати від версій TeX і шрифтів. Фіксована внутрішня дата набору не є датою публікації.
 
