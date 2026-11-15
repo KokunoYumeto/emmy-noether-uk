@@ -5,9 +5,9 @@
 (H. Kapferer) з доповненням, написаним спільно з Е. Нетер, а також бібліографія та списки коротких повідомлень,
 рецензій і книжок, у підготовці яких брала участь Еммі Нетер. Видання виходить у PDF і в редагованому LaTeX.
 
-[**Читати основний текст — PDF, 501 сторінка**](https://github.com/KokunoYumeto/emmy-noether-uk/releases/download/noether-uk-2026-10-27-r4/01-noether-uk-base.pdf) ·
-[Текст із редакційними виправленнями — PDF, 507 сторінок](https://github.com/KokunoYumeto/emmy-noether-uk/releases/download/noether-uk-2026-10-27-r4/04-noether-uk-emendations.pdf) ·
-[Усі файли видання від 27 жовтня 2026 року](https://github.com/KokunoYumeto/emmy-noether-uk/releases/tag/noether-uk-2026-10-27-r4)
+[**Читати основний текст — PDF, 501 сторінка**](https://github.com/KokunoYumeto/emmy-noether-uk/releases/download/noether-uk-2026-11-15/01-noether-uk-base.pdf) ·
+[Текст із редакційними виправленнями — PDF, 507 сторінок](https://github.com/KokunoYumeto/emmy-noether-uk/releases/download/noether-uk-2026-11-15/04-noether-uk-emendations.pdf) ·
+[Усі файли видання від 27 жовтня 2026 року](https://github.com/KokunoYumeto/emmy-noether-uk/releases/tag/noether-uk-2026-11-15)
 
 ## Як створено видання
 
@@ -32,10 +32,10 @@
 
 | Варіант | PDF | LaTeX | Джерела |
 |---|---|---|---|
-| Основний текст: зберігає читання перших публікацій; редакційні примітки обговорюють ці читання | [PDF, 501 с.](https://github.com/KokunoYumeto/emmy-noether-uk/releases/download/noether-uk-2026-10-27-r4/01-noether-uk-base.pdf) | [LaTeX](https://github.com/KokunoYumeto/emmy-noether-uk/releases/download/noether-uk-2026-10-27-r4/02-noether-uk-base.tex) | [ZIP](https://github.com/KokunoYumeto/emmy-noether-uk/releases/download/noether-uk-2026-10-27-r4/03-noether-uk-base-sources.zip) |
-| Текст із редакційними виправленнями: виправлення внесено в текст, кожне пояснено в редакційній примітці | [PDF, 507 с.](https://github.com/KokunoYumeto/emmy-noether-uk/releases/download/noether-uk-2026-10-27-r4/04-noether-uk-emendations.pdf) | [LaTeX](https://github.com/KokunoYumeto/emmy-noether-uk/releases/download/noether-uk-2026-10-27-r4/05-noether-uk-emendations.tex) | [ZIP](https://github.com/KokunoYumeto/emmy-noether-uk/releases/download/noether-uk-2026-10-27-r4/06-noether-uk-emendations-sources.zip) |
+| Основний текст: зберігає читання перших публікацій; редакційні примітки обговорюють ці читання | [PDF, 501 с.](https://github.com/KokunoYumeto/emmy-noether-uk/releases/download/noether-uk-2026-11-15/01-noether-uk-base.pdf) | [LaTeX](https://github.com/KokunoYumeto/emmy-noether-uk/releases/download/noether-uk-2026-11-15/02-noether-uk-base.tex) | [ZIP](https://github.com/KokunoYumeto/emmy-noether-uk/releases/download/noether-uk-2026-11-15/03-noether-uk-base-sources.zip) |
+| Текст із редакційними виправленнями: виправлення внесено в текст, кожне пояснено в редакційній примітці | [PDF, 507 с.](https://github.com/KokunoYumeto/emmy-noether-uk/releases/download/noether-uk-2026-11-15/04-noether-uk-emendations.pdf) | [LaTeX](https://github.com/KokunoYumeto/emmy-noether-uk/releases/download/noether-uk-2026-11-15/05-noether-uk-emendations.tex) | [ZIP](https://github.com/KokunoYumeto/emmy-noether-uk/releases/download/noether-uk-2026-11-15/06-noether-uk-emendations-sources.zip) |
 
-[Контрольні суми SHA-256](https://github.com/KokunoYumeto/emmy-noether-uk/releases/download/noether-uk-2026-10-27-r4/07-noether-uk-SHA256SUMS.txt).
+[Контрольні суми SHA-256](https://github.com/KokunoYumeto/emmy-noether-uk/releases/download/noether-uk-2026-11-15/07-noether-uk-SHA256SUMS.txt).
 Ті самі файли лежать у [`editions/2026-10-24-r2/uk/`](editions/2026-10-24-r2/uk/).
 
 Складання: файл LaTeX містить усі початкові файли з їхніми преамбулами. Програма Python
